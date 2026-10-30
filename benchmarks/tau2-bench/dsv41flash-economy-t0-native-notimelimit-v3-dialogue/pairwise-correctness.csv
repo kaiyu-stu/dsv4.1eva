@@ -1,0 +1,11 @@
+harness_a,harness_b,common_scored,both_correct,only_a_correct,only_b_correct,both_incorrect
+claude,codex,278,223,28,15,12
+claude,dsh,278,226,25,11,16
+claude,pi,278,238,13,14,13
+claude,zcode,278,230,21,12,15
+codex,dsh,278,215,23,22,18
+codex,pi,278,224,14,28,12
+codex,zcode,278,217,21,25,15
+dsh,pi,278,226,11,26,15
+dsh,zcode,278,217,20,25,16
+pi,zcode,278,228,24,14,12

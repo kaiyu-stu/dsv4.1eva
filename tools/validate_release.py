@@ -1,4 +1,4 @@
-"""Validate public Terminal tables independently of the private experiment files."""
+"""Validate public benchmark tables independently of the private experiment files."""
 from collections import defaultdict
 import csv
 from decimal import Decimal
@@ -108,3 +108,6 @@ if __name__=='__main__':
     for record in json.loads((ROOT/'benchmarks/index.json').read_text()):
         if record['benchmark']=='terminal-bench-2.0':
             validate(ROOT/'benchmarks'/record['relative_path'])
+        elif record['benchmark']=='tau2-bench':
+            from validate_tau2 import validate as validate_tau2
+            validate_tau2(ROOT/'benchmarks'/record['relative_path'])

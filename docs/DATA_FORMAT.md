@@ -10,7 +10,7 @@
 |---|---|
 |`benchmark`, `release_id`|数据集及本次实验版本|
 |`model`, `harness`, `plan`|请求的模型别名、harness 标识、服务套餐路径|
-|`task_id`|原 benchmark 任务名，跨 harness 对齐及划分训练集的主键|
+|`task_id`|跨 harness 对齐及划分训练集的主键；Terminal 为原任务名，tau2 为 `domain/original_task_id`|
 |`audit_id`, `run_id`|本地任务散列及实验标识，用于来源追溯|
 |`status`|实验原始状态；`completed` 不表示答对|
 |`success`|二元标签：1 成功，0 失败；JSON null / CSV 空白为无标签|
@@ -82,3 +82,30 @@ token 为计数，时间为秒或带 UTC 时区的 ISO 8601；费用为 CNY/USD�
 按 **task_id** 划分 train/validation/test，同一题的五个 harness 记录必须在同一分区，避免泄漏。
 优先报告五组共同已评分子集；公平比较精确 token 时另报五组共同完整计量子集及选择偏差。
 不要只挑成功题、不要把多次基础设施重试称为独立重复测量，也不要用当前单轮成绩估计 pass@k。
+
+## tau2 补充字段和规则
+
+tau2 使用 `task_id=domain/original_task_id`，保留 `domain`、`original_task_id`、`sample_id`、`trial`。
+`original_task_id` 在多个 domain 中可重复；`sample_id` 是本地稳定样本散列。
+主 token、分项 token 与主费用只包含 harness。`simulator_*` 和 `judge_*` 为同结构的独立聚合，
+例如 `simulator_total_tokens`、`judge_model_requests`、`simulator_accounting_complete`、
+`judge_payg_known_start_time_estimate_usd`。
+`end_to_end_tokens` 相加三种角色；`end_to_end_payg_known_start_time_estimate_usd` 为三种角色已知 token 的估算总额。
+`end_to_end_accounting_complete` 要求三者都完整；不需要 judge 的 0 次调用视为不适用且计量完整，
+由 `judge_applicable=false` 区分，不误记为缺失。
+
+`official_evaluation_present` / `official_reward` 标记是否有官方轨迹评价；`score` 等于官方 reward。
+`label_source=native_early_exit_zero` 的正常提前结束按本实验规则记 0，但没有官方 reward，所以 score 保持 null。
+`success=0` 与 `score=null` 在此组合下并不矛盾。其余标签通过 `int(reward == 1.0)` 得到。
+`final_native_turns` 是原生 CLI 启动/续接次数，不等于 orchestrator 步数或模型请求次数。
+`final_simulation_duration_sec` 仅为最终模拟轨迹的记录时长，包含模拟用户等待，不是纯推理时间。
+
+`attempts` 中 `simulation_*`、assistant/user/tool message count 只公开轨迹存在性、长度、时间和退出原因；
+`official_success/official_reward`、`db_match/db_reward`、action checks 数量仅为无内容的评分摘要，
+不包含隐藏断言、参考动作、原始场景或对话。
+`requests.role` 是 `model`（harness）、`simulator`、`judge`。
+请求使用样本散列区分，再根据请求开始时间匹配最近一次尝试的创建时间；缺少可靠匹配时导出报错。
+`provenance/implementation-updates` 保留实验运行期间的实现指纹变更，不能仅凭最终哈希推断每条样本的完整适配历史。
+
+tau2 没有整题时间上限，仍有 200 步、10 次工具错误上限及单次请求/传输超时；Terminal 为 1200 秒。
+两个 benchmark 的预算与失败规则独立，不能跨 benchmark 直接解释成功率。

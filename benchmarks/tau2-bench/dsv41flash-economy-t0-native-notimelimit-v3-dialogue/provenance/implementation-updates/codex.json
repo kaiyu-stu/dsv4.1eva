@@ -1,0 +1,20 @@
+[
+  {
+    "time": 1793261929.1153529,
+    "previous_sha256": "4095866b6a2608a91a265b3bb6fd0ab6b7932694a8089a2df8ad7e21dbbcb84e",
+    "new_sha256": "9ff5749d5ce0fd49057a6f9ca683bbb181be3d49082a04b85773bbb89368e27b",
+    "reason": "explicitly accepted infrastructure update; model/config/data unchanged"
+  },
+  {
+    "time": 1793294370.1308858,
+    "previous_sha256": "9ff5749d5ce0fd49057a6f9ca683bbb181be3d49082a04b85773bbb89368e27b",
+    "new_sha256": "5c82701b888a349a3e43ce1f4c8d0b38cb2fbe83ef4f3ddc5179f3335a5a8907",
+    "reason": "explicitly accepted infrastructure update; model/config/data unchanged"
+  },
+  {
+    "time": 1793326049.0640547,
+    "previous_sha256": "5c82701b888a349a3e43ce1f4c8d0b38cb2fbe83ef4f3ddc5179f3335a5a8907",
+    "new_sha256": "64c6ede350654c5703fa58671439fda63227e73d250c9024edc86d96e3c72872",
+    "reason": "explicitly accepted infrastructure update; model/config/data unchanged"
+  }
+]

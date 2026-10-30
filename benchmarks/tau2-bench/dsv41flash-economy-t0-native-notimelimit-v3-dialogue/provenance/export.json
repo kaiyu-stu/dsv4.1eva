@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "release_id": "dsv41flash-economy-t0-native-notimelimit-v3-dialogue",
+  "exported_at": "2026-10-30T06:00:46.791539+00:00",
+  "source_runs": {
+    "claude": "tau2-ark-codingplan1-dsv41flash-economy-t0-native-notimelimit-v3-dialogue-claude",
+    "codex": "tau2-ark-codingplan1-dsv41flash-economy-t0-native-notimelimit-v3-dialogue-codex",
+    "dsh": "tau2-ark-codingplan1-dsv41flash-economy-t0-native-notimelimit-v3-dialogue-dsh",
+    "pi": "tau2-ark-agentplan2-dsv41flash-economy-t0-native-notimelimit-v3-dialogue-pi",
+    "zcode": "tau2-ark-agentplan2-dsv41flash-economy-t0-native-notimelimit-v3-dialogue-zcode"
+  },
+  "primary_token_scope": "All harness API attempts only; simulator and judge are separate",
+  "raw_dialogues_included": false,
+  "reference_answers_included": false,
+  "credentials_included": false,
+  "source_hashes_identify": "Frozen file bytes; source paths are relative to named source roots",
+  "optional_judge_quality": "No judge calls means not applicable and accounting_complete=True"
+}

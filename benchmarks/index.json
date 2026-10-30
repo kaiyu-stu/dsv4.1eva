@@ -15,5 +15,22 @@
     "rows": 445,
     "scored_rows": 444,
     "status": "finished_with_one_unscored_sample"
+  },
+  {
+    "benchmark": "tau2-bench",
+    "release_id": "dsv41flash-economy-t0-native-notimelimit-v3-dialogue",
+    "model": "deepseek-v4.1-flash-economy",
+    "relative_path": "tau2-bench/dsv41flash-economy-t0-native-notimelimit-v3-dialogue",
+    "tasks": 278,
+    "harnesses": [
+      "claude",
+      "codex",
+      "dsh",
+      "pi",
+      "zcode"
+    ],
+    "rows": 1390,
+    "scored_rows": 1390,
+    "status": "finished"
   }
 ]

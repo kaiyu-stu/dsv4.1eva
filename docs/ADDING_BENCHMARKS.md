@@ -22,3 +22,19 @@ python tools/validate_release.py
 `build_terminal_report.py` 生成图表需要 matplotlib，数据和校验脚本本身不依赖它。
 SHA256 来源文件指纹是审计标识；未公开的原始日志不能仅靠哈希从本仓库恢复。
 当前导出脚本和文档是发布工具，不是原实验环境的完整镜像。历史实现以 `experiments.json` 指纹为准。
+
+tau2 导出（只读，不启动正式测评）：
+
+```bash
+python tools/export_tau2.py \
+  --source-root /path/to/HarnessCompressionBench \
+  --tau-root /path/to/tau2-bench \
+  --output-root .
+python tools/build_tau2_report.py
+python tools/build_index_report.py
+python tools/validate_release.py
+```
+
+生成图表的环境依赖见 `tools/requirements-report.txt`。
+根 README 由 `build_index_report.py` 根据 `benchmarks/index.json` 及每个 release 的汇总生成，
+支持同时保留多个 benchmark；单个 benchmark 的报告工具不应删除其他 benchmark 的入口。

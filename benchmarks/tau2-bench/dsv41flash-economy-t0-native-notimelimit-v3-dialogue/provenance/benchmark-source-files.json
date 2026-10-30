@@ -1,0 +1,26 @@
+{
+  "data/tau2/domains/airline/tasks.json": {
+    "sha256": "ccd8ba737b4cc371415af70151187788f728d6108d0916e73bb4317b40542052",
+    "bytes": 155528
+  },
+  "data/tau2/domains/airline/split_tasks.json": {
+    "sha256": "b22ced4d9a9850ac9aea31c53bdcb6d6009058140bd9acc7db37c1d36222ba8b",
+    "bytes": 1443
+  },
+  "data/tau2/domains/retail/tasks.json": {
+    "sha256": "8e03ebce7901bd6218e7a7dc3105faa9324091a68058f7fe61c65262868812e8",
+    "bytes": 345982
+  },
+  "data/tau2/domains/retail/split_tasks.json": {
+    "sha256": "ed0580ec52575b63fbf76568af42490da6ee7783ecb4aa81af46961291358f20",
+    "bytes": 3263
+  },
+  "data/tau2/domains/telecom/tasks.json": {
+    "sha256": "37e562e1ae3242577407e1303b1548bc64e7ea68e37d36173e6747990ceaf8a4",
+    "bytes": 13977063
+  },
+  "data/tau2/domains/telecom/split_tasks.json": {
+    "sha256": "605b488bb9a6acb3c7f4505240a855fdc8681d09aadb16a8f38b2efcfc5c3aec",
+    "bytes": 356149
+  }
+}
