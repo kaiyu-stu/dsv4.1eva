@@ -1,0 +1,81 @@
+{
+  "samples": 200,
+  "exact_correct": 80,
+  "exact_incorrect": 120,
+  "partial_score": 102,
+  "zero_score": 18,
+  "mean_score": 0.6243308545326853,
+  "exact_match_rate": 0.4,
+  "prompt_tokens": 37506477,
+  "completion_tokens": 76837,
+  "total_tokens": 37583314,
+  "prompt_cache_hit_tokens": 402816,
+  "prompt_cache_miss_tokens": 37103661,
+  "complete_accounting_samples": 199,
+  "model": "deepseek-flash",
+  "track": "mrcr_direct_api_uncompressed_v1",
+  "model_requests": 201,
+  "usage_missing_requests": 1,
+  "accounting_gaps": 0,
+  "accounting_complete": false,
+  "recorded_request_statuses": {
+    "completed": 200,
+    "error": 1
+  },
+  "output_truncated_samples": 0,
+  "input_tokens_o200k": 36615975,
+  "cache_hit_rate": 0.010739905003607777,
+  "token_statistics": {
+    "prompt_tokens": {
+      "min": 4374,
+      "mean": 187532.385,
+      "median": 65108.0,
+      "p90": 626122,
+      "p95": 821661,
+      "max": 996020
+    },
+    "completion_tokens": {
+      "min": 52,
+      "mean": 384.185,
+      "median": 405.5,
+      "p90": 581,
+      "p95": 642,
+      "max": 765
+    },
+    "total_tokens": {
+      "min": 4660,
+      "mean": 187916.57,
+      "median": 65526.5,
+      "p90": 626250,
+      "p95": 822015,
+      "max": 996108
+    },
+    "prompt_cache_hit_tokens": {
+      "min": 0,
+      "mean": 2014.08,
+      "median": 2048.0,
+      "p90": 2432,
+      "p95": 3072,
+      "max": 3200
+    },
+    "prompt_cache_miss_tokens": {
+      "min": 1894,
+      "mean": 185518.305,
+      "median": 63316.0,
+      "p90": 624330,
+      "p95": 819997,
+      "max": 992820
+    }
+  },
+  "final_latency_seconds": {
+    "min": 1.17,
+    "mean": 5.73969,
+    "median": 3.847,
+    "p90": 13.859,
+    "p95": 16.059,
+    "max": 26.385
+  },
+  "billing_note": "Recorded API usage only; one failed request has unknown usage. No price or bill inferred.",
+  "primary_metric": "mean_score: official prefix guard followed by SequenceMatcher ratio",
+  "binary_label": "success = strict full-string exact match, supplemental to official score"
+}

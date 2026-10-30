@@ -111,3 +111,6 @@ if __name__=='__main__':
         elif record['benchmark']=='tau2-bench':
             from validate_tau2 import validate as validate_tau2
             validate_tau2(ROOT/'benchmarks'/record['relative_path'])
+        elif record['benchmark']=='mrcr':
+            from validate_mrcr import validate as validate_mrcr
+            validate_mrcr(ROOT/'benchmarks'/record['relative_path'])

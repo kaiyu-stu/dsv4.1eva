@@ -38,3 +38,15 @@ python tools/validate_release.py
 生成图表的环境依赖见 `tools/requirements-report.txt`。
 根 README 由 `build_index_report.py` 根据 `benchmarks/index.json` 及每个 release 的汇总生成，
 支持同时保留多个 benchmark；单个 benchmark 的报告工具不应删除其他 benchmark 的入口。
+
+MRCR 直接 API 基线导出（只读，不启动测评）：
+
+```bash
+python tools/export_mrcr.py --source-root /path/to/HarnessCompressionBench
+python tools/build_index_report.py
+python tools/validate_release.py
+```
+
+MRCR 的主要指标是连续相似度 `score`；`success` 只作为补充的严格全文匹配标签。
+直接 API 基线使用 `harness=direct_api`，不混入五种原生 harness 的比较。
+公开逐题正误和数值用量，不公开正确或错误案例的对话正文。

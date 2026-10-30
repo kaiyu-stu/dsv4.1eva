@@ -109,3 +109,12 @@ tau2 使用 `task_id=domain/original_task_id`，保留 `domain`、`original_task
 
 tau2 没有整题时间上限，仍有 200 步、10 次工具错误上限及单次请求/传输超时；Terminal 为 1200 秒。
 两个 benchmark 的预算与失败规则独立，不能跨 benchmark 直接解释成功率。
+# MRCR 直接 API 扩展
+
+MRCR release 独立于下述原生 harness 记录结构，详见该 release 的 README。
+共同键为 `task_id, harness, token, success`，其中 `harness=direct_api`。
+`score` 是官方前缀检查后的 SequenceMatcher 连续得分；`success` 是严格全文匹配二元标签，二者不能互换。
+输入用量为 `prompt_tokens`，缓存输入拆为 `prompt_cache_hit_tokens` 和 `prompt_cache_miss_tokens`；
+`completion_tokens` 为输出，`total_tokens` / `token` 为所有已知尝试之和。
+请求级未知 usage 保留 null；样本级 `accounting_complete=false` 表示总用量只是已观测下界。
+该 release 不提供实际费用、费用估算、router 推荐标签或多 harness 正误矩阵。

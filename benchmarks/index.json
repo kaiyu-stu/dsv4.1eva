@@ -32,5 +32,20 @@
     "rows": 1390,
     "scored_rows": 1390,
     "status": "finished"
+  },
+  {
+    "benchmark": "mrcr",
+    "release_id": "deepseek-flash-t0-direct-stratified200-s20261030-v1",
+    "model": "deepseek-flash",
+    "relative_path": "mrcr/deepseek-flash-t0-direct-stratified200-s20261030-v1",
+    "tasks": 200,
+    "harnesses": [
+      "direct_api"
+    ],
+    "rows": 200,
+    "scored_rows": 200,
+    "status": "finished",
+    "primary_metric": "mean_score",
+    "track": "direct_api_uncompressed"
   }
 ]
