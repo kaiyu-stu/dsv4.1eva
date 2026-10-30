@@ -1,0 +1,19 @@
+[
+  {
+    "benchmark": "terminal-bench-2.0",
+    "release_id": "dsv41flash-economy-t0-native-1200-v1",
+    "model": "deepseek-v4.1-flash-economy",
+    "relative_path": "terminal-bench-2.0/dsv41flash-economy-t0-native-1200-v1",
+    "tasks": 89,
+    "harnesses": [
+      "claude",
+      "codex",
+      "dsh",
+      "pi",
+      "zcode"
+    ],
+    "rows": 445,
+    "scored_rows": 444,
+    "status": "finished_with_one_unscored_sample"
+  }
+]

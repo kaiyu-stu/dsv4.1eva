@@ -1,0 +1,11 @@
+harness_a,harness_b,common_scored,both_correct,only_a_correct,only_b_correct,both_incorrect
+claude,codex,89,28,7,15,39
+claude,dsh,89,24,11,8,46
+claude,pi,88,29,6,8,45
+claude,zcode,89,27,8,5,49
+codex,dsh,89,27,16,5,41
+codex,pi,88,29,14,8,37
+codex,zcode,89,28,15,4,42
+dsh,pi,88,25,7,12,44
+dsh,zcode,89,25,7,7,50
+pi,zcode,88,26,11,6,45

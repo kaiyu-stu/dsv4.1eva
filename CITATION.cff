@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite this repository and the exact commit when reusing these measurements."
+title: "DeepSeek V4.1 Flash Economy: Native Harness Evaluation Data"
+type: dataset
+authors:
+  - name: "kaiyu-stu"
+url: "https://github.com/kaiyu-stu/dsv4.1eva"
+date-released: 2026-10-30

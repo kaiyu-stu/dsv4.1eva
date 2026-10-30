@@ -1,0 +1,41 @@
+{
+  "currency": "CNY",
+  "unit": "per million tokens",
+  "verified_date": "2026-10-30",
+  "model": "deepseek-v4.1-flash-economy",
+  "source": "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh",
+  "plan_source": "https://docs.volcengine.com/docs/ark/agent-plan-personal-faq?lang=zh",
+  "offpeak": {
+    "input_tokens": 0.8,
+    "cache_read_input_tokens": 0.016,
+    "output_tokens": 3.2
+  },
+  "peak": {
+    "input_tokens": 1.6,
+    "cache_read_input_tokens": 0.032,
+    "output_tokens": 6.4
+  },
+  "peak_schedule": "Asia/Shanghai, Monday-Friday [09:00,12:00) and [14:00,18:00)",
+  "official_tariff_timestamp": "request completion time",
+  "available_timestamp": "proxy request start time, copied into finish records; NOT completion time",
+  "time_based_estimate": "Use request start time as a documented approximation.",
+  "fx": {
+    "date": "2026-10-29",
+    "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+    "usd_per_eur": "1.1130",
+    "cny_per_eur": "7.4144",
+    "cny_per_usd": "6.661635220125786163522012579"
+  },
+  "actual_billed_usd": null,
+  "scope": "PAYG-equivalent known-token estimate, not Coding/Agent Plan subscription spend",
+  "excluded": [
+    "unknown tokens",
+    "subscription allocation",
+    "hardware",
+    "electricity",
+    "taxes and FX spread",
+    "explicit cache storage"
+  ],
+  "cache_note": "Implicit cache read is priced separately; all exported cache-creation counts are zero.",
+  "historical_price_note": "Current public rates repriced over historical calls; no historical invoice is available."
+}

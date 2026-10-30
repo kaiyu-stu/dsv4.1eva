@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "release_id": "dsv41flash-economy-t0-native-1200-v1",
+  "exported_at": "2026-10-30T05:25:02.870050+00:00",
+  "source_file_count": 1108,
+  "source_runs": {
+    "claude": "terminal-ark-codingplan1-dsv41flash-economy-t0-native-1200-responses-v1-claude",
+    "codex": "terminal-ark-codingplan1-dsv41flash-economy-t0-native-1200-responses-v1-codex",
+    "dsh": "terminal-ark-codingplan1-dsv41flash-economy-t0-native-1200-responses-v1-deepseek",
+    "pi": "terminal-ark-agentplan2-dsv41flash-economy-t0-native-1200-responses-v1-pi",
+    "zcode": "terminal-ark-agentplan2-dsv41flash-economy-t0-native-1200-responses-v1-zcode"
+  },
+  "contains_model_prompts": false,
+  "contains_credentials": false,
+  "primary_tokens": "All observed gateway request usage across all attempts, cache read included",
+  "strict_quality": "Paired start/finish, present input/output usage, complete response for every request",
+  "source_quality": "Original experiment accounting flags retained separately"
+}
