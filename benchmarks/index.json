@@ -47,5 +47,49 @@
     "status": "finished",
     "primary_metric": "mean_score",
     "track": "direct_api_uncompressed"
+  },
+  {
+    "benchmark": "gpqa-diamond",
+    "release_id": "deepseek-flash-t0-native-notools-q198-r1-s0-v1",
+    "model": "deepseek-flash",
+    "relative_path": "gpqa-diamond/deepseek-flash-t0-native-notools-q198-r1-s0-v1",
+    "tasks": 198,
+    "harnesses": [
+      "claude",
+      "codex",
+      "dsh",
+      "pi",
+      "zcode"
+    ],
+    "rows": 990,
+    "scored_rows": 990,
+    "status": "finished_with_recorded_text_scoring_recovery",
+    "primary_metric": "accuracy",
+    "track": "native_no_tools",
+    "repeats": 1,
+    "recovered_scoring_rows": 196,
+    "cli_completion_is_not_answer_accuracy": true
+  },
+  {
+    "benchmark": "gpqa-diamond",
+    "release_id": "deepseek-flash-t0-native-notools-q10-r10-s0-v1",
+    "model": "deepseek-flash",
+    "relative_path": "gpqa-diamond/deepseek-flash-t0-native-notools-q10-r10-s0-v1",
+    "tasks": 10,
+    "harnesses": [
+      "direct_api",
+      "claude",
+      "codex",
+      "dsh",
+      "pi",
+      "zcode"
+    ],
+    "rows": 600,
+    "scored_rows": 600,
+    "status": "finished",
+    "primary_metric": "accuracy",
+    "track": "native_no_tools",
+    "repeats": 10,
+    "includes_prior_direct_api_baseline": true
   }
 ]

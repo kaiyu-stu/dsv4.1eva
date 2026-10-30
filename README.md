@@ -8,6 +8,8 @@
 |Terminal-Bench 2.0|89 × 5 = 445|444|[dsv41flash-economy-t0-native-1200-v1](benchmarks/terminal-bench-2.0/dsv41flash-economy-t0-native-1200-v1/README.md)|
 |tau2-bench|278 × 5 = 1390|1390|[dsv41flash-economy-t0-native-notimelimit-v3-dialogue](benchmarks/tau2-bench/dsv41flash-economy-t0-native-notimelimit-v3-dialogue/README.md)|
 |mrcr|200 × 1 = 200|200|[deepseek-flash-t0-direct-stratified200-s20261030-v1](benchmarks/mrcr/deepseek-flash-t0-direct-stratified200-s20261030-v1/README.md)|
+|GPQA Diamond|198 × 5 = 990|990（含 196 条已有文本恢复评分）|[单次完整集](benchmarks/gpqa-diamond/deepseek-flash-t0-native-notools-q198-r1-s0-v1/README.md)|
+|GPQA Diamond 试跑|10 × 10 × 6 = 600|600|[五组 harness 与直接 API 对照](benchmarks/gpqa-diamond/deepseek-flash-t0-native-notools-q10-r10-s0-v1/README.md)|
 
 Terminal/tau2 使用 Ark 模型别名 `deepseek-v4.1-flash-economy`、temperature=0 和各 harness 原生上下文管理，未指定统一压缩阈值。
 这两组 Claude/Codex/DSH 使用 Coding Plan，Pi/ZCode 使用 Agent Plan。
@@ -54,6 +56,26 @@ MRCR 使用 DeepSeek 官方 API 的 `deepseek-flash`，完整上下文直接调�
 按 needle 数量 × 长度桶共 24 层比例抽样，seed=20261030；不上传任务正文、答案、模型输出或失败案例。
 
 [详细报告](benchmarks/mrcr/deepseek-flash-t0-direct-stratified200-s20261030-v1/README.md) · [逐题 CSV](benchmarks/mrcr/deepseek-flash-t0-direct-stratified200-s20261030-v1/samples.csv) · [JSONL](benchmarks/mrcr/deepseek-flash-t0-direct-stratified200-s20261030-v1/samples.jsonl) · [固定抽样清单](benchmarks/mrcr/deepseek-flash-t0-direct-stratified200-s20261030-v1/subset-manifest.json)
+
+## GPQA Diamond：完整 198 题，每题一次
+
+五组共 **990 次作答**。DeepSeek 官方 API `deepseek-flash`，温度 0、thinking 关闭；同题五组的选项排列完全一致。
+禁用工具，保留各自系统提示；每次模型请求最多输出 4096 tokens，原生自动续写单独计量。
+
+|Harness|答案正确 / 198|正确率|输入 tokens|输出 tokens|总 tokens|
+|---|---:|---:|---:|---:|---:|
+|Claude Code|153|77.27%|356,214|129,116|485,330|
+|Codex|144|72.73%|903,131|69,478|972,609|
+|DSH|152|76.77%|72,902|165,580|238,482|
+|Pi|146|73.74%|142,839|157,374|300,213|
+|ZCode|149|75.25%|435,132|152,867|587,999|
+
+**此表是已生成答案的正确率，不是 CLI 无故障完成率。** Codex 的 195 条因本地 Responses 协议字段缺失而退出，Pi 的 1 条缺少最终 agent_end 事件；已核验原生已输出文本与保存 API 回答一致并恢复评分，未重新调用模型。原始状态与恢复标记全部保留。
+所有 API 请求均返回完整 usage；总量 **2,584,633 tokens**，包含自动续写和缓存命中输入。未发布失败轨迹或模型回答。
+
+[完整配置与异常说明](benchmarks/gpqa-diamond/deepseek-flash-t0-native-notools-q198-r1-s0-v1/README.md) · [逐题正误与 token](benchmarks/gpqa-diamond/deepseek-flash-t0-native-notools-q198-r1-s0-v1/samples.csv) · [逐请求用量](benchmarks/gpqa-diamond/deepseek-flash-t0-native-notools-q198-r1-s0-v1/requests.csv) · [同题矩阵](benchmarks/gpqa-diamond/deepseek-flash-t0-native-notools-q198-r1-s0-v1/task-matrix.csv)
+
+之前的 [10 题 × 10 次试跑](benchmarks/gpqa-diamond/deepseek-flash-t0-native-notools-q10-r10-s0-v1/README.md) 独立保存，包含直接 API 基线，不与单次完整集混算。
 
 ## 费用与计量
 

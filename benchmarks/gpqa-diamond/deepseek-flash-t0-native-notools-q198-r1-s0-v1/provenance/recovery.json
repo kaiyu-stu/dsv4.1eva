@@ -1,0 +1,10 @@
+{
+  "original_checkpoints_modified": false,
+  "new_model_requests": 0,
+  "recovered_codex": 195,
+  "recovered_pi": 1,
+  "verification": "Recorded native assistant text equals stored upstream content after outer whitespace stripping",
+  "codex_fix": "Responses output_tokens_details.reasoning_tokens requires an integer; missing upstream detail receives transport-only compatibility default 0",
+  "validation": "Real pinned Codex CLI returned native success on mocked upstream response lacking reasoning breakdown; no paid API call",
+  "raw_reasoning_usage": "Unreported, unknown; compatibility integer is not an observed upstream measurement"
+}

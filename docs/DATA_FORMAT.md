@@ -118,3 +118,14 @@ MRCR release 独立于下述原生 harness 记录结构，详见该 release 的 
 `completion_tokens` 为输出，`total_tokens` / `token` 为所有已知尝试之和。
 请求级未知 usage 保留 null；样本级 `accounting_complete=false` 表示总用量只是已观测下界。
 该 release 不提供实际费用、费用估算、router 推荐标签或多 harness 正误矩阵。
+
+# GPQA Diamond 扩展
+
+完整集 release 为 198 题 × 5 harness，每题一次；试跑 10 题 × 10 次另存，不能合并计算正确率。
+`score=success` 为首个官方答案正则匹配的正确与否，`token=total_tokens` 包含本题全部模型调用。
+`prompt_tokens` 已包含缓存命中，等于 `prompt_cache_hit_tokens + prompt_cache_miss_tokens`。
+`completion_tokens` 为输出，`model_requests` 包含原生自动续写；这些调用没有统一的每题总 token 预算。
+`native_checkpoint_status`、`native_returncode` 保留原生执行状态；`recovered_from_recorded_text=true` 表示从已经保存且核验一致的 API/CLI 文本恢复答案评分，没有重新生成。
+答案有分数不代表 CLI 正常结束；分析端到端可靠性须使用原生状态，不能仅看 `success`。
+请求级全部使用原始上游 usage。Responses 兼容字段中的 reasoning_tokens 默认 0 不属于上游测量，不能据此推断真实 reasoning token 为 0。
+`task-matrix` 保存同题正误与 token；`pairwise` 区分都对、都错和各自独有答对。同题选项顺序已经在导出时逐条验证一致。

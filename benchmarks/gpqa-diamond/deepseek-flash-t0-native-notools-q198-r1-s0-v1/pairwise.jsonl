@@ -1,0 +1,10 @@
+{"harness_a": "claude", "harness_b": "codex", "both_correct": 127, "both_wrong": 28, "only_a_correct": 26, "only_b_correct": 17, "same_valid_answer": 145}
+{"harness_a": "claude", "harness_b": "dsh", "both_correct": 135, "both_wrong": 28, "only_a_correct": 18, "only_b_correct": 17, "same_valid_answer": 152}
+{"harness_a": "claude", "harness_b": "pi", "both_correct": 129, "both_wrong": 28, "only_a_correct": 24, "only_b_correct": 17, "same_valid_answer": 148}
+{"harness_a": "claude", "harness_b": "zcode", "both_correct": 130, "both_wrong": 26, "only_a_correct": 23, "only_b_correct": 19, "same_valid_answer": 147}
+{"harness_a": "codex", "harness_b": "dsh", "both_correct": 128, "both_wrong": 30, "only_a_correct": 16, "only_b_correct": 24, "same_valid_answer": 147}
+{"harness_a": "codex", "harness_b": "pi", "both_correct": 126, "both_wrong": 34, "only_a_correct": 18, "only_b_correct": 20, "same_valid_answer": 145}
+{"harness_a": "codex", "harness_b": "zcode", "both_correct": 127, "both_wrong": 32, "only_a_correct": 17, "only_b_correct": 22, "same_valid_answer": 149}
+{"harness_a": "dsh", "harness_b": "pi", "both_correct": 132, "both_wrong": 32, "only_a_correct": 20, "only_b_correct": 14, "same_valid_answer": 147}
+{"harness_a": "dsh", "harness_b": "zcode", "both_correct": 133, "both_wrong": 30, "only_a_correct": 19, "only_b_correct": 16, "same_valid_answer": 153}
+{"harness_a": "pi", "harness_b": "zcode", "both_correct": 128, "both_wrong": 31, "only_a_correct": 18, "only_b_correct": 21, "same_valid_answer": 147}

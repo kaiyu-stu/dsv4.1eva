@@ -1,0 +1,16 @@
+harness_a,harness_b,both_correct,both_wrong,only_a_correct,only_b_correct,both_parseable,same_valid_canonical_answer,both_unparseable
+api,claude,54,16,14,16,90,64,0
+api,codex,55,23,13,9,87,66,2
+api,dsh,62,18,6,14,88,69,4
+api,pi,63,15,5,17,86,68,2
+api,zcode,58,13,10,19,90,65,0
+claude,codex,54,20,16,10,95,64,0
+claude,dsh,61,15,9,15,94,68,0
+claude,pi,63,13,7,17,94,68,0
+claude,zcode,63,16,7,14,100,75,0
+codex,dsh,56,16,8,20,91,64,2
+codex,pi,60,16,4,20,91,67,2
+codex,zcode,60,19,4,17,95,73,0
+dsh,pi,69,13,7,11,90,72,2
+dsh,zcode,65,12,11,12,94,70,0
+pi,zcode,71,14,9,6,94,77,0

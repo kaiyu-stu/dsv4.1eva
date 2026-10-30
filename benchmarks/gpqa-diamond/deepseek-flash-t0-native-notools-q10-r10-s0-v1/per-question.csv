@@ -1,0 +1,11 @@
+question_id,domain,api_correct,api_truncated,claude_correct,claude_truncated,codex_correct,codex_truncated,dsh_correct,dsh_truncated,pi_correct,pi_truncated,zcode_correct,zcode_truncated
+gpqa-diamond-003,Physics,0,0,6,0,0,0,2,0,4,0,5,0
+gpqa-diamond-036,Chemistry,7,2,4,0,5,0,5,1,6,1,8,1
+gpqa-diamond-040,Physics,10,0,10,0,10,0,10,0,10,0,10,0
+gpqa-diamond-041,Physics,10,0,10,0,10,0,10,0,10,0,10,0
+gpqa-diamond-064,Chemistry,5,0,5,0,3,1,6,0,7,1,5,0
+gpqa-diamond-086,Chemistry,10,0,7,0,6,0,10,0,10,0,9,0
+gpqa-diamond-091,Chemistry,8,0,3,0,6,0,9,0,9,0,4,0
+gpqa-diamond-115,Chemistry,1,8,6,4,4,5,4,7,4,5,6,1
+gpqa-diamond-151,Biology,10,0,10,0,10,0,10,0,10,0,10,0
+gpqa-diamond-159,Physics,7,0,9,0,10,0,10,0,10,0,10,0

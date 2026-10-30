@@ -1,0 +1,991 @@
+task_id,question_id,source_row,repeat,domain,subdomain,harness,native_checkpoint_status,native_returncode,score,success,label,scoring_source,recovered_from_recorded_text,parse_failed,model_requests,extra_model_requests,output_truncated,prompt_tokens,completion_tokens,total_tokens,prompt_cache_hit_tokens,prompt_cache_miss_tokens,token,accounting_complete,compression_calls
+gpqa-diamond-000-r01,gpqa-diamond-000,0,1,Physics,Physics (general),claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1117,156,1273,640,477,1273,True,0
+gpqa-diamond-001-r01,gpqa-diamond-001,1,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1125,315,1440,640,485,1440,True,0
+gpqa-diamond-002-r01,gpqa-diamond-002,2,1,Physics,Quantum Mechanics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1144,143,1287,640,504,1287,True,0
+gpqa-diamond-003-r01,gpqa-diamond-003,3,1,Physics,Electromagnetism and Photonics,claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1132,72,1204,768,364,1204,True,0
+gpqa-diamond-004-r01,gpqa-diamond-004,4,1,Physics,Quantum Mechanics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1344,190,1534,640,704,1534,True,0
+gpqa-diamond-005-r01,gpqa-diamond-005,5,1,Physics,Quantum Mechanics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1174,179,1353,640,534,1353,True,0
+gpqa-diamond-006-r01,gpqa-diamond-006,6,1,Physics,High-energy particle physics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1156,124,1280,640,516,1280,True,0
+gpqa-diamond-007-r01,gpqa-diamond-007,7,1,Biology,Genetics,claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1436,1328,2764,640,796,2764,True,0
+gpqa-diamond-008-r01,gpqa-diamond-008,8,1,Chemistry,Organic Chemistry,claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1221,270,1491,640,581,1491,True,0
+gpqa-diamond-009-r01,gpqa-diamond-009,9,1,Physics,Astrophysics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1124,122,1246,640,484,1246,True,0
+gpqa-diamond-010-r01,gpqa-diamond-010,10,1,Biology,Molecular Biology,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1341,253,1594,640,701,1594,True,0
+gpqa-diamond-011-r01,gpqa-diamond-011,11,1,Physics,High-energy particle physics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1125,299,1424,640,485,1424,True,0
+gpqa-diamond-012-r01,gpqa-diamond-012,12,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1285,1337,2622,640,645,2622,True,0
+gpqa-diamond-013-r01,gpqa-diamond-013,13,1,Biology,Molecular Biology,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1125,137,1262,640,485,1262,True,0
+gpqa-diamond-014-r01,gpqa-diamond-014,14,1,Physics,Physics (general),claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1276,156,1432,640,636,1432,True,0
+gpqa-diamond-015-r01,gpqa-diamond-015,15,1,Chemistry,Organic Chemistry,claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1188,440,1628,640,548,1628,True,0
+gpqa-diamond-016-r01,gpqa-diamond-016,16,1,Chemistry,Chemistry (general),claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1129,352,1481,640,489,1481,True,0
+gpqa-diamond-017-r01,gpqa-diamond-017,17,1,Physics,Physics (general),claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1211,187,1398,640,571,1398,True,0
+gpqa-diamond-018-r01,gpqa-diamond-018,18,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1463,259,1722,640,823,1722,True,0
+gpqa-diamond-019-r01,gpqa-diamond-019,19,1,Physics,Quantum Mechanics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1174,77,1251,640,534,1251,True,0
+gpqa-diamond-020-r01,gpqa-diamond-020,20,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1234,201,1435,640,594,1435,True,0
+gpqa-diamond-021-r01,gpqa-diamond-021,21,1,Chemistry,Chemistry (general),claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1113,98,1211,640,473,1211,True,0
+gpqa-diamond-022-r01,gpqa-diamond-022,22,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1222,198,1420,640,582,1420,True,0
+gpqa-diamond-023-r01,gpqa-diamond-023,23,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1194,324,1518,640,554,1518,True,0
+gpqa-diamond-024-r01,gpqa-diamond-024,24,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1309,299,1608,640,669,1608,True,0
+gpqa-diamond-025-r01,gpqa-diamond-025,25,1,Chemistry,Organic Chemistry,claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1342,321,1663,640,702,1663,True,0
+gpqa-diamond-026-r01,gpqa-diamond-026,26,1,Biology,Molecular Biology,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1134,126,1260,640,494,1260,True,0
+gpqa-diamond-027-r01,gpqa-diamond-027,27,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1274,510,1784,640,634,1784,True,0
+gpqa-diamond-028-r01,gpqa-diamond-028,28,1,Biology,Genetics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1361,683,2044,640,721,2044,True,0
+gpqa-diamond-029-r01,gpqa-diamond-029,29,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1074,38,1112,640,434,1112,True,0
+gpqa-diamond-030-r01,gpqa-diamond-030,30,1,Chemistry,Organic Chemistry,claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1107,296,1403,640,467,1403,True,0
+gpqa-diamond-031-r01,gpqa-diamond-031,31,1,Physics,High-energy particle physics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1118,546,1664,640,478,1664,True,0
+gpqa-diamond-032-r01,gpqa-diamond-032,32,1,Chemistry,Organic Chemistry,claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1273,519,1792,640,633,1792,True,0
+gpqa-diamond-033-r01,gpqa-diamond-033,33,1,Chemistry,Organic Chemistry,claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1417,758,2175,640,777,2175,True,0
+gpqa-diamond-034-r01,gpqa-diamond-034,34,1,Physics,Physics (general),claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1288,175,1463,640,648,1463,True,0
+gpqa-diamond-035-r01,gpqa-diamond-035,35,1,Physics,Astrophysics,claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1127,182,1309,640,487,1309,True,0
+gpqa-diamond-036-r01,gpqa-diamond-036,36,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1139,549,1688,768,371,1688,True,0
+gpqa-diamond-037-r01,gpqa-diamond-037,37,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1269,193,1462,640,629,1462,True,0
+gpqa-diamond-038-r01,gpqa-diamond-038,38,1,Physics,Quantum Mechanics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1214,147,1361,640,574,1361,True,0
+gpqa-diamond-039-r01,gpqa-diamond-039,39,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1149,45,1194,640,509,1194,True,0
+gpqa-diamond-040-r01,gpqa-diamond-040,40,1,Physics,Relativistic Mechanics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1123,98,1221,768,355,1221,True,0
+gpqa-diamond-041-r01,gpqa-diamond-041,41,1,Physics,Astrophysics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1209,178,1387,896,313,1387,True,0
+gpqa-diamond-042-r01,gpqa-diamond-042,42,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1218,423,1641,640,578,1641,True,0
+gpqa-diamond-043-r01,gpqa-diamond-043,43,1,Biology,Molecular Biology,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1261,197,1458,640,621,1458,True,0
+gpqa-diamond-044-r01,gpqa-diamond-044,44,1,Physics,Quantum Mechanics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1146,612,1758,640,506,1758,True,0
+gpqa-diamond-045-r01,gpqa-diamond-045,45,1,Chemistry,Organic Chemistry,claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1075,208,1283,640,435,1283,True,0
+gpqa-diamond-046-r01,gpqa-diamond-046,46,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1180,449,1629,640,540,1629,True,0
+gpqa-diamond-047-r01,gpqa-diamond-047,47,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1123,425,1548,640,483,1548,True,0
+gpqa-diamond-048-r01,gpqa-diamond-048,48,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1382,318,1700,640,742,1700,True,0
+gpqa-diamond-049-r01,gpqa-diamond-049,49,1,Physics,High-energy particle physics,claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1179,82,1261,640,539,1261,True,0
+gpqa-diamond-050-r01,gpqa-diamond-050,50,1,Physics,Electromagnetism and Photonics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1148,94,1242,640,508,1242,True,0
+gpqa-diamond-051-r01,gpqa-diamond-051,51,1,Physics,Astrophysics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1222,215,1437,640,582,1437,True,0
+gpqa-diamond-052-r01,gpqa-diamond-052,52,1,Chemistry,Chemistry (general),claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1189,634,1823,640,549,1823,True,0
+gpqa-diamond-053-r01,gpqa-diamond-053,53,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1137,241,1378,640,497,1378,True,0
+gpqa-diamond-054-r01,gpqa-diamond-054,54,1,Chemistry,Chemistry (general),claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1165,206,1371,640,525,1371,True,0
+gpqa-diamond-055-r01,gpqa-diamond-055,55,1,Physics,Quantum Mechanics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1214,310,1524,640,574,1524,True,0
+gpqa-diamond-056-r01,gpqa-diamond-056,56,1,Physics,Quantum Mechanics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1148,358,1506,640,508,1506,True,0
+gpqa-diamond-057-r01,gpqa-diamond-057,57,1,Physics,High-energy particle physics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1064,94,1158,640,424,1158,True,0
+gpqa-diamond-058-r01,gpqa-diamond-058,58,1,Chemistry,Chemistry (general),claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1101,179,1280,640,461,1280,True,0
+gpqa-diamond-059-r01,gpqa-diamond-059,59,1,Physics,Relativistic Mechanics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1170,255,1425,640,530,1425,True,0
+gpqa-diamond-060-r01,gpqa-diamond-060,60,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1195,311,1506,640,555,1506,True,0
+gpqa-diamond-061-r01,gpqa-diamond-061,61,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1222,776,1998,640,582,1998,True,0
+gpqa-diamond-062-r01,gpqa-diamond-062,62,1,Physics,Quantum Mechanics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1209,112,1321,640,569,1321,True,0
+gpqa-diamond-063-r01,gpqa-diamond-063,63,1,Chemistry,Inorganic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1208,3972,5180,640,568,5180,True,0
+gpqa-diamond-064-r01,gpqa-diamond-064,64,1,Chemistry,Organic Chemistry,claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1263,345,1608,896,367,1608,True,0
+gpqa-diamond-065-r01,gpqa-diamond-065,65,1,Physics,High-energy particle physics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1097,113,1210,640,457,1210,True,0
+gpqa-diamond-066-r01,gpqa-diamond-066,66,1,Physics,Quantum Mechanics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1216,174,1390,640,576,1390,True,0
+gpqa-diamond-067-r01,gpqa-diamond-067,67,1,Physics,Quantum Mechanics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1144,133,1277,640,504,1277,True,0
+gpqa-diamond-068-r01,gpqa-diamond-068,68,1,Physics,High-energy particle physics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1171,209,1380,640,531,1380,True,0
+gpqa-diamond-069-r01,gpqa-diamond-069,69,1,Chemistry,Chemistry (general),claude,completed,0,1,1,correct,native_final,False,False,4,3,True,29408,12939,42347,28288,1120,42347,True,0
+gpqa-diamond-070-r01,gpqa-diamond-070,70,1,Physics,Physics (general),claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1143,91,1234,640,503,1234,True,0
+gpqa-diamond-071-r01,gpqa-diamond-071,71,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1163,882,2045,640,523,2045,True,0
+gpqa-diamond-072-r01,gpqa-diamond-072,72,1,Physics,Relativistic Mechanics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1160,139,1299,640,520,1299,True,0
+gpqa-diamond-073-r01,gpqa-diamond-073,73,1,Physics,Physics (general),claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1138,143,1281,640,498,1281,True,0
+gpqa-diamond-074-r01,gpqa-diamond-074,74,1,Biology,Molecular Biology,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1552,181,1733,640,912,1733,True,0
+gpqa-diamond-075-r01,gpqa-diamond-075,75,1,Biology,Molecular Biology,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1185,904,2089,640,545,2089,True,0
+gpqa-diamond-076-r01,gpqa-diamond-076,76,1,Chemistry,Organic Chemistry,claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1505,292,1797,640,865,1797,True,0
+gpqa-diamond-077-r01,gpqa-diamond-077,77,1,Physics,Electromagnetism and Photonics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1436,116,1552,640,796,1552,True,0
+gpqa-diamond-078-r01,gpqa-diamond-078,78,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,2,1,True,6791,4563,11354,5888,903,11354,True,0
+gpqa-diamond-079-r01,gpqa-diamond-079,79,1,Biology,Molecular Biology,claude,completed,1,0,0,incorrect,truncated_generation_without_native_success,False,True,4,3,True,29178,16384,45562,28160,1018,45562,True,0
+gpqa-diamond-080-r01,gpqa-diamond-080,80,1,Chemistry,Organic Chemistry,claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1215,277,1492,640,575,1492,True,0
+gpqa-diamond-081-r01,gpqa-diamond-081,81,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1745,546,2291,640,1105,2291,True,0
+gpqa-diamond-082-r01,gpqa-diamond-082,82,1,Chemistry,Chemistry (general),claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1149,208,1357,640,509,1357,True,0
+gpqa-diamond-083-r01,gpqa-diamond-083,83,1,Physics,Physics (general),claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1102,46,1148,640,462,1148,True,0
+gpqa-diamond-084-r01,gpqa-diamond-084,84,1,Physics,Astrophysics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1255,374,1629,640,615,1629,True,0
+gpqa-diamond-085-r01,gpqa-diamond-085,85,1,Chemistry,Organic Chemistry,claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1294,439,1733,640,654,1733,True,0
+gpqa-diamond-086-r01,gpqa-diamond-086,86,1,Chemistry,Chemistry (general),claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1278,208,1486,896,382,1486,True,0
+gpqa-diamond-087-r01,gpqa-diamond-087,87,1,Biology,Molecular Biology,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1141,166,1307,640,501,1307,True,0
+gpqa-diamond-088-r01,gpqa-diamond-088,88,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,2,1,True,6573,4542,11115,5760,813,11115,True,0
+gpqa-diamond-089-r01,gpqa-diamond-089,89,1,Chemistry,Organic Chemistry,claude,completed,0,0,0,incorrect,native_final,False,False,2,1,True,6469,4345,10814,5760,709,10814,True,0
+gpqa-diamond-090-r01,gpqa-diamond-090,90,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1194,435,1629,640,554,1629,True,0
+gpqa-diamond-091-r01,gpqa-diamond-091,91,1,Chemistry,Chemistry (general),claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1155,694,1849,768,387,1849,True,0
+gpqa-diamond-092-r01,gpqa-diamond-092,92,1,Biology,Molecular Biology,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1339,228,1567,640,699,1567,True,0
+gpqa-diamond-093-r01,gpqa-diamond-093,93,1,Chemistry,Organic Chemistry,claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1165,313,1478,640,525,1478,True,0
+gpqa-diamond-094-r01,gpqa-diamond-094,94,1,Chemistry,Organic Chemistry,claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1226,594,1820,640,586,1820,True,0
+gpqa-diamond-095-r01,gpqa-diamond-095,95,1,Physics,Physics (general),claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1117,257,1374,640,477,1374,True,0
+gpqa-diamond-096-r01,gpqa-diamond-096,96,1,Biology,Molecular Biology,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1234,102,1336,640,594,1336,True,0
+gpqa-diamond-097-r01,gpqa-diamond-097,97,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1144,343,1487,640,504,1487,True,0
+gpqa-diamond-098-r01,gpqa-diamond-098,98,1,Chemistry,Chemistry (general),claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1311,831,2142,640,671,2142,True,0
+gpqa-diamond-099-r01,gpqa-diamond-099,99,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1195,313,1508,640,555,1508,True,0
+gpqa-diamond-100-r01,gpqa-diamond-100,100,1,Chemistry,Organic Chemistry,claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1186,238,1424,640,546,1424,True,0
+gpqa-diamond-101-r01,gpqa-diamond-101,101,1,Biology,Molecular Biology,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1390,430,1820,640,750,1820,True,0
+gpqa-diamond-102-r01,gpqa-diamond-102,102,1,Chemistry,Organic Chemistry,claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1303,1194,2497,640,663,2497,True,0
+gpqa-diamond-103-r01,gpqa-diamond-103,103,1,Physics,Physics (general),claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1195,114,1309,640,555,1309,True,0
+gpqa-diamond-104-r01,gpqa-diamond-104,104,1,Physics,Astrophysics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1210,145,1355,640,570,1355,True,0
+gpqa-diamond-105-r01,gpqa-diamond-105,105,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1260,214,1474,640,620,1474,True,0
+gpqa-diamond-106-r01,gpqa-diamond-106,106,1,Biology,Molecular Biology,claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1239,140,1379,640,599,1379,True,0
+gpqa-diamond-107-r01,gpqa-diamond-107,107,1,Physics,Quantum Mechanics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1152,104,1256,640,512,1256,True,0
+gpqa-diamond-108-r01,gpqa-diamond-108,108,1,Physics,Quantum Mechanics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1255,459,1714,640,615,1714,True,0
+gpqa-diamond-109-r01,gpqa-diamond-109,109,1,Physics,Astrophysics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1475,341,1816,640,835,1816,True,0
+gpqa-diamond-110-r01,gpqa-diamond-110,110,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1275,300,1575,640,635,1575,True,0
+gpqa-diamond-111-r01,gpqa-diamond-111,111,1,Physics,Quantum Mechanics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1218,352,1570,640,578,1570,True,0
+gpqa-diamond-112-r01,gpqa-diamond-112,112,1,Chemistry,Chemistry (general),claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1201,361,1562,640,561,1562,True,0
+gpqa-diamond-113-r01,gpqa-diamond-113,113,1,Chemistry,Organic Chemistry,claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1150,230,1380,640,510,1380,True,0
+gpqa-diamond-114-r01,gpqa-diamond-114,114,1,Physics,Physics (general),claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1152,276,1428,640,512,1428,True,0
+gpqa-diamond-115-r01,gpqa-diamond-115,115,1,Chemistry,Organic Chemistry,claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1236,419,1655,896,340,1655,True,0
+gpqa-diamond-116-r01,gpqa-diamond-116,116,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1192,242,1434,640,552,1434,True,0
+gpqa-diamond-117-r01,gpqa-diamond-117,117,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1127,203,1330,640,487,1330,True,0
+gpqa-diamond-118-r01,gpqa-diamond-118,118,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1288,435,1723,640,648,1723,True,0
+gpqa-diamond-119-r01,gpqa-diamond-119,119,1,Physics,Physics (general),claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1104,82,1186,640,464,1186,True,0
+gpqa-diamond-120-r01,gpqa-diamond-120,120,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1260,567,1827,640,620,1827,True,0
+gpqa-diamond-121-r01,gpqa-diamond-121,121,1,Chemistry,Organic Chemistry,claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1175,874,2049,640,535,2049,True,0
+gpqa-diamond-122-r01,gpqa-diamond-122,122,1,Physics,Relativistic Mechanics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1182,132,1314,640,542,1314,True,0
+gpqa-diamond-123-r01,gpqa-diamond-123,123,1,Physics,Relativistic Mechanics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1131,165,1296,640,491,1296,True,0
+gpqa-diamond-124-r01,gpqa-diamond-124,124,1,Physics,Quantum Mechanics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1214,146,1360,640,574,1360,True,0
+gpqa-diamond-125-r01,gpqa-diamond-125,125,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1214,318,1532,640,574,1532,True,0
+gpqa-diamond-126-r01,gpqa-diamond-126,126,1,Chemistry,Organic Chemistry,claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1123,390,1513,640,483,1513,True,0
+gpqa-diamond-127-r01,gpqa-diamond-127,127,1,Biology,Molecular Biology,claude,completed,0,1,1,correct,native_final,False,False,2,1,True,11233,4344,15577,8192,3041,15577,True,0
+gpqa-diamond-128-r01,gpqa-diamond-128,128,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1237,388,1625,640,597,1625,True,0
+gpqa-diamond-129-r01,gpqa-diamond-129,129,1,Physics,Physics (general),claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1103,89,1192,640,463,1192,True,0
+gpqa-diamond-130-r01,gpqa-diamond-130,130,1,Chemistry,Organic Chemistry,claude,completed,0,0,0,incorrect,native_final,False,False,2,1,True,6777,4594,11371,5888,889,11371,True,0
+gpqa-diamond-131-r01,gpqa-diamond-131,131,1,Chemistry,Chemistry (general),claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1294,479,1773,640,654,1773,True,0
+gpqa-diamond-132-r01,gpqa-diamond-132,132,1,Chemistry,Chemistry (general),claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1204,301,1505,640,564,1505,True,0
+gpqa-diamond-133-r01,gpqa-diamond-133,133,1,Chemistry,Chemistry (general),claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1102,333,1435,640,462,1435,True,0
+gpqa-diamond-134-r01,gpqa-diamond-134,134,1,Physics,High-energy particle physics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1272,185,1457,640,632,1457,True,0
+gpqa-diamond-135-r01,gpqa-diamond-135,135,1,Physics,Electromagnetism and Photonics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1158,74,1232,640,518,1232,True,0
+gpqa-diamond-136-r01,gpqa-diamond-136,136,1,Physics,High-energy particle physics,claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1185,109,1294,640,545,1294,True,0
+gpqa-diamond-137-r01,gpqa-diamond-137,137,1,Chemistry,Chemistry (general),claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1150,89,1239,640,510,1239,True,0
+gpqa-diamond-138-r01,gpqa-diamond-138,138,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1246,211,1457,640,606,1457,True,0
+gpqa-diamond-139-r01,gpqa-diamond-139,139,1,Chemistry,Organic Chemistry,claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1198,457,1655,640,558,1655,True,0
+gpqa-diamond-140-r01,gpqa-diamond-140,140,1,Chemistry,Organic Chemistry,claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1075,326,1401,640,435,1401,True,0
+gpqa-diamond-141-r01,gpqa-diamond-141,141,1,Physics,Quantum Mechanics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1124,96,1220,640,484,1220,True,0
+gpqa-diamond-142-r01,gpqa-diamond-142,142,1,Chemistry,Organic Chemistry,claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1359,335,1694,640,719,1694,True,0
+gpqa-diamond-143-r01,gpqa-diamond-143,143,1,Physics,High-energy particle physics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1135,136,1271,640,495,1271,True,0
+gpqa-diamond-144-r01,gpqa-diamond-144,144,1,Chemistry,Organic Chemistry,claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1079,246,1325,640,439,1325,True,0
+gpqa-diamond-145-r01,gpqa-diamond-145,145,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1265,458,1723,640,625,1723,True,0
+gpqa-diamond-146-r01,gpqa-diamond-146,146,1,Physics,High-energy particle physics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1105,121,1226,640,465,1226,True,0
+gpqa-diamond-147-r01,gpqa-diamond-147,147,1,Chemistry,Chemistry (general),claude,completed,0,0,0,incorrect,native_final,False,False,4,3,True,29554,15540,45094,28416,1138,45094,True,0
+gpqa-diamond-148-r01,gpqa-diamond-148,148,1,Chemistry,Chemistry (general),claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1220,138,1358,640,580,1358,True,0
+gpqa-diamond-149-r01,gpqa-diamond-149,149,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1213,440,1653,640,573,1653,True,0
+gpqa-diamond-150-r01,gpqa-diamond-150,150,1,Physics,Quantum Mechanics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1175,133,1308,640,535,1308,True,0
+gpqa-diamond-151-r01,gpqa-diamond-151,151,1,Biology,Molecular Biology,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1157,198,1355,768,389,1355,True,0
+gpqa-diamond-152-r01,gpqa-diamond-152,152,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1471,315,1786,640,831,1786,True,0
+gpqa-diamond-153-r01,gpqa-diamond-153,153,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1200,356,1556,640,560,1556,True,0
+gpqa-diamond-154-r01,gpqa-diamond-154,154,1,Physics,Quantum Mechanics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1380,119,1499,640,740,1499,True,0
+gpqa-diamond-155-r01,gpqa-diamond-155,155,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1216,182,1398,640,576,1398,True,0
+gpqa-diamond-156-r01,gpqa-diamond-156,156,1,Biology,Molecular Biology,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1183,118,1301,640,543,1301,True,0
+gpqa-diamond-157-r01,gpqa-diamond-157,157,1,Biology,Genetics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1176,76,1252,640,536,1252,True,0
+gpqa-diamond-158-r01,gpqa-diamond-158,158,1,Physics,Astrophysics,claude,completed,0,0,0,incorrect,native_final,False,True,1,0,False,1184,257,1441,640,544,1441,True,0
+gpqa-diamond-159-r01,gpqa-diamond-159,159,1,Physics,Optics and Acoustics,claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1164,93,1257,768,396,1257,True,0
+gpqa-diamond-160-r01,gpqa-diamond-160,160,1,Physics,Relativistic Mechanics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1269,199,1468,640,629,1468,True,0
+gpqa-diamond-161-r01,gpqa-diamond-161,161,1,Physics,Relativistic Mechanics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1128,253,1381,640,488,1381,True,0
+gpqa-diamond-162-r01,gpqa-diamond-162,162,1,Chemistry,Chemistry (general),claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1151,401,1552,640,511,1552,True,0
+gpqa-diamond-163-r01,gpqa-diamond-163,163,1,Physics,Astrophysics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1207,103,1310,640,567,1310,True,0
+gpqa-diamond-164-r01,gpqa-diamond-164,164,1,Chemistry,Chemistry (general),claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1247,393,1640,640,607,1640,True,0
+gpqa-diamond-165-r01,gpqa-diamond-165,165,1,Physics,High-energy particle physics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1741,281,2022,640,1101,2022,True,0
+gpqa-diamond-166-r01,gpqa-diamond-166,166,1,Physics,Quantum Mechanics,claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1214,765,1979,640,574,1979,True,0
+gpqa-diamond-167-r01,gpqa-diamond-167,167,1,Biology,Genetics,claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1113,131,1244,640,473,1244,True,0
+gpqa-diamond-168-r01,gpqa-diamond-168,168,1,Physics,Quantum Mechanics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1198,166,1364,640,558,1364,True,0
+gpqa-diamond-169-r01,gpqa-diamond-169,169,1,Physics,Quantum Mechanics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1119,160,1279,640,479,1279,True,0
+gpqa-diamond-170-r01,gpqa-diamond-170,170,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1207,205,1412,640,567,1412,True,0
+gpqa-diamond-171-r01,gpqa-diamond-171,171,1,Physics,Physics (general),claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1224,171,1395,640,584,1395,True,0
+gpqa-diamond-172-r01,gpqa-diamond-172,172,1,Physics,Quantum Mechanics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1117,87,1204,640,477,1204,True,0
+gpqa-diamond-173-r01,gpqa-diamond-173,173,1,Physics,Physics (general),claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1173,630,1803,640,533,1803,True,0
+gpqa-diamond-174-r01,gpqa-diamond-174,174,1,Physics,Electromagnetism and Photonics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1189,169,1358,640,549,1358,True,0
+gpqa-diamond-175-r01,gpqa-diamond-175,175,1,Physics,Quantum Mechanics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1255,244,1499,640,615,1499,True,0
+gpqa-diamond-176-r01,gpqa-diamond-176,176,1,Physics,Physics (general),claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1195,107,1302,640,555,1302,True,0
+gpqa-diamond-177-r01,gpqa-diamond-177,177,1,Physics,High-energy particle physics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1185,94,1279,640,545,1279,True,0
+gpqa-diamond-178-r01,gpqa-diamond-178,178,1,Physics,Quantum Mechanics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1282,1784,3066,640,642,3066,True,0
+gpqa-diamond-179-r01,gpqa-diamond-179,179,1,Physics,Physics (general),claude,completed,0,0,0,incorrect,native_final,False,True,1,0,False,1136,308,1444,640,496,1444,True,0
+gpqa-diamond-180-r01,gpqa-diamond-180,180,1,Physics,Astrophysics,claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1241,469,1710,640,601,1710,True,0
+gpqa-diamond-181-r01,gpqa-diamond-181,181,1,Physics,Condensed Matter Physics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1244,131,1375,640,604,1375,True,0
+gpqa-diamond-182-r01,gpqa-diamond-182,182,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1085,145,1230,640,445,1230,True,0
+gpqa-diamond-183-r01,gpqa-diamond-183,183,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1384,1722,3106,640,744,3106,True,0
+gpqa-diamond-184-r01,gpqa-diamond-184,184,1,Physics,Quantum Mechanics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1139,41,1180,640,499,1180,True,0
+gpqa-diamond-185-r01,gpqa-diamond-185,185,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1168,801,1969,640,528,1969,True,0
+gpqa-diamond-186-r01,gpqa-diamond-186,186,1,Physics,Astrophysics,claude,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1304,328,1632,640,664,1632,True,0
+gpqa-diamond-187-r01,gpqa-diamond-187,187,1,Physics,Physics (general),claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1112,427,1539,640,472,1539,True,0
+gpqa-diamond-188-r01,gpqa-diamond-188,188,1,Physics,High-energy particle physics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1068,165,1233,640,428,1233,True,0
+gpqa-diamond-189-r01,gpqa-diamond-189,189,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1267,186,1453,640,627,1453,True,0
+gpqa-diamond-190-r01,gpqa-diamond-190,190,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1236,510,1746,640,596,1746,True,0
+gpqa-diamond-191-r01,gpqa-diamond-191,191,1,Physics,Electromagnetism and Photonics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1285,91,1376,640,645,1376,True,0
+gpqa-diamond-192-r01,gpqa-diamond-192,192,1,Physics,Astrophysics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1107,75,1182,640,467,1182,True,0
+gpqa-diamond-193-r01,gpqa-diamond-193,193,1,Physics,Physics (general),claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1184,76,1260,640,544,1260,True,0
+gpqa-diamond-194-r01,gpqa-diamond-194,194,1,Physics,Astrophysics,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1179,258,1437,640,539,1437,True,0
+gpqa-diamond-195-r01,gpqa-diamond-195,195,1,Physics,Physics (general),claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1191,146,1337,640,551,1337,True,0
+gpqa-diamond-196-r01,gpqa-diamond-196,196,1,Chemistry,Organic Chemistry,claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1224,290,1514,640,584,1514,True,0
+gpqa-diamond-197-r01,gpqa-diamond-197,197,1,Chemistry,Chemistry (general),claude,completed,0,1,1,correct,native_final,False,False,1,0,False,1158,177,1335,640,518,1335,True,0
+gpqa-diamond-000-r01,gpqa-diamond-000,0,1,Physics,Physics (general),codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4453,148,4601,3456,997,4601,True,0
+gpqa-diamond-001-r01,gpqa-diamond-001,1,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4463,333,4796,3584,879,4796,True,0
+gpqa-diamond-002-r01,gpqa-diamond-002,2,1,Physics,Quantum Mechanics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4482,184,4666,3456,1026,4666,True,0
+gpqa-diamond-003-r01,gpqa-diamond-003,3,1,Physics,Electromagnetism and Photonics,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4471,75,4546,3584,887,4546,True,0
+gpqa-diamond-004-r01,gpqa-diamond-004,4,1,Physics,Quantum Mechanics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4683,107,4790,3584,1099,4790,True,0
+gpqa-diamond-005-r01,gpqa-diamond-005,5,1,Physics,Quantum Mechanics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4512,313,4825,3584,928,4825,True,0
+gpqa-diamond-006-r01,gpqa-diamond-006,6,1,Physics,High-energy particle physics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4494,217,4711,3584,910,4711,True,0
+gpqa-diamond-007-r01,gpqa-diamond-007,7,1,Biology,Genetics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4772,304,5076,3584,1188,5076,True,0
+gpqa-diamond-008-r01,gpqa-diamond-008,8,1,Chemistry,Organic Chemistry,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4559,225,4784,3584,975,4784,True,0
+gpqa-diamond-009-r01,gpqa-diamond-009,9,1,Physics,Astrophysics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4461,140,4601,3584,877,4601,True,0
+gpqa-diamond-010-r01,gpqa-diamond-010,10,1,Biology,Molecular Biology,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4677,233,4910,3584,1093,4910,True,0
+gpqa-diamond-011-r01,gpqa-diamond-011,11,1,Physics,High-energy particle physics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4460,178,4638,3584,876,4638,True,0
+gpqa-diamond-012-r01,gpqa-diamond-012,12,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4624,349,4973,3584,1040,4973,True,0
+gpqa-diamond-013-r01,gpqa-diamond-013,13,1,Biology,Molecular Biology,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4464,92,4556,3584,880,4556,True,0
+gpqa-diamond-014-r01,gpqa-diamond-014,14,1,Physics,Physics (general),codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4615,338,4953,3584,1031,4953,True,0
+gpqa-diamond-015-r01,gpqa-diamond-015,15,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4524,229,4753,3584,940,4753,True,0
+gpqa-diamond-016-r01,gpqa-diamond-016,16,1,Chemistry,Chemistry (general),codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4463,143,4606,3584,879,4606,True,0
+gpqa-diamond-017-r01,gpqa-diamond-017,17,1,Physics,Physics (general),codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4551,306,4857,3584,967,4857,True,0
+gpqa-diamond-018-r01,gpqa-diamond-018,18,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4802,362,5164,3584,1218,5164,True,0
+gpqa-diamond-019-r01,gpqa-diamond-019,19,1,Physics,Quantum Mechanics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4512,52,4564,3584,928,4564,True,0
+gpqa-diamond-020-r01,gpqa-diamond-020,20,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4575,84,4659,3584,991,4659,True,0
+gpqa-diamond-021-r01,gpqa-diamond-021,21,1,Chemistry,Chemistry (general),codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4451,67,4518,3584,867,4518,True,0
+gpqa-diamond-022-r01,gpqa-diamond-022,22,1,Chemistry,Organic Chemistry,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4563,202,4765,3584,979,4765,True,0
+gpqa-diamond-023-r01,gpqa-diamond-023,23,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4532,403,4935,3584,948,4935,True,0
+gpqa-diamond-024-r01,gpqa-diamond-024,24,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4647,276,4923,3584,1063,4923,True,0
+gpqa-diamond-025-r01,gpqa-diamond-025,25,1,Chemistry,Organic Chemistry,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4678,339,5017,3584,1094,5017,True,0
+gpqa-diamond-026-r01,gpqa-diamond-026,26,1,Biology,Molecular Biology,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4473,60,4533,3584,889,4533,True,0
+gpqa-diamond-027-r01,gpqa-diamond-027,27,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4613,523,5136,3584,1029,5136,True,0
+gpqa-diamond-028-r01,gpqa-diamond-028,28,1,Biology,Genetics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4699,471,5170,3584,1115,5170,True,0
+gpqa-diamond-029-r01,gpqa-diamond-029,29,1,Chemistry,Organic Chemistry,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4415,73,4488,3584,831,4488,True,0
+gpqa-diamond-030-r01,gpqa-diamond-030,30,1,Chemistry,Organic Chemistry,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4445,528,4973,3584,861,4973,True,0
+gpqa-diamond-031-r01,gpqa-diamond-031,31,1,Physics,High-energy particle physics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4454,141,4595,3584,870,4595,True,0
+gpqa-diamond-032-r01,gpqa-diamond-032,32,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4613,106,4719,3584,1029,4719,True,0
+gpqa-diamond-033-r01,gpqa-diamond-033,33,1,Chemistry,Organic Chemistry,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4756,391,5147,3584,1172,5147,True,0
+gpqa-diamond-034-r01,gpqa-diamond-034,34,1,Physics,Physics (general),codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4629,244,4873,3584,1045,4873,True,0
+gpqa-diamond-035-r01,gpqa-diamond-035,35,1,Physics,Astrophysics,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4465,96,4561,3584,881,4561,True,0
+gpqa-diamond-036-r01,gpqa-diamond-036,36,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4478,558,5036,3584,894,5036,True,0
+gpqa-diamond-037-r01,gpqa-diamond-037,37,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4609,71,4680,3584,1025,4680,True,0
+gpqa-diamond-038-r01,gpqa-diamond-038,38,1,Physics,Quantum Mechanics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4550,201,4751,3584,966,4751,True,0
+gpqa-diamond-039-r01,gpqa-diamond-039,39,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4487,37,4524,3584,903,4524,True,0
+gpqa-diamond-040-r01,gpqa-diamond-040,40,1,Physics,Relativistic Mechanics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4462,202,4664,3584,878,4664,True,0
+gpqa-diamond-041-r01,gpqa-diamond-041,41,1,Physics,Astrophysics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4547,179,4726,3584,963,4726,True,0
+gpqa-diamond-042-r01,gpqa-diamond-042,42,1,Chemistry,Organic Chemistry,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4554,167,4721,3584,970,4721,True,0
+gpqa-diamond-043-r01,gpqa-diamond-043,43,1,Biology,Molecular Biology,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4602,132,4734,3584,1018,4734,True,0
+gpqa-diamond-044-r01,gpqa-diamond-044,44,1,Physics,Quantum Mechanics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4483,210,4693,3584,899,4693,True,0
+gpqa-diamond-045-r01,gpqa-diamond-045,45,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4411,715,5126,3584,827,5126,True,0
+gpqa-diamond-046-r01,gpqa-diamond-046,46,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4521,197,4718,3584,937,4718,True,0
+gpqa-diamond-047-r01,gpqa-diamond-047,47,1,Chemistry,Organic Chemistry,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4461,1373,5834,3584,877,5834,True,0
+gpqa-diamond-048-r01,gpqa-diamond-048,48,1,Chemistry,Organic Chemistry,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4723,305,5028,3584,1139,5028,True,0
+gpqa-diamond-049-r01,gpqa-diamond-049,49,1,Physics,High-energy particle physics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4518,93,4611,3584,934,4611,True,0
+gpqa-diamond-050-r01,gpqa-diamond-050,50,1,Physics,Electromagnetism and Photonics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4485,118,4603,3584,901,4603,True,0
+gpqa-diamond-051-r01,gpqa-diamond-051,51,1,Physics,Astrophysics,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4559,252,4811,3584,975,4811,True,0
+gpqa-diamond-052-r01,gpqa-diamond-052,52,1,Chemistry,Chemistry (general),codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4526,373,4899,3584,942,4899,True,0
+gpqa-diamond-053-r01,gpqa-diamond-053,53,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4475,74,4549,3584,891,4549,True,0
+gpqa-diamond-054-r01,gpqa-diamond-054,54,1,Chemistry,Chemistry (general),codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4501,179,4680,3584,917,4680,True,0
+gpqa-diamond-055-r01,gpqa-diamond-055,55,1,Physics,Quantum Mechanics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4548,130,4678,3584,964,4678,True,0
+gpqa-diamond-056-r01,gpqa-diamond-056,56,1,Physics,Quantum Mechanics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4488,286,4774,3584,904,4774,True,0
+gpqa-diamond-057-r01,gpqa-diamond-057,57,1,Physics,High-energy particle physics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4403,125,4528,3584,819,4528,True,0
+gpqa-diamond-058-r01,gpqa-diamond-058,58,1,Chemistry,Chemistry (general),codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4436,253,4689,3584,852,4689,True,0
+gpqa-diamond-059-r01,gpqa-diamond-059,59,1,Physics,Relativistic Mechanics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4511,169,4680,3584,927,4680,True,0
+gpqa-diamond-060-r01,gpqa-diamond-060,60,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4534,283,4817,3584,950,4817,True,0
+gpqa-diamond-061-r01,gpqa-diamond-061,61,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4557,1147,5704,3584,973,5704,True,0
+gpqa-diamond-062-r01,gpqa-diamond-062,62,1,Physics,Quantum Mechanics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4546,408,4954,3584,962,4954,True,0
+gpqa-diamond-063-r01,gpqa-diamond-063,63,1,Chemistry,Inorganic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4547,1008,5555,3584,963,5555,True,0
+gpqa-diamond-064-r01,gpqa-diamond-064,64,1,Chemistry,Organic Chemistry,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4603,145,4748,3584,1019,4748,True,0
+gpqa-diamond-065-r01,gpqa-diamond-065,65,1,Physics,High-energy particle physics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4437,62,4499,3584,853,4499,True,0
+gpqa-diamond-066-r01,gpqa-diamond-066,66,1,Physics,Quantum Mechanics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4554,193,4747,3584,970,4747,True,0
+gpqa-diamond-067-r01,gpqa-diamond-067,67,1,Physics,Quantum Mechanics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4481,37,4518,3584,897,4518,True,0
+gpqa-diamond-068-r01,gpqa-diamond-068,68,1,Physics,High-energy particle physics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4508,1293,5801,3584,924,5801,True,0
+gpqa-diamond-069-r01,gpqa-diamond-069,69,1,Chemistry,Chemistry (general),codex,completed,1,0,0,incorrect,truncated_generation_without_native_success,False,True,1,0,True,4480,4096,8576,3584,896,8576,True,0
+gpqa-diamond-070-r01,gpqa-diamond-070,70,1,Physics,Physics (general),codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4481,92,4573,3584,897,4573,True,0
+gpqa-diamond-071-r01,gpqa-diamond-071,71,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4502,325,4827,3584,918,4827,True,0
+gpqa-diamond-072-r01,gpqa-diamond-072,72,1,Physics,Relativistic Mechanics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4498,195,4693,3584,914,4693,True,0
+gpqa-diamond-073-r01,gpqa-diamond-073,73,1,Physics,Physics (general),codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4476,139,4615,3584,892,4615,True,0
+gpqa-diamond-074-r01,gpqa-diamond-074,74,1,Biology,Molecular Biology,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4892,388,5280,3584,1308,5280,True,0
+gpqa-diamond-075-r01,gpqa-diamond-075,75,1,Biology,Molecular Biology,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4525,94,4619,3584,941,4619,True,0
+gpqa-diamond-076-r01,gpqa-diamond-076,76,1,Chemistry,Organic Chemistry,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4841,389,5230,3584,1257,5230,True,0
+gpqa-diamond-077-r01,gpqa-diamond-077,77,1,Physics,Electromagnetism and Photonics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4776,106,4882,3584,1192,4882,True,0
+gpqa-diamond-078-r01,gpqa-diamond-078,78,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4665,257,4922,3584,1081,4922,True,0
+gpqa-diamond-079-r01,gpqa-diamond-079,79,1,Biology,Molecular Biology,codex,completed,1,0,0,incorrect,truncated_generation_without_native_success,False,True,1,0,True,4422,4096,8518,3584,838,8518,True,0
+gpqa-diamond-080-r01,gpqa-diamond-080,80,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4551,592,5143,3584,967,5143,True,0
+gpqa-diamond-081-r01,gpqa-diamond-081,81,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,5080,595,5675,3584,1496,5675,True,0
+gpqa-diamond-082-r01,gpqa-diamond-082,82,1,Chemistry,Chemistry (general),codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4488,350,4838,3584,904,4838,True,0
+gpqa-diamond-083-r01,gpqa-diamond-083,83,1,Physics,Physics (general),codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4440,34,4474,3584,856,4474,True,0
+gpqa-diamond-084-r01,gpqa-diamond-084,84,1,Physics,Astrophysics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4590,275,4865,3584,1006,4865,True,0
+gpqa-diamond-085-r01,gpqa-diamond-085,85,1,Chemistry,Organic Chemistry,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4634,257,4891,3584,1050,4891,True,0
+gpqa-diamond-086-r01,gpqa-diamond-086,86,1,Chemistry,Chemistry (general),codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4615,166,4781,3584,1031,4781,True,0
+gpqa-diamond-087-r01,gpqa-diamond-087,87,1,Biology,Molecular Biology,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4479,80,4559,3584,895,4559,True,0
+gpqa-diamond-088-r01,gpqa-diamond-088,88,1,Chemistry,Organic Chemistry,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4555,198,4753,3584,971,4753,True,0
+gpqa-diamond-089-r01,gpqa-diamond-089,89,1,Chemistry,Organic Chemistry,codex,completed,1,0,0,incorrect,truncated_generation_without_native_success,False,True,1,0,True,4503,4096,8599,3584,919,8599,True,0
+gpqa-diamond-090-r01,gpqa-diamond-090,90,1,Chemistry,Organic Chemistry,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4532,222,4754,3584,948,4754,True,0
+gpqa-diamond-091-r01,gpqa-diamond-091,91,1,Chemistry,Chemistry (general),codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4490,1180,5670,3584,906,5670,True,0
+gpqa-diamond-092-r01,gpqa-diamond-092,92,1,Biology,Molecular Biology,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4676,177,4853,3584,1092,4853,True,0
+gpqa-diamond-093-r01,gpqa-diamond-093,93,1,Chemistry,Organic Chemistry,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4503,182,4685,3584,919,4685,True,0
+gpqa-diamond-094-r01,gpqa-diamond-094,94,1,Chemistry,Organic Chemistry,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4566,1871,6437,3584,982,6437,True,0
+gpqa-diamond-095-r01,gpqa-diamond-095,95,1,Physics,Physics (general),codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4457,561,5018,3584,873,5018,True,0
+gpqa-diamond-096-r01,gpqa-diamond-096,96,1,Biology,Molecular Biology,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4570,61,4631,3584,986,4631,True,0
+gpqa-diamond-097-r01,gpqa-diamond-097,97,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4486,167,4653,3584,902,4653,True,0
+gpqa-diamond-098-r01,gpqa-diamond-098,98,1,Chemistry,Chemistry (general),codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4648,1274,5922,3584,1064,5922,True,0
+gpqa-diamond-099-r01,gpqa-diamond-099,99,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4532,306,4838,3584,948,4838,True,0
+gpqa-diamond-100-r01,gpqa-diamond-100,100,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4525,70,4595,3584,941,4595,True,0
+gpqa-diamond-101-r01,gpqa-diamond-101,101,1,Biology,Molecular Biology,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4728,283,5011,3584,1144,5011,True,0
+gpqa-diamond-102-r01,gpqa-diamond-102,102,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4644,480,5124,3584,1060,5124,True,0
+gpqa-diamond-103-r01,gpqa-diamond-103,103,1,Physics,Physics (general),codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4531,228,4759,3584,947,4759,True,0
+gpqa-diamond-104-r01,gpqa-diamond-104,104,1,Physics,Astrophysics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4545,183,4728,3584,961,4728,True,0
+gpqa-diamond-105-r01,gpqa-diamond-105,105,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4598,68,4666,3584,1014,4666,True,0
+gpqa-diamond-106-r01,gpqa-diamond-106,106,1,Biology,Molecular Biology,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4576,52,4628,3584,992,4628,True,0
+gpqa-diamond-107-r01,gpqa-diamond-107,107,1,Physics,Quantum Mechanics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4489,301,4790,3584,905,4790,True,0
+gpqa-diamond-108-r01,gpqa-diamond-108,108,1,Physics,Quantum Mechanics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4589,1253,5842,3584,1005,5842,True,0
+gpqa-diamond-109-r01,gpqa-diamond-109,109,1,Physics,Astrophysics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4812,329,5141,3584,1228,5141,True,0
+gpqa-diamond-110-r01,gpqa-diamond-110,110,1,Chemistry,Organic Chemistry,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4611,323,4934,3584,1027,4934,True,0
+gpqa-diamond-111-r01,gpqa-diamond-111,111,1,Physics,Quantum Mechanics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4557,384,4941,3584,973,4941,True,0
+gpqa-diamond-112-r01,gpqa-diamond-112,112,1,Chemistry,Chemistry (general),codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4537,187,4724,3584,953,4724,True,0
+gpqa-diamond-113-r01,gpqa-diamond-113,113,1,Chemistry,Organic Chemistry,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4486,66,4552,3584,902,4552,True,0
+gpqa-diamond-114-r01,gpqa-diamond-114,114,1,Physics,Physics (general),codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4488,322,4810,3584,904,4810,True,0
+gpqa-diamond-115-r01,gpqa-diamond-115,115,1,Chemistry,Organic Chemistry,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4576,779,5355,3584,992,5355,True,0
+gpqa-diamond-116-r01,gpqa-diamond-116,116,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4532,206,4738,3584,948,4738,True,0
+gpqa-diamond-117-r01,gpqa-diamond-117,117,1,Chemistry,Organic Chemistry,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4466,171,4637,3584,882,4637,True,0
+gpqa-diamond-118-r01,gpqa-diamond-118,118,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4624,233,4857,3584,1040,4857,True,0
+gpqa-diamond-119-r01,gpqa-diamond-119,119,1,Physics,Physics (general),codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4443,129,4572,3584,859,4572,True,0
+gpqa-diamond-120-r01,gpqa-diamond-120,120,1,Chemistry,Organic Chemistry,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4605,449,5054,3584,1021,5054,True,0
+gpqa-diamond-121-r01,gpqa-diamond-121,121,1,Chemistry,Organic Chemistry,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4511,722,5233,3584,927,5233,True,0
+gpqa-diamond-122-r01,gpqa-diamond-122,122,1,Physics,Relativistic Mechanics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4520,218,4738,3584,936,4738,True,0
+gpqa-diamond-123-r01,gpqa-diamond-123,123,1,Physics,Relativistic Mechanics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4470,406,4876,3584,886,4876,True,0
+gpqa-diamond-124-r01,gpqa-diamond-124,124,1,Physics,Quantum Mechanics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4548,184,4732,3584,964,4732,True,0
+gpqa-diamond-125-r01,gpqa-diamond-125,125,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4551,385,4936,3584,967,4936,True,0
+gpqa-diamond-126-r01,gpqa-diamond-126,126,1,Chemistry,Organic Chemistry,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4463,160,4623,3584,879,4623,True,0
+gpqa-diamond-127-r01,gpqa-diamond-127,127,1,Biology,Molecular Biology,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,True,1,0,False,6885,515,7400,3584,3301,7400,True,0
+gpqa-diamond-128-r01,gpqa-diamond-128,128,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4576,209,4785,3584,992,4785,True,0
+gpqa-diamond-129-r01,gpqa-diamond-129,129,1,Physics,Physics (general),codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4442,98,4540,3584,858,4540,True,0
+gpqa-diamond-130-r01,gpqa-diamond-130,130,1,Chemistry,Organic Chemistry,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4662,263,4925,3584,1078,4925,True,0
+gpqa-diamond-131-r01,gpqa-diamond-131,131,1,Chemistry,Chemistry (general),codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4630,274,4904,3584,1046,4904,True,0
+gpqa-diamond-132-r01,gpqa-diamond-132,132,1,Chemistry,Chemistry (general),codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4543,2281,6824,3584,959,6824,True,0
+gpqa-diamond-133-r01,gpqa-diamond-133,133,1,Chemistry,Chemistry (general),codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4443,270,4713,3584,859,4713,True,0
+gpqa-diamond-134-r01,gpqa-diamond-134,134,1,Physics,High-energy particle physics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4609,184,4793,3584,1025,4793,True,0
+gpqa-diamond-135-r01,gpqa-diamond-135,135,1,Physics,Electromagnetism and Photonics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4497,143,4640,3584,913,4640,True,0
+gpqa-diamond-136-r01,gpqa-diamond-136,136,1,Physics,High-energy particle physics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4524,204,4728,3584,940,4728,True,0
+gpqa-diamond-137-r01,gpqa-diamond-137,137,1,Chemistry,Chemistry (general),codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4490,46,4536,3584,906,4536,True,0
+gpqa-diamond-138-r01,gpqa-diamond-138,138,1,Chemistry,Organic Chemistry,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4583,179,4762,3584,999,4762,True,0
+gpqa-diamond-139-r01,gpqa-diamond-139,139,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4536,799,5335,3584,952,5335,True,0
+gpqa-diamond-140-r01,gpqa-diamond-140,140,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4416,134,4550,3584,832,4550,True,0
+gpqa-diamond-141-r01,gpqa-diamond-141,141,1,Physics,Quantum Mechanics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4460,79,4539,3584,876,4539,True,0
+gpqa-diamond-142-r01,gpqa-diamond-142,142,1,Chemistry,Organic Chemistry,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4697,132,4829,3584,1113,4829,True,0
+gpqa-diamond-143-r01,gpqa-diamond-143,143,1,Physics,High-energy particle physics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4474,179,4653,3584,890,4653,True,0
+gpqa-diamond-144-r01,gpqa-diamond-144,144,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4417,91,4508,3584,833,4508,True,0
+gpqa-diamond-145-r01,gpqa-diamond-145,145,1,Chemistry,Organic Chemistry,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4603,449,5052,3584,1019,5052,True,0
+gpqa-diamond-146-r01,gpqa-diamond-146,146,1,Physics,High-energy particle physics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4442,397,4839,3584,858,4839,True,0
+gpqa-diamond-147-r01,gpqa-diamond-147,147,1,Chemistry,Chemistry (general),codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4519,786,5305,3584,935,5305,True,0
+gpqa-diamond-148-r01,gpqa-diamond-148,148,1,Chemistry,Chemistry (general),codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4555,169,4724,3584,971,4724,True,0
+gpqa-diamond-149-r01,gpqa-diamond-149,149,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4551,392,4943,3584,967,4943,True,0
+gpqa-diamond-150-r01,gpqa-diamond-150,150,1,Physics,Quantum Mechanics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4513,239,4752,3584,929,4752,True,0
+gpqa-diamond-151-r01,gpqa-diamond-151,151,1,Biology,Molecular Biology,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4495,101,4596,3584,911,4596,True,0
+gpqa-diamond-152-r01,gpqa-diamond-152,152,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4806,268,5074,3584,1222,5074,True,0
+gpqa-diamond-153-r01,gpqa-diamond-153,153,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4541,179,4720,3584,957,4720,True,0
+gpqa-diamond-154-r01,gpqa-diamond-154,154,1,Physics,Quantum Mechanics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4718,156,4874,3584,1134,4874,True,0
+gpqa-diamond-155-r01,gpqa-diamond-155,155,1,Chemistry,Organic Chemistry,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4553,238,4791,3584,969,4791,True,0
+gpqa-diamond-156-r01,gpqa-diamond-156,156,1,Biology,Molecular Biology,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4520,42,4562,3584,936,4562,True,0
+gpqa-diamond-157-r01,gpqa-diamond-157,157,1,Biology,Genetics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4514,68,4582,3584,930,4582,True,0
+gpqa-diamond-158-r01,gpqa-diamond-158,158,1,Physics,Astrophysics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4523,201,4724,3584,939,4724,True,0
+gpqa-diamond-159-r01,gpqa-diamond-159,159,1,Physics,Optics and Acoustics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4503,155,4658,3584,919,4658,True,0
+gpqa-diamond-160-r01,gpqa-diamond-160,160,1,Physics,Relativistic Mechanics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4605,37,4642,3584,1021,4642,True,0
+gpqa-diamond-161-r01,gpqa-diamond-161,161,1,Physics,Relativistic Mechanics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4469,357,4826,3584,885,4826,True,0
+gpqa-diamond-162-r01,gpqa-diamond-162,162,1,Chemistry,Chemistry (general),codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4493,328,4821,3584,909,4821,True,0
+gpqa-diamond-163-r01,gpqa-diamond-163,163,1,Physics,Astrophysics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4543,336,4879,3584,959,4879,True,0
+gpqa-diamond-164-r01,gpqa-diamond-164,164,1,Chemistry,Chemistry (general),codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4583,132,4715,3584,999,4715,True,0
+gpqa-diamond-165-r01,gpqa-diamond-165,165,1,Physics,High-energy particle physics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,5078,61,5139,3584,1494,5139,True,0
+gpqa-diamond-166-r01,gpqa-diamond-166,166,1,Physics,Quantum Mechanics,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,True,1,0,False,4552,735,5287,3584,968,5287,True,0
+gpqa-diamond-167-r01,gpqa-diamond-167,167,1,Biology,Genetics,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4451,54,4505,3584,867,4505,True,0
+gpqa-diamond-168-r01,gpqa-diamond-168,168,1,Physics,Quantum Mechanics,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4534,79,4613,3584,950,4613,True,0
+gpqa-diamond-169-r01,gpqa-diamond-169,169,1,Physics,Quantum Mechanics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4458,168,4626,3584,874,4626,True,0
+gpqa-diamond-170-r01,gpqa-diamond-170,170,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4544,178,4722,3584,960,4722,True,0
+gpqa-diamond-171-r01,gpqa-diamond-171,171,1,Physics,Physics (general),codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4561,112,4673,3584,977,4673,True,0
+gpqa-diamond-172-r01,gpqa-diamond-172,172,1,Physics,Quantum Mechanics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4455,326,4781,3584,871,4781,True,0
+gpqa-diamond-173-r01,gpqa-diamond-173,173,1,Physics,Physics (general),codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4508,387,4895,3584,924,4895,True,0
+gpqa-diamond-174-r01,gpqa-diamond-174,174,1,Physics,Electromagnetism and Photonics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4528,143,4671,3584,944,4671,True,0
+gpqa-diamond-175-r01,gpqa-diamond-175,175,1,Physics,Quantum Mechanics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4590,273,4863,3584,1006,4863,True,0
+gpqa-diamond-176-r01,gpqa-diamond-176,176,1,Physics,Physics (general),codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4535,90,4625,3584,951,4625,True,0
+gpqa-diamond-177-r01,gpqa-diamond-177,177,1,Physics,High-energy particle physics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4523,143,4666,3584,939,4666,True,0
+gpqa-diamond-178-r01,gpqa-diamond-178,178,1,Physics,Quantum Mechanics,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4620,151,4771,3584,1036,4771,True,0
+gpqa-diamond-179-r01,gpqa-diamond-179,179,1,Physics,Physics (general),codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4476,275,4751,3584,892,4751,True,0
+gpqa-diamond-180-r01,gpqa-diamond-180,180,1,Physics,Astrophysics,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4578,78,4656,3584,994,4656,True,0
+gpqa-diamond-181-r01,gpqa-diamond-181,181,1,Physics,Condensed Matter Physics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4579,38,4617,3584,995,4617,True,0
+gpqa-diamond-182-r01,gpqa-diamond-182,182,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4426,323,4749,3584,842,4749,True,0
+gpqa-diamond-183-r01,gpqa-diamond-183,183,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4724,445,5169,3584,1140,5169,True,0
+gpqa-diamond-184-r01,gpqa-diamond-184,184,1,Physics,Quantum Mechanics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4477,67,4544,3584,893,4544,True,0
+gpqa-diamond-185-r01,gpqa-diamond-185,185,1,Chemistry,Organic Chemistry,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4503,127,4630,3584,919,4630,True,0
+gpqa-diamond-186-r01,gpqa-diamond-186,186,1,Physics,Astrophysics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4641,288,4929,3584,1057,4929,True,0
+gpqa-diamond-187-r01,gpqa-diamond-187,187,1,Physics,Physics (general),codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4454,165,4619,3584,870,4619,True,0
+gpqa-diamond-188-r01,gpqa-diamond-188,188,1,Physics,High-energy particle physics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4404,106,4510,3584,820,4510,True,0
+gpqa-diamond-189-r01,gpqa-diamond-189,189,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4605,153,4758,3584,1021,4758,True,0
+gpqa-diamond-190-r01,gpqa-diamond-190,190,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4572,365,4937,3584,988,4937,True,0
+gpqa-diamond-191-r01,gpqa-diamond-191,191,1,Physics,Electromagnetism and Photonics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4622,84,4706,3584,1038,4706,True,0
+gpqa-diamond-192-r01,gpqa-diamond-192,192,1,Physics,Astrophysics,codex,error,1,0,0,incorrect,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4445,47,4492,3584,861,4492,True,0
+gpqa-diamond-193-r01,gpqa-diamond-193,193,1,Physics,Physics (general),codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4522,130,4652,3584,938,4652,True,0
+gpqa-diamond-194-r01,gpqa-diamond-194,194,1,Physics,Astrophysics,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4515,1363,5878,3584,931,5878,True,0
+gpqa-diamond-195-r01,gpqa-diamond-195,195,1,Physics,Physics (general),codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4529,191,4720,3584,945,4720,True,0
+gpqa-diamond-196-r01,gpqa-diamond-196,196,1,Chemistry,Organic Chemistry,codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4563,250,4813,3584,979,4813,True,0
+gpqa-diamond-197-r01,gpqa-diamond-197,197,1,Chemistry,Chemistry (general),codex,error,1,1,1,correct,recorded_native_text_after_responses_schema_error,True,False,1,0,False,4493,274,4767,3584,909,4767,True,0
+gpqa-diamond-000-r01,gpqa-diamond-000,0,1,Physics,Physics (general),dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,262,216,478,0,262,478,True,0
+gpqa-diamond-001-r01,gpqa-diamond-001,1,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,270,327,597,0,270,597,True,0
+gpqa-diamond-002-r01,gpqa-diamond-002,2,1,Physics,Quantum Mechanics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,290,192,482,0,290,482,True,0
+gpqa-diamond-003-r01,gpqa-diamond-003,3,1,Physics,Electromagnetism and Photonics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,277,71,348,0,277,348,True,0
+gpqa-diamond-004-r01,gpqa-diamond-004,4,1,Physics,Quantum Mechanics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,488,244,732,0,488,732,True,0
+gpqa-diamond-005-r01,gpqa-diamond-005,5,1,Physics,Quantum Mechanics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,319,264,583,0,319,583,True,0
+gpqa-diamond-006-r01,gpqa-diamond-006,6,1,Physics,High-energy particle physics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,300,487,787,0,300,787,True,0
+gpqa-diamond-007-r01,gpqa-diamond-007,7,1,Biology,Genetics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,580,2419,2999,0,580,2999,True,0
+gpqa-diamond-008-r01,gpqa-diamond-008,8,1,Chemistry,Organic Chemistry,dsh,completed,0,0,0,incorrect,native_final,False,False,1,0,False,365,325,690,0,365,690,True,0
+gpqa-diamond-009-r01,gpqa-diamond-009,9,1,Physics,Astrophysics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,269,225,494,0,269,494,True,0
+gpqa-diamond-010-r01,gpqa-diamond-010,10,1,Biology,Molecular Biology,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,484,234,718,0,484,718,True,0
+gpqa-diamond-011-r01,gpqa-diamond-011,11,1,Physics,High-energy particle physics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,270,333,603,0,270,603,True,0
+gpqa-diamond-012-r01,gpqa-diamond-012,12,1,Chemistry,Organic Chemistry,dsh,completed,0,0,0,incorrect,native_final,False,False,1,0,False,431,1160,1591,0,431,1591,True,0
+gpqa-diamond-013-r01,gpqa-diamond-013,13,1,Biology,Molecular Biology,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,272,187,459,0,272,459,True,0
+gpqa-diamond-014-r01,gpqa-diamond-014,14,1,Physics,Physics (general),dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,421,275,696,0,421,696,True,0
+gpqa-diamond-015-r01,gpqa-diamond-015,15,1,Chemistry,Organic Chemistry,dsh,completed,0,0,0,incorrect,native_final,False,False,1,0,False,333,647,980,0,333,980,True,0
+gpqa-diamond-016-r01,gpqa-diamond-016,16,1,Chemistry,Chemistry (general),dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,273,396,669,0,273,669,True,0
+gpqa-diamond-017-r01,gpqa-diamond-017,17,1,Physics,Physics (general),dsh,completed,0,0,0,incorrect,native_final,False,False,1,0,False,355,278,633,0,355,633,True,0
+gpqa-diamond-018-r01,gpqa-diamond-018,18,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,610,578,1188,0,610,1188,True,0
+gpqa-diamond-019-r01,gpqa-diamond-019,19,1,Physics,Quantum Mechanics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,319,102,421,0,319,421,True,0
+gpqa-diamond-020-r01,gpqa-diamond-020,20,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,377,779,1156,0,377,1156,True,0
+gpqa-diamond-021-r01,gpqa-diamond-021,21,1,Chemistry,Chemistry (general),dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,258,107,365,0,258,365,True,0
+gpqa-diamond-022-r01,gpqa-diamond-022,22,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,367,3834,4201,0,367,4201,True,0
+gpqa-diamond-023-r01,gpqa-diamond-023,23,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,338,1041,1379,0,338,1379,True,0
+gpqa-diamond-024-r01,gpqa-diamond-024,24,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,456,400,856,0,456,856,True,0
+gpqa-diamond-025-r01,gpqa-diamond-025,25,1,Chemistry,Organic Chemistry,dsh,completed,0,0,0,incorrect,native_final,False,False,1,0,False,487,1446,1933,0,487,1933,True,0
+gpqa-diamond-026-r01,gpqa-diamond-026,26,1,Biology,Molecular Biology,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,281,110,391,0,281,391,True,0
+gpqa-diamond-027-r01,gpqa-diamond-027,27,1,Chemistry,Organic Chemistry,dsh,completed,0,0,0,incorrect,native_final,False,False,1,0,False,419,564,983,0,419,983,True,0
+gpqa-diamond-028-r01,gpqa-diamond-028,28,1,Biology,Genetics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,507,566,1073,0,507,1073,True,0
+gpqa-diamond-029-r01,gpqa-diamond-029,29,1,Chemistry,Organic Chemistry,dsh,completed,0,0,0,incorrect,native_final,False,False,1,0,False,220,91,311,0,220,311,True,0
+gpqa-diamond-030-r01,gpqa-diamond-030,30,1,Chemistry,Organic Chemistry,dsh,completed,0,0,0,incorrect,native_final,False,False,1,0,False,252,2323,2575,0,252,2575,True,0
+gpqa-diamond-031-r01,gpqa-diamond-031,31,1,Physics,High-energy particle physics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,262,575,837,0,262,837,True,0
+gpqa-diamond-032-r01,gpqa-diamond-032,32,1,Chemistry,Organic Chemistry,dsh,completed,0,0,0,incorrect,native_final,False,False,1,0,False,417,664,1081,0,417,1081,True,0
+gpqa-diamond-033-r01,gpqa-diamond-033,33,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,563,787,1350,0,563,1350,True,0
+gpqa-diamond-034-r01,gpqa-diamond-034,34,1,Physics,Physics (general),dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,433,617,1050,0,433,1050,True,0
+gpqa-diamond-035-r01,gpqa-diamond-035,35,1,Physics,Astrophysics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,271,454,725,0,271,725,True,0
+gpqa-diamond-036-r01,gpqa-diamond-036,36,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,285,573,858,0,285,858,True,0
+gpqa-diamond-037-r01,gpqa-diamond-037,37,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,415,274,689,0,415,689,True,0
+gpqa-diamond-038-r01,gpqa-diamond-038,38,1,Physics,Quantum Mechanics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,359,405,764,0,359,764,True,0
+gpqa-diamond-039-r01,gpqa-diamond-039,39,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,291,132,423,0,291,423,True,0
+gpqa-diamond-040-r01,gpqa-diamond-040,40,1,Physics,Relativistic Mechanics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,268,306,574,0,268,574,True,0
+gpqa-diamond-041-r01,gpqa-diamond-041,41,1,Physics,Astrophysics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,354,185,539,128,226,539,True,0
+gpqa-diamond-042-r01,gpqa-diamond-042,42,1,Chemistry,Organic Chemistry,dsh,completed,0,0,0,incorrect,native_final,False,False,1,0,False,361,547,908,0,361,908,True,0
+gpqa-diamond-043-r01,gpqa-diamond-043,43,1,Biology,Molecular Biology,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,406,275,681,0,406,681,True,0
+gpqa-diamond-044-r01,gpqa-diamond-044,44,1,Physics,Quantum Mechanics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,290,273,563,0,290,563,True,0
+gpqa-diamond-045-r01,gpqa-diamond-045,45,1,Chemistry,Organic Chemistry,dsh,completed,1,0,0,incorrect,native_final,False,True,1,0,True,220,4096,4316,0,220,4316,True,0
+gpqa-diamond-046-r01,gpqa-diamond-046,46,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,328,438,766,0,328,766,True,0
+gpqa-diamond-047-r01,gpqa-diamond-047,47,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,267,3130,3397,0,267,3397,True,0
+gpqa-diamond-048-r01,gpqa-diamond-048,48,1,Chemistry,Organic Chemistry,dsh,completed,0,0,0,incorrect,native_final,False,False,1,0,False,528,359,887,0,528,887,True,0
+gpqa-diamond-049-r01,gpqa-diamond-049,49,1,Physics,High-energy particle physics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,322,143,465,0,322,465,True,0
+gpqa-diamond-050-r01,gpqa-diamond-050,50,1,Physics,Electromagnetism and Photonics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,291,193,484,0,291,484,True,0
+gpqa-diamond-051-r01,gpqa-diamond-051,51,1,Physics,Astrophysics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,368,2603,2971,0,368,2971,True,0
+gpqa-diamond-052-r01,gpqa-diamond-052,52,1,Chemistry,Chemistry (general),dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,334,465,799,0,334,799,True,0
+gpqa-diamond-053-r01,gpqa-diamond-053,53,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,282,165,447,0,282,447,True,0
+gpqa-diamond-054-r01,gpqa-diamond-054,54,1,Chemistry,Chemistry (general),dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,311,288,599,0,311,599,True,0
+gpqa-diamond-055-r01,gpqa-diamond-055,55,1,Physics,Quantum Mechanics,dsh,completed,1,0,0,incorrect,native_final,False,True,1,0,True,358,4096,4454,0,358,4454,True,0
+gpqa-diamond-056-r01,gpqa-diamond-056,56,1,Physics,Quantum Mechanics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,294,1140,1434,0,294,1434,True,0
+gpqa-diamond-057-r01,gpqa-diamond-057,57,1,Physics,High-energy particle physics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,209,181,390,0,209,390,True,0
+gpqa-diamond-058-r01,gpqa-diamond-058,58,1,Chemistry,Chemistry (general),dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,245,540,785,0,245,785,True,0
+gpqa-diamond-059-r01,gpqa-diamond-059,59,1,Physics,Relativistic Mechanics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,317,1024,1341,0,317,1341,True,0
+gpqa-diamond-060-r01,gpqa-diamond-060,60,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,341,417,758,0,341,758,True,0
+gpqa-diamond-061-r01,gpqa-diamond-061,61,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,366,1376,1742,0,366,1742,True,0
+gpqa-diamond-062-r01,gpqa-diamond-062,62,1,Physics,Quantum Mechanics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,354,299,653,0,354,653,True,0
+gpqa-diamond-063-r01,gpqa-diamond-063,63,1,Chemistry,Inorganic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,351,1279,1630,0,351,1630,True,0
+gpqa-diamond-064-r01,gpqa-diamond-064,64,1,Chemistry,Organic Chemistry,dsh,completed,1,0,0,incorrect,native_final,False,True,1,0,True,408,4096,4504,128,280,4504,True,0
+gpqa-diamond-065-r01,gpqa-diamond-065,65,1,Physics,High-energy particle physics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,241,107,348,0,241,348,True,0
+gpqa-diamond-066-r01,gpqa-diamond-066,66,1,Physics,Quantum Mechanics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,362,335,697,0,362,697,True,0
+gpqa-diamond-067-r01,gpqa-diamond-067,67,1,Physics,Quantum Mechanics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,286,102,388,0,286,388,True,0
+gpqa-diamond-068-r01,gpqa-diamond-068,68,1,Physics,High-energy particle physics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,316,973,1289,0,316,1289,True,0
+gpqa-diamond-069-r01,gpqa-diamond-069,69,1,Chemistry,Chemistry (general),dsh,completed,1,0,0,incorrect,native_final,False,True,1,0,True,291,4096,4387,0,291,4387,True,0
+gpqa-diamond-070-r01,gpqa-diamond-070,70,1,Physics,Physics (general),dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,289,118,407,0,289,407,True,0
+gpqa-diamond-071-r01,gpqa-diamond-071,71,1,Chemistry,Organic Chemistry,dsh,completed,1,0,0,incorrect,native_final,False,True,1,0,True,308,4096,4404,0,308,4404,True,0
+gpqa-diamond-072-r01,gpqa-diamond-072,72,1,Physics,Relativistic Mechanics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,306,244,550,0,306,550,True,0
+gpqa-diamond-073-r01,gpqa-diamond-073,73,1,Physics,Physics (general),dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,282,166,448,0,282,448,True,0
+gpqa-diamond-074-r01,gpqa-diamond-074,74,1,Biology,Molecular Biology,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,701,647,1348,0,701,1348,True,0
+gpqa-diamond-075-r01,gpqa-diamond-075,75,1,Biology,Molecular Biology,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,330,247,577,0,330,577,True,0
+gpqa-diamond-076-r01,gpqa-diamond-076,76,1,Chemistry,Organic Chemistry,dsh,completed,0,0,0,incorrect,native_final,False,False,1,0,False,649,485,1134,0,649,1134,True,0
+gpqa-diamond-077-r01,gpqa-diamond-077,77,1,Physics,Electromagnetism and Photonics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,581,175,756,0,581,756,True,0
+gpqa-diamond-078-r01,gpqa-diamond-078,78,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,473,572,1045,0,473,1045,True,0
+gpqa-diamond-079-r01,gpqa-diamond-079,79,1,Biology,Molecular Biology,dsh,completed,1,0,0,incorrect,native_final,False,True,1,0,True,228,4096,4324,0,228,4324,True,0
+gpqa-diamond-080-r01,gpqa-diamond-080,80,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,361,480,841,0,361,841,True,0
+gpqa-diamond-081-r01,gpqa-diamond-081,81,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,890,850,1740,0,890,1740,True,0
+gpqa-diamond-082-r01,gpqa-diamond-082,82,1,Chemistry,Chemistry (general),dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,295,428,723,0,295,723,True,0
+gpqa-diamond-083-r01,gpqa-diamond-083,83,1,Physics,Physics (general),dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,248,73,321,0,248,321,True,0
+gpqa-diamond-084-r01,gpqa-diamond-084,84,1,Physics,Astrophysics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,398,1464,1862,0,398,1862,True,0
+gpqa-diamond-085-r01,gpqa-diamond-085,85,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,438,1178,1616,0,438,1616,True,0
+gpqa-diamond-086-r01,gpqa-diamond-086,86,1,Chemistry,Chemistry (general),dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,421,434,855,128,293,855,True,0
+gpqa-diamond-087-r01,gpqa-diamond-087,87,1,Biology,Molecular Biology,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,286,170,456,0,286,456,True,0
+gpqa-diamond-088-r01,gpqa-diamond-088,88,1,Chemistry,Organic Chemistry,dsh,completed,1,0,0,incorrect,native_final,False,True,1,0,True,363,4096,4459,0,363,4459,True,0
+gpqa-diamond-089-r01,gpqa-diamond-089,89,1,Chemistry,Organic Chemistry,dsh,completed,1,0,0,incorrect,native_final,False,True,1,0,True,310,4096,4406,0,310,4406,True,0
+gpqa-diamond-090-r01,gpqa-diamond-090,90,1,Chemistry,Organic Chemistry,dsh,completed,0,0,0,incorrect,native_final,False,False,1,0,False,340,473,813,0,340,813,True,0
+gpqa-diamond-091-r01,gpqa-diamond-091,91,1,Chemistry,Chemistry (general),dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,299,862,1161,0,299,1161,True,0
+gpqa-diamond-092-r01,gpqa-diamond-092,92,1,Biology,Molecular Biology,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,484,383,867,0,484,867,True,0
+gpqa-diamond-093-r01,gpqa-diamond-093,93,1,Chemistry,Organic Chemistry,dsh,completed,0,0,0,incorrect,native_final,False,False,1,0,False,310,1123,1433,0,310,1433,True,0
+gpqa-diamond-094-r01,gpqa-diamond-094,94,1,Chemistry,Organic Chemistry,dsh,completed,0,0,0,incorrect,native_final,False,False,1,0,False,369,874,1243,0,369,1243,True,0
+gpqa-diamond-095-r01,gpqa-diamond-095,95,1,Physics,Physics (general),dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,263,521,784,0,263,784,True,0
+gpqa-diamond-096-r01,gpqa-diamond-096,96,1,Biology,Molecular Biology,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,377,146,523,0,377,523,True,0
+gpqa-diamond-097-r01,gpqa-diamond-097,97,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,289,952,1241,0,289,1241,True,0
+gpqa-diamond-098-r01,gpqa-diamond-098,98,1,Chemistry,Chemistry (general),dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,455,1921,2376,0,455,2376,True,0
+gpqa-diamond-099-r01,gpqa-diamond-099,99,1,Chemistry,Organic Chemistry,dsh,completed,0,0,0,incorrect,native_final,False,False,1,0,False,340,890,1230,0,340,1230,True,0
+gpqa-diamond-100-r01,gpqa-diamond-100,100,1,Chemistry,Organic Chemistry,dsh,completed,0,0,0,incorrect,native_final,False,False,1,0,False,332,364,696,0,332,696,True,0
+gpqa-diamond-101-r01,gpqa-diamond-101,101,1,Biology,Molecular Biology,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,535,458,993,0,535,993,True,0
+gpqa-diamond-102-r01,gpqa-diamond-102,102,1,Chemistry,Organic Chemistry,dsh,completed,0,0,0,incorrect,native_final,False,False,1,0,False,450,752,1202,0,450,1202,True,0
+gpqa-diamond-103-r01,gpqa-diamond-103,103,1,Physics,Physics (general),dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,340,370,710,0,340,710,True,0
+gpqa-diamond-104-r01,gpqa-diamond-104,104,1,Physics,Astrophysics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,355,863,1218,0,355,1218,True,0
+gpqa-diamond-105-r01,gpqa-diamond-105,105,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,405,257,662,0,405,662,True,0
+gpqa-diamond-106-r01,gpqa-diamond-106,106,1,Biology,Molecular Biology,dsh,completed,0,0,0,incorrect,native_final,False,False,1,0,False,384,156,540,0,384,540,True,0
+gpqa-diamond-107-r01,gpqa-diamond-107,107,1,Physics,Quantum Mechanics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,296,218,514,0,296,514,True,0
+gpqa-diamond-108-r01,gpqa-diamond-108,108,1,Physics,Quantum Mechanics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,399,2188,2587,0,399,2587,True,0
+gpqa-diamond-109-r01,gpqa-diamond-109,109,1,Physics,Astrophysics,dsh,completed,0,0,0,incorrect,native_final,False,False,1,0,False,619,1694,2313,0,619,2313,True,0
+gpqa-diamond-110-r01,gpqa-diamond-110,110,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,420,498,918,0,420,918,True,0
+gpqa-diamond-111-r01,gpqa-diamond-111,111,1,Physics,Quantum Mechanics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,362,382,744,0,362,744,True,0
+gpqa-diamond-112-r01,gpqa-diamond-112,112,1,Chemistry,Chemistry (general),dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,345,328,673,0,345,673,True,0
+gpqa-diamond-113-r01,gpqa-diamond-113,113,1,Chemistry,Organic Chemistry,dsh,completed,0,0,0,incorrect,native_final,False,False,1,0,False,294,126,420,0,294,420,True,0
+gpqa-diamond-114-r01,gpqa-diamond-114,114,1,Physics,Physics (general),dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,297,336,633,0,297,633,True,0
+gpqa-diamond-115-r01,gpqa-diamond-115,115,1,Chemistry,Organic Chemistry,dsh,completed,1,0,0,incorrect,native_final,False,False,1,0,True,379,4096,4475,128,251,4475,True,0
+gpqa-diamond-116-r01,gpqa-diamond-116,116,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,336,354,690,0,336,690,True,0
+gpqa-diamond-117-r01,gpqa-diamond-117,117,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,272,241,513,0,272,513,True,0
+gpqa-diamond-118-r01,gpqa-diamond-118,118,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,433,537,970,0,433,970,True,0
+gpqa-diamond-119-r01,gpqa-diamond-119,119,1,Physics,Physics (general),dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,249,111,360,0,249,360,True,0
+gpqa-diamond-120-r01,gpqa-diamond-120,120,1,Chemistry,Organic Chemistry,dsh,completed,1,0,0,incorrect,native_final,False,True,1,0,True,404,4096,4500,0,404,4500,True,0
+gpqa-diamond-121-r01,gpqa-diamond-121,121,1,Chemistry,Organic Chemistry,dsh,completed,0,0,0,incorrect,native_final,False,False,1,0,False,320,418,738,0,320,738,True,0
+gpqa-diamond-122-r01,gpqa-diamond-122,122,1,Physics,Relativistic Mechanics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,326,221,547,0,326,547,True,0
+gpqa-diamond-123-r01,gpqa-diamond-123,123,1,Physics,Relativistic Mechanics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,275,370,645,0,275,645,True,0
+gpqa-diamond-124-r01,gpqa-diamond-124,124,1,Physics,Quantum Mechanics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,358,184,542,0,358,542,True,0
+gpqa-diamond-125-r01,gpqa-diamond-125,125,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,358,462,820,0,358,820,True,0
+gpqa-diamond-126-r01,gpqa-diamond-126,126,1,Chemistry,Organic Chemistry,dsh,completed,1,0,0,incorrect,native_final,False,True,1,0,True,268,4096,4364,0,268,4364,True,0
+gpqa-diamond-127-r01,gpqa-diamond-127,127,1,Biology,Molecular Biology,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,2691,1306,3997,0,2691,3997,True,0
+gpqa-diamond-128-r01,gpqa-diamond-128,128,1,Chemistry,Organic Chemistry,dsh,completed,1,0,0,incorrect,native_final,False,True,1,0,True,382,4096,4478,0,382,4478,True,0
+gpqa-diamond-129-r01,gpqa-diamond-129,129,1,Physics,Physics (general),dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,248,206,454,0,248,454,True,0
+gpqa-diamond-130-r01,gpqa-diamond-130,130,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,464,1498,1962,0,464,1962,True,0
+gpqa-diamond-131-r01,gpqa-diamond-131,131,1,Chemistry,Chemistry (general),dsh,completed,0,0,0,incorrect,native_final,False,False,1,0,False,439,649,1088,0,439,1088,True,0
+gpqa-diamond-132-r01,gpqa-diamond-132,132,1,Chemistry,Chemistry (general),dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,347,355,702,0,347,702,True,0
+gpqa-diamond-133-r01,gpqa-diamond-133,133,1,Chemistry,Chemistry (general),dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,248,582,830,0,248,830,True,0
+gpqa-diamond-134-r01,gpqa-diamond-134,134,1,Physics,High-energy particle physics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,417,372,789,0,417,789,True,0
+gpqa-diamond-135-r01,gpqa-diamond-135,135,1,Physics,Electromagnetism and Photonics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,304,191,495,0,304,495,True,0
+gpqa-diamond-136-r01,gpqa-diamond-136,136,1,Physics,High-energy particle physics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,330,783,1113,0,330,1113,True,0
+gpqa-diamond-137-r01,gpqa-diamond-137,137,1,Chemistry,Chemistry (general),dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,294,143,437,0,294,437,True,0
+gpqa-diamond-138-r01,gpqa-diamond-138,138,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,390,204,594,0,390,594,True,0
+gpqa-diamond-139-r01,gpqa-diamond-139,139,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,344,904,1248,0,344,1248,True,0
+gpqa-diamond-140-r01,gpqa-diamond-140,140,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,222,1606,1828,0,222,1828,True,0
+gpqa-diamond-141-r01,gpqa-diamond-141,141,1,Physics,Quantum Mechanics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,266,114,380,0,266,380,True,0
+gpqa-diamond-142-r01,gpqa-diamond-142,142,1,Chemistry,Organic Chemistry,dsh,completed,0,0,0,incorrect,native_final,False,False,1,0,False,503,509,1012,0,503,1012,True,0
+gpqa-diamond-143-r01,gpqa-diamond-143,143,1,Physics,High-energy particle physics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,282,259,541,0,282,541,True,0
+gpqa-diamond-144-r01,gpqa-diamond-144,144,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,224,577,801,0,224,801,True,0
+gpqa-diamond-145-r01,gpqa-diamond-145,145,1,Chemistry,Organic Chemistry,dsh,completed,0,0,0,incorrect,native_final,False,False,1,0,False,410,266,676,0,410,676,True,0
+gpqa-diamond-146-r01,gpqa-diamond-146,146,1,Physics,High-energy particle physics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,251,393,644,0,251,644,True,0
+gpqa-diamond-147-r01,gpqa-diamond-147,147,1,Chemistry,Chemistry (general),dsh,completed,1,0,0,incorrect,native_final,False,True,1,0,True,325,4096,4421,0,325,4421,True,0
+gpqa-diamond-148-r01,gpqa-diamond-148,148,1,Chemistry,Chemistry (general),dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,363,201,564,0,363,564,True,0
+gpqa-diamond-149-r01,gpqa-diamond-149,149,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,358,588,946,0,358,946,True,0
+gpqa-diamond-150-r01,gpqa-diamond-150,150,1,Physics,Quantum Mechanics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,319,234,553,0,319,553,True,0
+gpqa-diamond-151-r01,gpqa-diamond-151,151,1,Biology,Molecular Biology,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,302,98,400,0,302,400,True,0
+gpqa-diamond-152-r01,gpqa-diamond-152,152,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,616,473,1089,0,616,1089,True,0
+gpqa-diamond-153-r01,gpqa-diamond-153,153,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,345,328,673,0,345,673,True,0
+gpqa-diamond-154-r01,gpqa-diamond-154,154,1,Physics,Quantum Mechanics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,524,327,851,0,524,851,True,0
+gpqa-diamond-155-r01,gpqa-diamond-155,155,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,361,339,700,0,361,700,True,0
+gpqa-diamond-156-r01,gpqa-diamond-156,156,1,Biology,Molecular Biology,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,328,111,439,0,328,439,True,0
+gpqa-diamond-157-r01,gpqa-diamond-157,157,1,Biology,Genetics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,321,252,573,0,321,573,True,0
+gpqa-diamond-158-r01,gpqa-diamond-158,158,1,Physics,Astrophysics,dsh,completed,0,0,0,incorrect,native_final,False,False,1,0,False,330,164,494,0,330,494,True,0
+gpqa-diamond-159-r01,gpqa-diamond-159,159,1,Physics,Optics and Acoustics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,310,641,951,0,310,951,True,0
+gpqa-diamond-160-r01,gpqa-diamond-160,160,1,Physics,Relativistic Mechanics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,414,138,552,0,414,552,True,0
+gpqa-diamond-161-r01,gpqa-diamond-161,161,1,Physics,Relativistic Mechanics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,276,215,491,0,276,491,True,0
+gpqa-diamond-162-r01,gpqa-diamond-162,162,1,Chemistry,Chemistry (general),dsh,completed,0,0,0,incorrect,native_final,False,False,1,0,False,297,770,1067,0,297,1067,True,0
+gpqa-diamond-163-r01,gpqa-diamond-163,163,1,Physics,Astrophysics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,352,629,981,0,352,981,True,0
+gpqa-diamond-164-r01,gpqa-diamond-164,164,1,Chemistry,Chemistry (general),dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,391,241,632,0,391,632,True,0
+gpqa-diamond-165-r01,gpqa-diamond-165,165,1,Physics,High-energy particle physics,dsh,completed,0,0,0,incorrect,native_final,False,False,1,0,False,886,332,1218,0,886,1218,True,0
+gpqa-diamond-166-r01,gpqa-diamond-166,166,1,Physics,Quantum Mechanics,dsh,completed,1,0,0,incorrect,native_final,False,True,1,0,True,359,4096,4455,0,359,4455,True,0
+gpqa-diamond-167-r01,gpqa-diamond-167,167,1,Biology,Genetics,dsh,completed,0,0,0,incorrect,native_final,False,False,1,0,False,261,230,491,0,261,491,True,0
+gpqa-diamond-168-r01,gpqa-diamond-168,168,1,Physics,Quantum Mechanics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,341,997,1338,0,341,1338,True,0
+gpqa-diamond-169-r01,gpqa-diamond-169,169,1,Physics,Quantum Mechanics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,264,281,545,0,264,545,True,0
+gpqa-diamond-170-r01,gpqa-diamond-170,170,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,351,3698,4049,0,351,4049,True,0
+gpqa-diamond-171-r01,gpqa-diamond-171,171,1,Physics,Physics (general),dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,369,235,604,0,369,604,True,0
+gpqa-diamond-172-r01,gpqa-diamond-172,172,1,Physics,Quantum Mechanics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,262,338,600,0,262,600,True,0
+gpqa-diamond-173-r01,gpqa-diamond-173,173,1,Physics,Physics (general),dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,319,654,973,0,319,973,True,0
+gpqa-diamond-174-r01,gpqa-diamond-174,174,1,Physics,Electromagnetism and Photonics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,335,217,552,0,335,552,True,0
+gpqa-diamond-175-r01,gpqa-diamond-175,175,1,Physics,Quantum Mechanics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,400,631,1031,0,400,1031,True,0
+gpqa-diamond-176-r01,gpqa-diamond-176,176,1,Physics,Physics (general),dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,340,538,878,0,340,878,True,0
+gpqa-diamond-177-r01,gpqa-diamond-177,177,1,Physics,High-energy particle physics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,331,142,473,0,331,473,True,0
+gpqa-diamond-178-r01,gpqa-diamond-178,178,1,Physics,Quantum Mechanics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,426,1131,1557,0,426,1557,True,0
+gpqa-diamond-179-r01,gpqa-diamond-179,179,1,Physics,Physics (general),dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,281,587,868,0,281,868,True,0
+gpqa-diamond-180-r01,gpqa-diamond-180,180,1,Physics,Astrophysics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,388,211,599,0,388,599,True,0
+gpqa-diamond-181-r01,gpqa-diamond-181,181,1,Physics,Condensed Matter Physics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,388,149,537,0,388,537,True,0
+gpqa-diamond-182-r01,gpqa-diamond-182,182,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,230,919,1149,0,230,1149,True,0
+gpqa-diamond-183-r01,gpqa-diamond-183,183,1,Chemistry,Organic Chemistry,dsh,completed,1,0,0,incorrect,native_final,False,True,1,0,True,529,4096,4625,0,529,4625,True,0
+gpqa-diamond-184-r01,gpqa-diamond-184,184,1,Physics,Quantum Mechanics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,283,70,353,0,283,353,True,0
+gpqa-diamond-185-r01,gpqa-diamond-185,185,1,Chemistry,Organic Chemistry,dsh,completed,0,0,0,incorrect,native_final,False,False,1,0,False,311,556,867,0,311,867,True,0
+gpqa-diamond-186-r01,gpqa-diamond-186,186,1,Physics,Astrophysics,dsh,completed,0,0,0,incorrect,native_final,False,False,1,0,False,449,394,843,0,449,843,True,0
+gpqa-diamond-187-r01,gpqa-diamond-187,187,1,Physics,Physics (general),dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,257,353,610,0,257,610,True,0
+gpqa-diamond-188-r01,gpqa-diamond-188,188,1,Physics,High-energy particle physics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,210,145,355,0,210,355,True,0
+gpqa-diamond-189-r01,gpqa-diamond-189,189,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,413,637,1050,0,413,1050,True,0
+gpqa-diamond-190-r01,gpqa-diamond-190,190,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,381,350,731,0,381,731,True,0
+gpqa-diamond-191-r01,gpqa-diamond-191,191,1,Physics,Electromagnetism and Photonics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,429,124,553,0,429,553,True,0
+gpqa-diamond-192-r01,gpqa-diamond-192,192,1,Physics,Astrophysics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,253,107,360,0,253,360,True,0
+gpqa-diamond-193-r01,gpqa-diamond-193,193,1,Physics,Physics (general),dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,328,193,521,0,328,521,True,0
+gpqa-diamond-194-r01,gpqa-diamond-194,194,1,Physics,Astrophysics,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,324,2695,3019,0,324,3019,True,0
+gpqa-diamond-195-r01,gpqa-diamond-195,195,1,Physics,Physics (general),dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,334,173,507,0,334,507,True,0
+gpqa-diamond-196-r01,gpqa-diamond-196,196,1,Chemistry,Organic Chemistry,dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,370,341,711,0,370,711,True,0
+gpqa-diamond-197-r01,gpqa-diamond-197,197,1,Chemistry,Chemistry (general),dsh,completed,0,1,1,correct,native_final,False,False,1,0,False,303,437,740,0,303,740,True,0
+gpqa-diamond-000-r01,gpqa-diamond-000,0,1,Physics,Physics (general),pi,completed,0,1,1,correct,native_final,False,False,1,0,False,613,126,739,256,357,739,True,0
+gpqa-diamond-001-r01,gpqa-diamond-001,1,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,622,250,872,256,366,872,True,0
+gpqa-diamond-002-r01,gpqa-diamond-002,2,1,Physics,Quantum Mechanics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,643,143,786,256,387,786,True,0
+gpqa-diamond-003-r01,gpqa-diamond-003,3,1,Physics,Electromagnetism and Photonics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,631,122,753,256,375,753,True,0
+gpqa-diamond-004-r01,gpqa-diamond-004,4,1,Physics,Quantum Mechanics,pi,error,0,1,1,correct,recorded_native_message_without_agent_end,True,False,1,0,False,844,190,1034,256,588,1034,True,0
+gpqa-diamond-005-r01,gpqa-diamond-005,5,1,Physics,Quantum Mechanics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,672,174,846,256,416,846,True,0
+gpqa-diamond-006-r01,gpqa-diamond-006,6,1,Physics,High-energy particle physics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,654,155,809,256,398,809,True,0
+gpqa-diamond-007-r01,gpqa-diamond-007,7,1,Biology,Genetics,pi,completed,0,0,0,incorrect,native_final,False,False,1,0,False,934,626,1560,256,678,1560,True,0
+gpqa-diamond-008-r01,gpqa-diamond-008,8,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,719,228,947,256,463,947,True,0
+gpqa-diamond-009-r01,gpqa-diamond-009,9,1,Physics,Astrophysics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,623,195,818,256,367,818,True,0
+gpqa-diamond-010-r01,gpqa-diamond-010,10,1,Biology,Molecular Biology,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,839,276,1115,256,583,1115,True,0
+gpqa-diamond-011-r01,gpqa-diamond-011,11,1,Physics,High-energy particle physics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,624,390,1014,256,368,1014,True,0
+gpqa-diamond-012-r01,gpqa-diamond-012,12,1,Chemistry,Organic Chemistry,pi,completed,0,0,0,incorrect,truncated_generation_without_native_success,False,True,1,0,True,784,4096,4880,256,528,4880,True,0
+gpqa-diamond-013-r01,gpqa-diamond-013,13,1,Biology,Molecular Biology,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,624,299,923,256,368,923,True,0
+gpqa-diamond-014-r01,gpqa-diamond-014,14,1,Physics,Physics (general),pi,completed,0,1,1,correct,native_final,False,False,1,0,False,774,300,1074,256,518,1074,True,0
+gpqa-diamond-015-r01,gpqa-diamond-015,15,1,Chemistry,Organic Chemistry,pi,completed,0,0,0,incorrect,native_final,False,False,1,0,False,687,672,1359,256,431,1359,True,0
+gpqa-diamond-016-r01,gpqa-diamond-016,16,1,Chemistry,Chemistry (general),pi,completed,0,1,1,correct,native_final,False,False,1,0,False,626,137,763,256,370,763,True,0
+gpqa-diamond-017-r01,gpqa-diamond-017,17,1,Physics,Physics (general),pi,completed,0,0,0,incorrect,native_final,False,False,1,0,False,709,514,1223,256,453,1223,True,0
+gpqa-diamond-018-r01,gpqa-diamond-018,18,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,962,447,1409,256,706,1409,True,0
+gpqa-diamond-019-r01,gpqa-diamond-019,19,1,Physics,Quantum Mechanics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,672,64,736,256,416,736,True,0
+gpqa-diamond-020-r01,gpqa-diamond-020,20,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,731,335,1066,256,475,1066,True,0
+gpqa-diamond-021-r01,gpqa-diamond-021,21,1,Chemistry,Chemistry (general),pi,completed,0,1,1,correct,native_final,False,False,1,0,False,611,115,726,256,355,726,True,0
+gpqa-diamond-022-r01,gpqa-diamond-022,22,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,722,2919,3641,256,466,3641,True,0
+gpqa-diamond-023-r01,gpqa-diamond-023,23,1,Chemistry,Organic Chemistry,pi,completed,0,0,0,incorrect,truncated_generation_without_native_success,False,True,1,0,True,692,4096,4788,256,436,4788,True,0
+gpqa-diamond-024-r01,gpqa-diamond-024,24,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,806,325,1131,256,550,1131,True,0
+gpqa-diamond-025-r01,gpqa-diamond-025,25,1,Chemistry,Organic Chemistry,pi,completed,0,0,0,incorrect,native_final,False,False,1,0,False,839,997,1836,256,583,1836,True,0
+gpqa-diamond-026-r01,gpqa-diamond-026,26,1,Biology,Molecular Biology,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,633,57,690,256,377,690,True,0
+gpqa-diamond-027-r01,gpqa-diamond-027,27,1,Chemistry,Organic Chemistry,pi,completed,0,0,0,incorrect,native_final,False,False,1,0,False,772,688,1460,256,516,1460,True,0
+gpqa-diamond-028-r01,gpqa-diamond-028,28,1,Biology,Genetics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,859,971,1830,256,603,1830,True,0
+gpqa-diamond-029-r01,gpqa-diamond-029,29,1,Chemistry,Organic Chemistry,pi,completed,0,0,0,incorrect,native_final,False,False,1,0,False,574,2347,2921,256,318,2921,True,0
+gpqa-diamond-030-r01,gpqa-diamond-030,30,1,Chemistry,Organic Chemistry,pi,completed,0,0,0,incorrect,native_final,False,False,1,0,False,605,1071,1676,256,349,1676,True,0
+gpqa-diamond-031-r01,gpqa-diamond-031,31,1,Physics,High-energy particle physics,pi,completed,0,0,0,incorrect,native_final,False,False,1,0,False,614,800,1414,256,358,1414,True,0
+gpqa-diamond-032-r01,gpqa-diamond-032,32,1,Chemistry,Organic Chemistry,pi,completed,0,0,0,incorrect,native_final,False,False,1,0,False,771,237,1008,256,515,1008,True,0
+gpqa-diamond-033-r01,gpqa-diamond-033,33,1,Chemistry,Organic Chemistry,pi,completed,0,0,0,incorrect,native_final,False,False,1,0,False,916,552,1468,256,660,1468,True,0
+gpqa-diamond-034-r01,gpqa-diamond-034,34,1,Physics,Physics (general),pi,completed,0,1,1,correct,native_final,False,False,1,0,False,785,342,1127,256,529,1127,True,0
+gpqa-diamond-035-r01,gpqa-diamond-035,35,1,Physics,Astrophysics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,626,413,1039,256,370,1039,True,0
+gpqa-diamond-036-r01,gpqa-diamond-036,36,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,638,757,1395,256,382,1395,True,0
+gpqa-diamond-037-r01,gpqa-diamond-037,37,1,Chemistry,Organic Chemistry,pi,completed,0,0,0,incorrect,native_final,False,False,1,0,False,767,490,1257,256,511,1257,True,0
+gpqa-diamond-038-r01,gpqa-diamond-038,38,1,Physics,Quantum Mechanics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,712,178,890,256,456,890,True,0
+gpqa-diamond-039-r01,gpqa-diamond-039,39,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,647,41,688,256,391,688,True,0
+gpqa-diamond-040-r01,gpqa-diamond-040,40,1,Physics,Relativistic Mechanics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,620,75,695,256,364,695,True,0
+gpqa-diamond-041-r01,gpqa-diamond-041,41,1,Physics,Astrophysics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,706,190,896,256,450,896,True,0
+gpqa-diamond-042-r01,gpqa-diamond-042,42,1,Chemistry,Organic Chemistry,pi,completed,0,0,0,incorrect,native_final,False,False,1,0,False,716,355,1071,256,460,1071,True,0
+gpqa-diamond-043-r01,gpqa-diamond-043,43,1,Biology,Molecular Biology,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,762,307,1069,256,506,1069,True,0
+gpqa-diamond-044-r01,gpqa-diamond-044,44,1,Physics,Quantum Mechanics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,643,316,959,256,387,959,True,0
+gpqa-diamond-045-r01,gpqa-diamond-045,45,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,574,408,982,256,318,982,True,0
+gpqa-diamond-046-r01,gpqa-diamond-046,46,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,678,363,1041,256,422,1041,True,0
+gpqa-diamond-047-r01,gpqa-diamond-047,47,1,Chemistry,Organic Chemistry,pi,completed,0,0,0,incorrect,truncated_generation_without_native_success,False,True,1,0,True,620,4096,4716,256,364,4716,True,0
+gpqa-diamond-048-r01,gpqa-diamond-048,48,1,Chemistry,Organic Chemistry,pi,completed,0,0,0,incorrect,native_final,False,False,1,0,False,880,305,1185,256,624,1185,True,0
+gpqa-diamond-049-r01,gpqa-diamond-049,49,1,Physics,High-energy particle physics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,676,367,1043,256,420,1043,True,0
+gpqa-diamond-050-r01,gpqa-diamond-050,50,1,Physics,Electromagnetism and Photonics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,645,131,776,256,389,776,True,0
+gpqa-diamond-051-r01,gpqa-diamond-051,51,1,Physics,Astrophysics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,719,409,1128,256,463,1128,True,0
+gpqa-diamond-052-r01,gpqa-diamond-052,52,1,Chemistry,Chemistry (general),pi,completed,0,1,1,correct,native_final,False,False,1,0,False,688,987,1675,256,432,1675,True,0
+gpqa-diamond-053-r01,gpqa-diamond-053,53,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,636,233,869,256,380,869,True,0
+gpqa-diamond-054-r01,gpqa-diamond-054,54,1,Chemistry,Chemistry (general),pi,completed,0,1,1,correct,native_final,False,False,1,0,False,663,407,1070,256,407,1070,True,0
+gpqa-diamond-055-r01,gpqa-diamond-055,55,1,Physics,Quantum Mechanics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,713,216,929,256,457,929,True,0
+gpqa-diamond-056-r01,gpqa-diamond-056,56,1,Physics,Quantum Mechanics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,647,966,1613,256,391,1613,True,0
+gpqa-diamond-057-r01,gpqa-diamond-057,57,1,Physics,High-energy particle physics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,564,265,829,256,308,829,True,0
+gpqa-diamond-058-r01,gpqa-diamond-058,58,1,Chemistry,Chemistry (general),pi,completed,0,1,1,correct,native_final,False,False,1,0,False,598,244,842,256,342,842,True,0
+gpqa-diamond-059-r01,gpqa-diamond-059,59,1,Physics,Relativistic Mechanics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,671,192,863,256,415,863,True,0
+gpqa-diamond-060-r01,gpqa-diamond-060,60,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,696,406,1102,256,440,1102,True,0
+gpqa-diamond-061-r01,gpqa-diamond-061,61,1,Chemistry,Organic Chemistry,pi,completed,0,0,0,incorrect,truncated_generation_without_native_success,False,True,1,0,True,718,4096,4814,256,462,4814,True,0
+gpqa-diamond-062-r01,gpqa-diamond-062,62,1,Physics,Quantum Mechanics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,707,630,1337,256,451,1337,True,0
+gpqa-diamond-063-r01,gpqa-diamond-063,63,1,Chemistry,Inorganic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,706,1649,2355,256,450,2355,True,0
+gpqa-diamond-064-r01,gpqa-diamond-064,64,1,Chemistry,Organic Chemistry,pi,completed,0,0,0,incorrect,native_final,False,False,1,0,False,760,708,1468,256,504,1468,True,0
+gpqa-diamond-065-r01,gpqa-diamond-065,65,1,Physics,High-energy particle physics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,595,34,629,256,339,629,True,0
+gpqa-diamond-066-r01,gpqa-diamond-066,66,1,Physics,Quantum Mechanics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,714,262,976,256,458,976,True,0
+gpqa-diamond-067-r01,gpqa-diamond-067,67,1,Physics,Quantum Mechanics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,641,146,787,256,385,787,True,0
+gpqa-diamond-068-r01,gpqa-diamond-068,68,1,Physics,High-energy particle physics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,667,243,910,256,411,910,True,0
+gpqa-diamond-069-r01,gpqa-diamond-069,69,1,Chemistry,Chemistry (general),pi,completed,0,0,0,incorrect,truncated_generation_without_native_success,False,True,1,0,True,642,4096,4738,256,386,4738,True,0
+gpqa-diamond-070-r01,gpqa-diamond-070,70,1,Physics,Physics (general),pi,completed,0,1,1,correct,native_final,False,False,1,0,False,643,89,732,256,387,732,True,0
+gpqa-diamond-071-r01,gpqa-diamond-071,71,1,Chemistry,Organic Chemistry,pi,completed,0,0,0,incorrect,truncated_generation_without_native_success,False,True,1,0,True,662,4096,4758,256,406,4758,True,0
+gpqa-diamond-072-r01,gpqa-diamond-072,72,1,Physics,Relativistic Mechanics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,658,177,835,256,402,835,True,0
+gpqa-diamond-073-r01,gpqa-diamond-073,73,1,Physics,Physics (general),pi,completed,0,1,1,correct,native_final,False,False,1,0,False,635,159,794,256,379,794,True,0
+gpqa-diamond-074-r01,gpqa-diamond-074,74,1,Biology,Molecular Biology,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,1051,480,1531,256,795,1531,True,0
+gpqa-diamond-075-r01,gpqa-diamond-075,75,1,Biology,Molecular Biology,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,683,460,1143,256,427,1143,True,0
+gpqa-diamond-076-r01,gpqa-diamond-076,76,1,Chemistry,Organic Chemistry,pi,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1002,429,1431,256,746,1431,True,0
+gpqa-diamond-077-r01,gpqa-diamond-077,77,1,Physics,Electromagnetism and Photonics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,937,136,1073,256,681,1073,True,0
+gpqa-diamond-078-r01,gpqa-diamond-078,78,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,824,757,1581,256,568,1581,True,0
+gpqa-diamond-079-r01,gpqa-diamond-079,79,1,Biology,Molecular Biology,pi,completed,0,0,0,incorrect,truncated_generation_without_native_success,False,True,1,0,True,581,4096,4677,256,325,4677,True,0
+gpqa-diamond-080-r01,gpqa-diamond-080,80,1,Chemistry,Organic Chemistry,pi,completed,0,0,0,incorrect,native_final,False,False,1,0,False,714,442,1156,256,458,1156,True,0
+gpqa-diamond-081-r01,gpqa-diamond-081,81,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,1243,554,1797,256,987,1797,True,0
+gpqa-diamond-082-r01,gpqa-diamond-082,82,1,Chemistry,Chemistry (general),pi,completed,0,1,1,correct,native_final,False,False,1,0,False,645,379,1024,256,389,1024,True,0
+gpqa-diamond-083-r01,gpqa-diamond-083,83,1,Physics,Physics (general),pi,completed,0,1,1,correct,native_final,False,False,1,0,False,601,64,665,256,345,665,True,0
+gpqa-diamond-084-r01,gpqa-diamond-084,84,1,Physics,Astrophysics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,751,572,1323,256,495,1323,True,0
+gpqa-diamond-085-r01,gpqa-diamond-085,85,1,Chemistry,Organic Chemistry,pi,completed,0,0,0,incorrect,native_final,False,False,1,0,False,791,1172,1963,256,535,1963,True,0
+gpqa-diamond-086-r01,gpqa-diamond-086,86,1,Chemistry,Chemistry (general),pi,completed,0,1,1,correct,native_final,False,False,1,0,False,777,501,1278,256,521,1278,True,0
+gpqa-diamond-087-r01,gpqa-diamond-087,87,1,Biology,Molecular Biology,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,639,187,826,256,383,826,True,0
+gpqa-diamond-088-r01,gpqa-diamond-088,88,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,719,915,1634,256,463,1634,True,0
+gpqa-diamond-089-r01,gpqa-diamond-089,89,1,Chemistry,Organic Chemistry,pi,completed,0,0,0,incorrect,native_final,False,False,1,0,False,663,1132,1795,256,407,1795,True,0
+gpqa-diamond-090-r01,gpqa-diamond-090,90,1,Chemistry,Organic Chemistry,pi,completed,0,0,0,incorrect,native_final,False,False,1,0,False,691,298,989,256,435,989,True,0
+gpqa-diamond-091-r01,gpqa-diamond-091,91,1,Chemistry,Chemistry (general),pi,completed,0,1,1,correct,native_final,False,False,1,0,False,652,901,1553,256,396,1553,True,0
+gpqa-diamond-092-r01,gpqa-diamond-092,92,1,Biology,Molecular Biology,pi,completed,0,0,0,incorrect,native_final,False,False,1,0,False,837,460,1297,256,581,1297,True,0
+gpqa-diamond-093-r01,gpqa-diamond-093,93,1,Chemistry,Organic Chemistry,pi,completed,0,0,0,incorrect,truncated_generation_without_native_success,False,True,1,0,True,663,4096,4759,256,407,4759,True,0
+gpqa-diamond-094-r01,gpqa-diamond-094,94,1,Chemistry,Organic Chemistry,pi,completed,0,0,0,incorrect,truncated_generation_without_native_success,False,True,1,0,True,725,4096,4821,256,469,4821,True,0
+gpqa-diamond-095-r01,gpqa-diamond-095,95,1,Physics,Physics (general),pi,completed,0,1,1,correct,native_final,False,False,1,0,False,616,550,1166,256,360,1166,True,0
+gpqa-diamond-096-r01,gpqa-diamond-096,96,1,Biology,Molecular Biology,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,730,66,796,256,474,796,True,0
+gpqa-diamond-097-r01,gpqa-diamond-097,97,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,642,522,1164,256,386,1164,True,0
+gpqa-diamond-098-r01,gpqa-diamond-098,98,1,Chemistry,Chemistry (general),pi,completed,0,1,1,correct,native_final,False,False,1,0,False,810,789,1599,256,554,1599,True,0
+gpqa-diamond-099-r01,gpqa-diamond-099,99,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,693,751,1444,256,437,1444,True,0
+gpqa-diamond-100-r01,gpqa-diamond-100,100,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,685,144,829,256,429,829,True,0
+gpqa-diamond-101-r01,gpqa-diamond-101,101,1,Biology,Molecular Biology,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,886,464,1350,256,630,1350,True,0
+gpqa-diamond-102-r01,gpqa-diamond-102,102,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,803,2333,3136,256,547,3136,True,0
+gpqa-diamond-103-r01,gpqa-diamond-103,103,1,Physics,Physics (general),pi,completed,0,1,1,correct,native_final,False,False,1,0,False,693,326,1019,256,437,1019,True,0
+gpqa-diamond-104-r01,gpqa-diamond-104,104,1,Physics,Astrophysics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,707,413,1120,256,451,1120,True,0
+gpqa-diamond-105-r01,gpqa-diamond-105,105,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,758,236,994,256,502,994,True,0
+gpqa-diamond-106-r01,gpqa-diamond-106,106,1,Biology,Molecular Biology,pi,completed,0,0,0,incorrect,native_final,False,False,1,0,False,738,164,902,256,482,902,True,0
+gpqa-diamond-107-r01,gpqa-diamond-107,107,1,Physics,Quantum Mechanics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,648,230,878,256,392,878,True,0
+gpqa-diamond-108-r01,gpqa-diamond-108,108,1,Physics,Quantum Mechanics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,754,706,1460,256,498,1460,True,0
+gpqa-diamond-109-r01,gpqa-diamond-109,109,1,Physics,Astrophysics,pi,completed,0,1,1,correct,truncated_generation_without_native_success,False,False,1,0,True,973,4096,5069,256,717,5069,True,0
+gpqa-diamond-110-r01,gpqa-diamond-110,110,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,773,1080,1853,256,517,1853,True,0
+gpqa-diamond-111-r01,gpqa-diamond-111,111,1,Physics,Quantum Mechanics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,717,396,1113,256,461,1113,True,0
+gpqa-diamond-112-r01,gpqa-diamond-112,112,1,Chemistry,Chemistry (general),pi,completed,0,1,1,correct,native_final,False,False,1,0,False,699,365,1064,256,443,1064,True,0
+gpqa-diamond-113-r01,gpqa-diamond-113,113,1,Chemistry,Organic Chemistry,pi,completed,0,0,0,incorrect,native_final,False,False,1,0,False,647,206,853,256,391,853,True,0
+gpqa-diamond-114-r01,gpqa-diamond-114,114,1,Physics,Physics (general),pi,completed,0,1,1,correct,native_final,False,False,1,0,False,650,216,866,256,394,866,True,0
+gpqa-diamond-115-r01,gpqa-diamond-115,115,1,Chemistry,Organic Chemistry,pi,completed,0,0,0,incorrect,truncated_generation_without_native_success,False,True,1,0,True,732,4096,4828,256,476,4828,True,0
+gpqa-diamond-116-r01,gpqa-diamond-116,116,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,690,338,1028,256,434,1028,True,0
+gpqa-diamond-117-r01,gpqa-diamond-117,117,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,626,174,800,256,370,800,True,0
+gpqa-diamond-118-r01,gpqa-diamond-118,118,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,786,597,1383,256,530,1383,True,0
+gpqa-diamond-119-r01,gpqa-diamond-119,119,1,Physics,Physics (general),pi,completed,0,1,1,correct,native_final,False,False,1,0,False,603,87,690,256,347,690,True,0
+gpqa-diamond-120-r01,gpqa-diamond-120,120,1,Chemistry,Organic Chemistry,pi,completed,0,0,0,incorrect,truncated_generation_without_native_success,False,True,1,0,True,756,4096,4852,256,500,4852,True,0
+gpqa-diamond-121-r01,gpqa-diamond-121,121,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,672,457,1129,256,416,1129,True,0
+gpqa-diamond-122-r01,gpqa-diamond-122,122,1,Physics,Relativistic Mechanics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,680,503,1183,256,424,1183,True,0
+gpqa-diamond-123-r01,gpqa-diamond-123,123,1,Physics,Relativistic Mechanics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,631,185,816,256,375,816,True,0
+gpqa-diamond-124-r01,gpqa-diamond-124,124,1,Physics,Quantum Mechanics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,711,111,822,256,455,822,True,0
+gpqa-diamond-125-r01,gpqa-diamond-125,125,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,711,408,1119,256,455,1119,True,0
+gpqa-diamond-126-r01,gpqa-diamond-126,126,1,Chemistry,Organic Chemistry,pi,completed,0,0,0,incorrect,truncated_generation_without_native_success,False,True,1,0,True,622,4096,4718,256,366,4718,True,0
+gpqa-diamond-127-r01,gpqa-diamond-127,127,1,Biology,Molecular Biology,pi,completed,0,0,0,incorrect,truncated_generation_without_native_success,False,True,1,0,True,3045,4095,7140,256,2789,7140,True,0
+gpqa-diamond-128-r01,gpqa-diamond-128,128,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,737,480,1217,256,481,1217,True,0
+gpqa-diamond-129-r01,gpqa-diamond-129,129,1,Physics,Physics (general),pi,completed,0,0,0,incorrect,native_final,False,False,1,0,False,599,229,828,256,343,828,True,0
+gpqa-diamond-130-r01,gpqa-diamond-130,130,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,815,618,1433,256,559,1433,True,0
+gpqa-diamond-131-r01,gpqa-diamond-131,131,1,Chemistry,Chemistry (general),pi,completed,0,1,1,correct,native_final,False,False,1,0,False,792,1415,2207,256,536,2207,True,0
+gpqa-diamond-132-r01,gpqa-diamond-132,132,1,Chemistry,Chemistry (general),pi,completed,0,1,1,correct,native_final,False,False,1,0,False,701,587,1288,256,445,1288,True,0
+gpqa-diamond-133-r01,gpqa-diamond-133,133,1,Chemistry,Chemistry (general),pi,completed,0,0,0,incorrect,native_final,False,False,1,0,False,602,734,1336,256,346,1336,True,0
+gpqa-diamond-134-r01,gpqa-diamond-134,134,1,Physics,High-energy particle physics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,770,218,988,256,514,988,True,0
+gpqa-diamond-135-r01,gpqa-diamond-135,135,1,Physics,Electromagnetism and Photonics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,656,197,853,256,400,853,True,0
+gpqa-diamond-136-r01,gpqa-diamond-136,136,1,Physics,High-energy particle physics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,685,1610,2295,256,429,2295,True,0
+gpqa-diamond-137-r01,gpqa-diamond-137,137,1,Chemistry,Chemistry (general),pi,completed,0,1,1,correct,native_final,False,False,1,0,False,645,79,724,256,389,724,True,0
+gpqa-diamond-138-r01,gpqa-diamond-138,138,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,743,276,1019,256,487,1019,True,0
+gpqa-diamond-139-r01,gpqa-diamond-139,139,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,696,1369,2065,256,440,2065,True,0
+gpqa-diamond-140-r01,gpqa-diamond-140,140,1,Chemistry,Organic Chemistry,pi,completed,0,0,0,incorrect,native_final,False,False,1,0,False,575,264,839,256,319,839,True,0
+gpqa-diamond-141-r01,gpqa-diamond-141,141,1,Physics,Quantum Mechanics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,619,86,705,256,363,705,True,0
+gpqa-diamond-142-r01,gpqa-diamond-142,142,1,Chemistry,Organic Chemistry,pi,completed,0,0,0,incorrect,native_final,False,False,1,0,False,858,459,1317,256,602,1317,True,0
+gpqa-diamond-143-r01,gpqa-diamond-143,143,1,Physics,High-energy particle physics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,634,167,801,256,378,801,True,0
+gpqa-diamond-144-r01,gpqa-diamond-144,144,1,Chemistry,Organic Chemistry,pi,completed,0,0,0,incorrect,native_final,False,False,1,0,False,578,255,833,256,322,833,True,0
+gpqa-diamond-145-r01,gpqa-diamond-145,145,1,Chemistry,Organic Chemistry,pi,completed,0,0,0,incorrect,native_final,False,False,1,0,False,762,540,1302,256,506,1302,True,0
+gpqa-diamond-146-r01,gpqa-diamond-146,146,1,Physics,High-energy particle physics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,604,164,768,256,348,768,True,0
+gpqa-diamond-147-r01,gpqa-diamond-147,147,1,Chemistry,Chemistry (general),pi,completed,0,0,0,incorrect,truncated_generation_without_native_success,False,True,1,0,True,677,4096,4773,256,421,4773,True,0
+gpqa-diamond-148-r01,gpqa-diamond-148,148,1,Chemistry,Chemistry (general),pi,completed,0,1,1,correct,native_final,False,False,1,0,False,716,238,954,256,460,954,True,0
+gpqa-diamond-149-r01,gpqa-diamond-149,149,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,710,1199,1909,256,454,1909,True,0
+gpqa-diamond-150-r01,gpqa-diamond-150,150,1,Physics,Quantum Mechanics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,674,354,1028,256,418,1028,True,0
+gpqa-diamond-151-r01,gpqa-diamond-151,151,1,Biology,Molecular Biology,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,657,162,819,256,401,819,True,0
+gpqa-diamond-152-r01,gpqa-diamond-152,152,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,968,478,1446,256,712,1446,True,0
+gpqa-diamond-153-r01,gpqa-diamond-153,153,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,699,369,1068,256,443,1068,True,0
+gpqa-diamond-154-r01,gpqa-diamond-154,154,1,Physics,Quantum Mechanics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,877,147,1024,256,621,1024,True,0
+gpqa-diamond-155-r01,gpqa-diamond-155,155,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,716,466,1182,256,460,1182,True,0
+gpqa-diamond-156-r01,gpqa-diamond-156,156,1,Biology,Molecular Biology,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,682,107,789,256,426,789,True,0
+gpqa-diamond-157-r01,gpqa-diamond-157,157,1,Biology,Genetics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,675,131,806,256,419,806,True,0
+gpqa-diamond-158-r01,gpqa-diamond-158,158,1,Physics,Astrophysics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,682,3826,4508,256,426,4508,True,0
+gpqa-diamond-159-r01,gpqa-diamond-159,159,1,Physics,Optics and Acoustics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,662,280,942,256,406,942,True,0
+gpqa-diamond-160-r01,gpqa-diamond-160,160,1,Physics,Relativistic Mechanics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,767,273,1040,256,511,1040,True,0
+gpqa-diamond-161-r01,gpqa-diamond-161,161,1,Physics,Relativistic Mechanics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,629,232,861,256,373,861,True,0
+gpqa-diamond-162-r01,gpqa-diamond-162,162,1,Chemistry,Chemistry (general),pi,completed,0,0,0,incorrect,native_final,False,False,1,0,False,650,745,1395,256,394,1395,True,0
+gpqa-diamond-163-r01,gpqa-diamond-163,163,1,Physics,Astrophysics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,706,312,1018,256,450,1018,True,0
+gpqa-diamond-164-r01,gpqa-diamond-164,164,1,Chemistry,Chemistry (general),pi,completed,0,0,0,incorrect,native_final,False,False,1,0,False,745,411,1156,256,489,1156,True,0
+gpqa-diamond-165-r01,gpqa-diamond-165,165,1,Physics,High-energy particle physics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,1239,743,1982,256,983,1982,True,0
+gpqa-diamond-166-r01,gpqa-diamond-166,166,1,Physics,Quantum Mechanics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,711,621,1332,256,455,1332,True,0
+gpqa-diamond-167-r01,gpqa-diamond-167,167,1,Biology,Genetics,pi,completed,0,0,0,incorrect,native_final,False,False,1,0,False,611,94,705,256,355,705,True,0
+gpqa-diamond-168-r01,gpqa-diamond-168,168,1,Physics,Quantum Mechanics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,695,161,856,256,439,856,True,0
+gpqa-diamond-169-r01,gpqa-diamond-169,169,1,Physics,Quantum Mechanics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,615,200,815,256,359,815,True,0
+gpqa-diamond-170-r01,gpqa-diamond-170,170,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,704,1272,1976,256,448,1976,True,0
+gpqa-diamond-171-r01,gpqa-diamond-171,171,1,Physics,Physics (general),pi,completed,0,1,1,correct,native_final,False,False,1,0,False,721,173,894,256,465,894,True,0
+gpqa-diamond-172-r01,gpqa-diamond-172,172,1,Physics,Quantum Mechanics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,615,90,705,256,359,705,True,0
+gpqa-diamond-173-r01,gpqa-diamond-173,173,1,Physics,Physics (general),pi,completed,0,1,1,correct,native_final,False,False,1,0,False,672,660,1332,256,416,1332,True,0
+gpqa-diamond-174-r01,gpqa-diamond-174,174,1,Physics,Electromagnetism and Photonics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,689,1108,1797,256,433,1797,True,0
+gpqa-diamond-175-r01,gpqa-diamond-175,175,1,Physics,Quantum Mechanics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,755,538,1293,256,499,1293,True,0
+gpqa-diamond-176-r01,gpqa-diamond-176,176,1,Physics,Physics (general),pi,completed,0,0,0,incorrect,native_final,False,False,1,0,False,693,93,786,256,437,786,True,0
+gpqa-diamond-177-r01,gpqa-diamond-177,177,1,Physics,High-energy particle physics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,684,81,765,256,428,765,True,0
+gpqa-diamond-178-r01,gpqa-diamond-178,178,1,Physics,Quantum Mechanics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,780,909,1689,256,524,1689,True,0
+gpqa-diamond-179-r01,gpqa-diamond-179,179,1,Physics,Physics (general),pi,completed,0,1,1,correct,native_final,False,False,1,0,False,633,2653,3286,256,377,3286,True,0
+gpqa-diamond-180-r01,gpqa-diamond-180,180,1,Physics,Astrophysics,pi,completed,0,0,0,incorrect,truncated_generation_without_native_success,False,True,1,0,True,741,4096,4837,256,485,4837,True,0
+gpqa-diamond-181-r01,gpqa-diamond-181,181,1,Physics,Condensed Matter Physics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,743,145,888,256,487,888,True,0
+gpqa-diamond-182-r01,gpqa-diamond-182,182,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,584,361,945,256,328,945,True,0
+gpqa-diamond-183-r01,gpqa-diamond-183,183,1,Chemistry,Organic Chemistry,pi,completed,0,0,0,incorrect,truncated_generation_without_native_success,False,True,1,0,True,880,4096,4976,256,624,4976,True,0
+gpqa-diamond-184-r01,gpqa-diamond-184,184,1,Physics,Quantum Mechanics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,636,68,704,256,380,704,True,0
+gpqa-diamond-185-r01,gpqa-diamond-185,185,1,Chemistry,Organic Chemistry,pi,completed,0,0,0,incorrect,native_final,False,False,1,0,False,666,654,1320,256,410,1320,True,0
+gpqa-diamond-186-r01,gpqa-diamond-186,186,1,Physics,Astrophysics,pi,completed,0,0,0,incorrect,native_final,False,False,1,0,False,803,454,1257,256,547,1257,True,0
+gpqa-diamond-187-r01,gpqa-diamond-187,187,1,Physics,Physics (general),pi,completed,0,1,1,correct,native_final,False,False,1,0,False,610,350,960,256,354,960,True,0
+gpqa-diamond-188-r01,gpqa-diamond-188,188,1,Physics,High-energy particle physics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,564,153,717,256,308,717,True,0
+gpqa-diamond-189-r01,gpqa-diamond-189,189,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,766,198,964,256,510,964,True,0
+gpqa-diamond-190-r01,gpqa-diamond-190,190,1,Chemistry,Organic Chemistry,pi,completed,0,0,0,incorrect,native_final,False,False,1,0,False,735,798,1533,256,479,1533,True,0
+gpqa-diamond-191-r01,gpqa-diamond-191,191,1,Physics,Electromagnetism and Photonics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,783,140,923,256,527,923,True,0
+gpqa-diamond-192-r01,gpqa-diamond-192,192,1,Physics,Astrophysics,pi,completed,0,0,0,incorrect,native_final,False,False,1,0,False,605,44,649,256,349,649,True,0
+gpqa-diamond-193-r01,gpqa-diamond-193,193,1,Physics,Physics (general),pi,completed,0,1,1,correct,native_final,False,False,1,0,False,681,148,829,256,425,829,True,0
+gpqa-diamond-194-r01,gpqa-diamond-194,194,1,Physics,Astrophysics,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,678,1816,2494,256,422,2494,True,0
+gpqa-diamond-195-r01,gpqa-diamond-195,195,1,Physics,Physics (general),pi,completed,0,1,1,correct,native_final,False,False,1,0,False,688,134,822,256,432,822,True,0
+gpqa-diamond-196-r01,gpqa-diamond-196,196,1,Chemistry,Organic Chemistry,pi,completed,0,1,1,correct,native_final,False,False,1,0,False,724,355,1079,256,468,1079,True,0
+gpqa-diamond-197-r01,gpqa-diamond-197,197,1,Chemistry,Chemistry (general),pi,completed,0,1,1,correct,native_final,False,False,1,0,False,657,214,871,256,401,871,True,0
+gpqa-diamond-000-r01,gpqa-diamond-000,0,1,Physics,Physics (general),zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1587,174,1761,768,819,1761,True,0
+gpqa-diamond-001-r01,gpqa-diamond-001,1,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1594,259,1853,768,826,1853,True,0
+gpqa-diamond-002-r01,gpqa-diamond-002,2,1,Physics,Quantum Mechanics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1614,196,1810,768,846,1810,True,0
+gpqa-diamond-003-r01,gpqa-diamond-003,3,1,Physics,Electromagnetism and Photonics,zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1605,90,1695,768,837,1695,True,0
+gpqa-diamond-004-r01,gpqa-diamond-004,4,1,Physics,Quantum Mechanics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1817,278,2095,768,1049,2095,True,0
+gpqa-diamond-005-r01,gpqa-diamond-005,5,1,Physics,Quantum Mechanics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1645,250,1895,768,877,1895,True,0
+gpqa-diamond-006-r01,gpqa-diamond-006,6,1,Physics,High-energy particle physics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1626,305,1931,768,858,1931,True,0
+gpqa-diamond-007-r01,gpqa-diamond-007,7,1,Biology,Genetics,zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1908,640,2548,768,1140,2548,True,0
+gpqa-diamond-008-r01,gpqa-diamond-008,8,1,Chemistry,Organic Chemistry,zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1690,829,2519,768,922,2519,True,0
+gpqa-diamond-009-r01,gpqa-diamond-009,9,1,Physics,Astrophysics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1596,212,1808,768,828,1808,True,0
+gpqa-diamond-010-r01,gpqa-diamond-010,10,1,Biology,Molecular Biology,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1812,253,2065,768,1044,2065,True,0
+gpqa-diamond-011-r01,gpqa-diamond-011,11,1,Physics,High-energy particle physics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1597,191,1788,768,829,1788,True,0
+gpqa-diamond-012-r01,gpqa-diamond-012,12,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1758,668,2426,768,990,2426,True,0
+gpqa-diamond-013-r01,gpqa-diamond-013,13,1,Biology,Molecular Biology,zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1599,328,1927,768,831,1927,True,0
+gpqa-diamond-014-r01,gpqa-diamond-014,14,1,Physics,Physics (general),zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1747,251,1998,768,979,1998,True,0
+gpqa-diamond-015-r01,gpqa-diamond-015,15,1,Chemistry,Organic Chemistry,zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1660,2072,3732,768,892,3732,True,0
+gpqa-diamond-016-r01,gpqa-diamond-016,16,1,Chemistry,Chemistry (general),zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1600,267,1867,768,832,1867,True,0
+gpqa-diamond-017-r01,gpqa-diamond-017,17,1,Physics,Physics (general),zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1680,532,2212,768,912,2212,True,0
+gpqa-diamond-018-r01,gpqa-diamond-018,18,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1934,433,2367,768,1166,2367,True,0
+gpqa-diamond-019-r01,gpqa-diamond-019,19,1,Physics,Quantum Mechanics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1644,115,1759,768,876,1759,True,0
+gpqa-diamond-020-r01,gpqa-diamond-020,20,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1703,297,2000,768,935,2000,True,0
+gpqa-diamond-021-r01,gpqa-diamond-021,21,1,Chemistry,Chemistry (general),zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1584,121,1705,768,816,1705,True,0
+gpqa-diamond-022-r01,gpqa-diamond-022,22,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1695,489,2184,768,927,2184,True,0
+gpqa-diamond-023-r01,gpqa-diamond-023,23,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1664,445,2109,768,896,2109,True,0
+gpqa-diamond-024-r01,gpqa-diamond-024,24,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1778,361,2139,768,1010,2139,True,0
+gpqa-diamond-025-r01,gpqa-diamond-025,25,1,Chemistry,Organic Chemistry,zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1813,789,2602,768,1045,2602,True,0
+gpqa-diamond-026-r01,gpqa-diamond-026,26,1,Biology,Molecular Biology,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1605,200,1805,768,837,1805,True,0
+gpqa-diamond-027-r01,gpqa-diamond-027,27,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1746,606,2352,768,978,2352,True,0
+gpqa-diamond-028-r01,gpqa-diamond-028,28,1,Biology,Genetics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1831,488,2319,768,1063,2319,True,0
+gpqa-diamond-029-r01,gpqa-diamond-029,29,1,Chemistry,Organic Chemistry,zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1545,94,1639,768,777,1639,True,0
+gpqa-diamond-030-r01,gpqa-diamond-030,30,1,Chemistry,Organic Chemistry,zcode,completed,0,0,0,incorrect,native_final,False,False,2,1,True,7291,4236,11527,6272,1019,11527,True,0
+gpqa-diamond-031-r01,gpqa-diamond-031,31,1,Physics,High-energy particle physics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1589,129,1718,768,821,1718,True,0
+gpqa-diamond-032-r01,gpqa-diamond-032,32,1,Chemistry,Organic Chemistry,zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1743,227,1970,768,975,1970,True,0
+gpqa-diamond-033-r01,gpqa-diamond-033,33,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1888,954,2842,768,1120,2842,True,0
+gpqa-diamond-034-r01,gpqa-diamond-034,34,1,Physics,Physics (general),zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1760,506,2266,768,992,2266,True,0
+gpqa-diamond-035-r01,gpqa-diamond-035,35,1,Physics,Astrophysics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1597,272,1869,768,829,1869,True,0
+gpqa-diamond-036-r01,gpqa-diamond-036,36,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1612,1158,2770,768,844,2770,True,0
+gpqa-diamond-037-r01,gpqa-diamond-037,37,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1739,225,1964,768,971,1964,True,0
+gpqa-diamond-038-r01,gpqa-diamond-038,38,1,Physics,Quantum Mechanics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1684,235,1919,768,916,1919,True,0
+gpqa-diamond-039-r01,gpqa-diamond-039,39,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1620,38,1658,768,852,1658,True,0
+gpqa-diamond-040-r01,gpqa-diamond-040,40,1,Physics,Relativistic Mechanics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1595,97,1692,768,827,1692,True,0
+gpqa-diamond-041-r01,gpqa-diamond-041,41,1,Physics,Astrophysics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1680,195,1875,768,912,1875,True,0
+gpqa-diamond-042-r01,gpqa-diamond-042,42,1,Chemistry,Organic Chemistry,zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1688,593,2281,768,920,2281,True,0
+gpqa-diamond-043-r01,gpqa-diamond-043,43,1,Biology,Molecular Biology,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1732,341,2073,768,964,2073,True,0
+gpqa-diamond-044-r01,gpqa-diamond-044,44,1,Physics,Quantum Mechanics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1618,579,2197,768,850,2197,True,0
+gpqa-diamond-045-r01,gpqa-diamond-045,45,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1547,631,2178,768,779,2178,True,0
+gpqa-diamond-046-r01,gpqa-diamond-046,46,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1652,517,2169,768,884,2169,True,0
+gpqa-diamond-047-r01,gpqa-diamond-047,47,1,Chemistry,Organic Chemistry,zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1594,418,2012,768,826,2012,True,0
+gpqa-diamond-048-r01,gpqa-diamond-048,48,1,Chemistry,Organic Chemistry,zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1854,312,2166,768,1086,2166,True,0
+gpqa-diamond-049-r01,gpqa-diamond-049,49,1,Physics,High-energy particle physics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1648,290,1938,768,880,1938,True,0
+gpqa-diamond-050-r01,gpqa-diamond-050,50,1,Physics,Electromagnetism and Photonics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1616,158,1774,768,848,1774,True,0
+gpqa-diamond-051-r01,gpqa-diamond-051,51,1,Physics,Astrophysics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1693,2351,4044,768,925,4044,True,0
+gpqa-diamond-052-r01,gpqa-diamond-052,52,1,Chemistry,Chemistry (general),zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1662,418,2080,768,894,2080,True,0
+gpqa-diamond-053-r01,gpqa-diamond-053,53,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1609,264,1873,768,841,1873,True,0
+gpqa-diamond-054-r01,gpqa-diamond-054,54,1,Chemistry,Chemistry (general),zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1635,289,1924,768,867,1924,True,0
+gpqa-diamond-055-r01,gpqa-diamond-055,55,1,Physics,Quantum Mechanics,zcode,completed,0,1,1,correct,native_final,False,False,2,1,True,7509,4208,11717,6400,1109,11717,True,0
+gpqa-diamond-056-r01,gpqa-diamond-056,56,1,Physics,Quantum Mechanics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1621,1081,2702,768,853,2702,True,0
+gpqa-diamond-057-r01,gpqa-diamond-057,57,1,Physics,High-energy particle physics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1536,238,1774,768,768,1774,True,0
+gpqa-diamond-058-r01,gpqa-diamond-058,58,1,Chemistry,Chemistry (general),zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1569,247,1816,768,801,1816,True,0
+gpqa-diamond-059-r01,gpqa-diamond-059,59,1,Physics,Relativistic Mechanics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1641,250,1891,768,873,1891,True,0
+gpqa-diamond-060-r01,gpqa-diamond-060,60,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1666,385,2051,768,898,2051,True,0
+gpqa-diamond-061-r01,gpqa-diamond-061,61,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1691,1070,2761,768,923,2761,True,0
+gpqa-diamond-062-r01,gpqa-diamond-062,62,1,Physics,Quantum Mechanics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1681,645,2326,768,913,2326,True,0
+gpqa-diamond-063-r01,gpqa-diamond-063,63,1,Chemistry,Inorganic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1677,847,2524,768,909,2524,True,0
+gpqa-diamond-064-r01,gpqa-diamond-064,64,1,Chemistry,Organic Chemistry,zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1734,568,2302,768,966,2302,True,0
+gpqa-diamond-065-r01,gpqa-diamond-065,65,1,Physics,High-energy particle physics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1569,102,1671,768,801,1671,True,0
+gpqa-diamond-066-r01,gpqa-diamond-066,66,1,Physics,Quantum Mechanics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1686,133,1819,768,918,1819,True,0
+gpqa-diamond-067-r01,gpqa-diamond-067,67,1,Physics,Quantum Mechanics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1615,179,1794,768,847,1794,True,0
+gpqa-diamond-068-r01,gpqa-diamond-068,68,1,Physics,High-energy particle physics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1641,594,2235,768,873,2235,True,0
+gpqa-diamond-069-r01,gpqa-diamond-069,69,1,Chemistry,Chemistry (general),zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1614,438,2052,768,846,2052,True,0
+gpqa-diamond-070-r01,gpqa-diamond-070,70,1,Physics,Physics (general),zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1615,113,1728,768,847,1728,True,0
+gpqa-diamond-071-r01,gpqa-diamond-071,71,1,Chemistry,Organic Chemistry,zcode,completed,0,0,0,incorrect,native_final,False,False,2,1,True,7407,6240,13647,6400,1007,13647,True,0
+gpqa-diamond-072-r01,gpqa-diamond-072,72,1,Physics,Relativistic Mechanics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1631,282,1913,768,863,1913,True,0
+gpqa-diamond-073-r01,gpqa-diamond-073,73,1,Physics,Physics (general),zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1608,283,1891,768,840,1891,True,0
+gpqa-diamond-074-r01,gpqa-diamond-074,74,1,Biology,Molecular Biology,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,2024,264,2288,768,1256,2288,True,0
+gpqa-diamond-075-r01,gpqa-diamond-075,75,1,Biology,Molecular Biology,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1656,367,2023,768,888,2023,True,0
+gpqa-diamond-076-r01,gpqa-diamond-076,76,1,Chemistry,Organic Chemistry,zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1976,230,2206,768,1208,2206,True,0
+gpqa-diamond-077-r01,gpqa-diamond-077,77,1,Physics,Electromagnetism and Photonics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1909,177,2086,768,1141,2086,True,0
+gpqa-diamond-078-r01,gpqa-diamond-078,78,1,Chemistry,Organic Chemistry,zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1799,590,2389,768,1031,2389,True,0
+gpqa-diamond-079-r01,gpqa-diamond-079,79,1,Biology,Molecular Biology,zcode,completed,1,0,0,incorrect,truncated_generation_without_native_success,False,True,4,3,True,31058,16384,47442,29696,1362,47442,True,0
+gpqa-diamond-080-r01,gpqa-diamond-080,80,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1686,299,1985,768,918,1985,True,0
+gpqa-diamond-081-r01,gpqa-diamond-081,81,1,Chemistry,Organic Chemistry,zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,2216,880,3096,768,1448,3096,True,0
+gpqa-diamond-082-r01,gpqa-diamond-082,82,1,Chemistry,Chemistry (general),zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1620,339,1959,768,852,1959,True,0
+gpqa-diamond-083-r01,gpqa-diamond-083,83,1,Physics,Physics (general),zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1575,158,1733,768,807,1733,True,0
+gpqa-diamond-084-r01,gpqa-diamond-084,84,1,Physics,Astrophysics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1725,458,2183,768,957,2183,True,0
+gpqa-diamond-085-r01,gpqa-diamond-085,85,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1765,574,2339,768,997,2339,True,0
+gpqa-diamond-086-r01,gpqa-diamond-086,86,1,Chemistry,Chemistry (general),zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1748,401,2149,768,980,2149,True,0
+gpqa-diamond-087-r01,gpqa-diamond-087,87,1,Biology,Molecular Biology,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1612,180,1792,768,844,1792,True,0
+gpqa-diamond-088-r01,gpqa-diamond-088,88,1,Chemistry,Organic Chemistry,zcode,completed,0,0,0,incorrect,native_final,False,False,2,1,True,7517,4713,12230,6400,1117,12230,True,0
+gpqa-diamond-089-r01,gpqa-diamond-089,89,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1636,1232,2868,768,868,2868,True,0
+gpqa-diamond-090-r01,gpqa-diamond-090,90,1,Chemistry,Organic Chemistry,zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1664,501,2165,768,896,2165,True,0
+gpqa-diamond-091-r01,gpqa-diamond-091,91,1,Chemistry,Chemistry (general),zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1625,608,2233,768,857,2233,True,0
+gpqa-diamond-092-r01,gpqa-diamond-092,92,1,Biology,Molecular Biology,zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1810,242,2052,768,1042,2052,True,0
+gpqa-diamond-093-r01,gpqa-diamond-093,93,1,Chemistry,Organic Chemistry,zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1636,326,1962,768,868,1962,True,0
+gpqa-diamond-094-r01,gpqa-diamond-094,94,1,Chemistry,Organic Chemistry,zcode,completed,0,0,0,incorrect,native_final,False,False,2,1,True,7529,6762,14291,6400,1129,14291,True,0
+gpqa-diamond-095-r01,gpqa-diamond-095,95,1,Physics,Physics (general),zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1588,403,1991,768,820,1991,True,0
+gpqa-diamond-096-r01,gpqa-diamond-096,96,1,Biology,Molecular Biology,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1704,147,1851,768,936,1851,True,0
+gpqa-diamond-097-r01,gpqa-diamond-097,97,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1615,2071,3686,768,847,3686,True,0
+gpqa-diamond-098-r01,gpqa-diamond-098,98,1,Chemistry,Chemistry (general),zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1784,620,2404,768,1016,2404,True,0
+gpqa-diamond-099-r01,gpqa-diamond-099,99,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1666,399,2065,768,898,2065,True,0
+gpqa-diamond-100-r01,gpqa-diamond-100,100,1,Chemistry,Organic Chemistry,zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1659,1114,2773,768,891,2773,True,0
+gpqa-diamond-101-r01,gpqa-diamond-101,101,1,Biology,Molecular Biology,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1860,482,2342,768,1092,2342,True,0
+gpqa-diamond-102-r01,gpqa-diamond-102,102,1,Chemistry,Organic Chemistry,zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1775,654,2429,768,1007,2429,True,0
+gpqa-diamond-103-r01,gpqa-diamond-103,103,1,Physics,Physics (general),zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1667,298,1965,768,899,1965,True,0
+gpqa-diamond-104-r01,gpqa-diamond-104,104,1,Physics,Astrophysics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1679,851,2530,768,911,2530,True,0
+gpqa-diamond-105-r01,gpqa-diamond-105,105,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1732,231,1963,768,964,1963,True,0
+gpqa-diamond-106-r01,gpqa-diamond-106,106,1,Biology,Molecular Biology,zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1710,176,1886,768,942,1886,True,0
+gpqa-diamond-107-r01,gpqa-diamond-107,107,1,Physics,Quantum Mechanics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1623,178,1801,768,855,1801,True,0
+gpqa-diamond-108-r01,gpqa-diamond-108,108,1,Physics,Quantum Mechanics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1727,698,2425,768,959,2425,True,0
+gpqa-diamond-109-r01,gpqa-diamond-109,109,1,Physics,Astrophysics,zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1945,877,2822,768,1177,2822,True,0
+gpqa-diamond-110-r01,gpqa-diamond-110,110,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1744,1570,3314,768,976,3314,True,0
+gpqa-diamond-111-r01,gpqa-diamond-111,111,1,Physics,Quantum Mechanics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1690,385,2075,768,922,2075,True,0
+gpqa-diamond-112-r01,gpqa-diamond-112,112,1,Chemistry,Chemistry (general),zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1670,350,2020,768,902,2020,True,0
+gpqa-diamond-113-r01,gpqa-diamond-113,113,1,Chemistry,Organic Chemistry,zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1623,98,1721,768,855,1721,True,0
+gpqa-diamond-114-r01,gpqa-diamond-114,114,1,Physics,Physics (general),zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1623,379,2002,768,855,2002,True,0
+gpqa-diamond-115-r01,gpqa-diamond-115,115,1,Chemistry,Organic Chemistry,zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1707,1304,3011,768,939,3011,True,0
+gpqa-diamond-116-r01,gpqa-diamond-116,116,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1664,327,1991,768,896,1991,True,0
+gpqa-diamond-117-r01,gpqa-diamond-117,117,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1600,71,1671,768,832,1671,True,0
+gpqa-diamond-118-r01,gpqa-diamond-118,118,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1759,296,2055,768,991,2055,True,0
+gpqa-diamond-119-r01,gpqa-diamond-119,119,1,Physics,Physics (general),zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1577,154,1731,768,809,1731,True,0
+gpqa-diamond-120-r01,gpqa-diamond-120,120,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1731,1310,3041,768,963,3041,True,0
+gpqa-diamond-121-r01,gpqa-diamond-121,121,1,Chemistry,Organic Chemistry,zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1648,341,1989,768,880,1989,True,0
+gpqa-diamond-122-r01,gpqa-diamond-122,122,1,Physics,Relativistic Mechanics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1655,351,2006,768,887,2006,True,0
+gpqa-diamond-123-r01,gpqa-diamond-123,123,1,Physics,Relativistic Mechanics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1600,403,2003,768,832,2003,True,0
+gpqa-diamond-124-r01,gpqa-diamond-124,124,1,Physics,Quantum Mechanics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1684,157,1841,768,916,1841,True,0
+gpqa-diamond-125-r01,gpqa-diamond-125,125,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1683,296,1979,768,915,1979,True,0
+gpqa-diamond-126-r01,gpqa-diamond-126,126,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,4,3,True,31214,12468,43682,29824,1390,43682,True,0
+gpqa-diamond-127-r01,gpqa-diamond-127,127,1,Biology,Molecular Biology,zcode,completed,0,0,0,incorrect,native_final,False,True,1,0,False,4017,586,4603,768,3249,4603,True,0
+gpqa-diamond-128-r01,gpqa-diamond-128,128,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1708,481,2189,768,940,2189,True,0
+gpqa-diamond-129-r01,gpqa-diamond-129,129,1,Physics,Physics (general),zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1574,110,1684,768,806,1684,True,0
+gpqa-diamond-130-r01,gpqa-diamond-130,130,1,Chemistry,Organic Chemistry,zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1789,587,2376,768,1021,2376,True,0
+gpqa-diamond-131-r01,gpqa-diamond-131,131,1,Chemistry,Chemistry (general),zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1765,897,2662,768,997,2662,True,0
+gpqa-diamond-132-r01,gpqa-diamond-132,132,1,Chemistry,Chemistry (general),zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1674,490,2164,768,906,2164,True,0
+gpqa-diamond-133-r01,gpqa-diamond-133,133,1,Chemistry,Chemistry (general),zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1574,380,1954,768,806,1954,True,0
+gpqa-diamond-134-r01,gpqa-diamond-134,134,1,Physics,High-energy particle physics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1744,235,1979,768,976,1979,True,0
+gpqa-diamond-135-r01,gpqa-diamond-135,135,1,Physics,Electromagnetism and Photonics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1630,224,1854,768,862,1854,True,0
+gpqa-diamond-136-r01,gpqa-diamond-136,136,1,Physics,High-energy particle physics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1657,932,2589,768,889,2589,True,0
+gpqa-diamond-137-r01,gpqa-diamond-137,137,1,Chemistry,Chemistry (general),zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1621,123,1744,768,853,1744,True,0
+gpqa-diamond-138-r01,gpqa-diamond-138,138,1,Chemistry,Organic Chemistry,zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1716,404,2120,768,948,2120,True,0
+gpqa-diamond-139-r01,gpqa-diamond-139,139,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1669,717,2386,768,901,2386,True,0
+gpqa-diamond-140-r01,gpqa-diamond-140,140,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,2,1,True,7229,4382,11611,6144,1085,11611,True,0
+gpqa-diamond-141-r01,gpqa-diamond-141,141,1,Physics,Quantum Mechanics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1593,75,1668,768,825,1668,True,0
+gpqa-diamond-142-r01,gpqa-diamond-142,142,1,Chemistry,Organic Chemistry,zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1830,307,2137,768,1062,2137,True,0
+gpqa-diamond-143-r01,gpqa-diamond-143,143,1,Physics,High-energy particle physics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1605,297,1902,768,837,1902,True,0
+gpqa-diamond-144-r01,gpqa-diamond-144,144,1,Chemistry,Organic Chemistry,zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1550,369,1919,768,782,1919,True,0
+gpqa-diamond-145-r01,gpqa-diamond-145,145,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1737,588,2325,768,969,2325,True,0
+gpqa-diamond-146-r01,gpqa-diamond-146,146,1,Physics,High-energy particle physics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1577,165,1742,768,809,1742,True,0
+gpqa-diamond-147-r01,gpqa-diamond-147,147,1,Chemistry,Chemistry (general),zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1653,1400,3053,768,885,3053,True,0
+gpqa-diamond-148-r01,gpqa-diamond-148,148,1,Chemistry,Chemistry (general),zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1690,238,1928,768,922,1928,True,0
+gpqa-diamond-149-r01,gpqa-diamond-149,149,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1682,501,2183,768,914,2183,True,0
+gpqa-diamond-150-r01,gpqa-diamond-150,150,1,Physics,Quantum Mechanics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1646,272,1918,768,878,1918,True,0
+gpqa-diamond-151-r01,gpqa-diamond-151,151,1,Biology,Molecular Biology,zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1627,265,1892,768,859,1892,True,0
+gpqa-diamond-152-r01,gpqa-diamond-152,152,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1941,418,2359,768,1173,2359,True,0
+gpqa-diamond-153-r01,gpqa-diamond-153,153,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1671,413,2084,768,903,2084,True,0
+gpqa-diamond-154-r01,gpqa-diamond-154,154,1,Physics,Quantum Mechanics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1850,291,2141,768,1082,2141,True,0
+gpqa-diamond-155-r01,gpqa-diamond-155,155,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1687,333,2020,768,919,2020,True,0
+gpqa-diamond-156-r01,gpqa-diamond-156,156,1,Biology,Molecular Biology,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1656,110,1766,768,888,1766,True,0
+gpqa-diamond-157-r01,gpqa-diamond-157,157,1,Biology,Genetics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1647,139,1786,768,879,1786,True,0
+gpqa-diamond-158-r01,gpqa-diamond-158,158,1,Physics,Astrophysics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1657,195,1852,768,889,1852,True,0
+gpqa-diamond-159-r01,gpqa-diamond-159,159,1,Physics,Optics and Acoustics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1637,431,2068,768,869,2068,True,0
+gpqa-diamond-160-r01,gpqa-diamond-160,160,1,Physics,Relativistic Mechanics,zcode,completed,0,0,0,incorrect,native_final,False,False,2,1,True,7619,4400,12019,6400,1219,12019,True,0
+gpqa-diamond-161-r01,gpqa-diamond-161,161,1,Physics,Relativistic Mechanics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1602,306,1908,768,834,1908,True,0
+gpqa-diamond-162-r01,gpqa-diamond-162,162,1,Chemistry,Chemistry (general),zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1622,492,2114,768,854,2114,True,0
+gpqa-diamond-163-r01,gpqa-diamond-163,163,1,Physics,Astrophysics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1679,236,1915,768,911,1915,True,0
+gpqa-diamond-164-r01,gpqa-diamond-164,164,1,Chemistry,Chemistry (general),zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1717,388,2105,768,949,2105,True,0
+gpqa-diamond-165-r01,gpqa-diamond-165,165,1,Physics,High-energy particle physics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,2213,433,2646,768,1445,2646,True,0
+gpqa-diamond-166-r01,gpqa-diamond-166,166,1,Physics,Quantum Mechanics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1686,1372,3058,768,918,3058,True,0
+gpqa-diamond-167-r01,gpqa-diamond-167,167,1,Biology,Genetics,zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1584,91,1675,768,816,1675,True,0
+gpqa-diamond-168-r01,gpqa-diamond-168,168,1,Physics,Quantum Mechanics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1668,218,1886,768,900,1886,True,0
+gpqa-diamond-169-r01,gpqa-diamond-169,169,1,Physics,Quantum Mechanics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1591,197,1788,768,823,1788,True,0
+gpqa-diamond-170-r01,gpqa-diamond-170,170,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1675,3830,5505,768,907,5505,True,0
+gpqa-diamond-171-r01,gpqa-diamond-171,171,1,Physics,Physics (general),zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1693,136,1829,768,925,1829,True,0
+gpqa-diamond-172-r01,gpqa-diamond-172,172,1,Physics,Quantum Mechanics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1589,243,1832,768,821,1832,True,0
+gpqa-diamond-173-r01,gpqa-diamond-173,173,1,Physics,Physics (general),zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1644,884,2528,768,876,2528,True,0
+gpqa-diamond-174-r01,gpqa-diamond-174,174,1,Physics,Electromagnetism and Photonics,zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1660,227,1887,768,892,1887,True,0
+gpqa-diamond-175-r01,gpqa-diamond-175,175,1,Physics,Quantum Mechanics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1726,440,2166,768,958,2166,True,0
+gpqa-diamond-176-r01,gpqa-diamond-176,176,1,Physics,Physics (general),zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1665,85,1750,768,897,1750,True,0
+gpqa-diamond-177-r01,gpqa-diamond-177,177,1,Physics,High-energy particle physics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1658,222,1880,768,890,1880,True,0
+gpqa-diamond-178-r01,gpqa-diamond-178,178,1,Physics,Quantum Mechanics,zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1754,863,2617,768,986,2617,True,0
+gpqa-diamond-179-r01,gpqa-diamond-179,179,1,Physics,Physics (general),zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1607,2617,4224,768,839,4224,True,0
+gpqa-diamond-180-r01,gpqa-diamond-180,180,1,Physics,Astrophysics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1712,532,2244,768,944,2244,True,0
+gpqa-diamond-181-r01,gpqa-diamond-181,181,1,Physics,Condensed Matter Physics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1716,136,1852,768,948,1852,True,0
+gpqa-diamond-182-r01,gpqa-diamond-182,182,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1557,541,2098,768,789,2098,True,0
+gpqa-diamond-183-r01,gpqa-diamond-183,183,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1855,1660,3515,768,1087,3515,True,0
+gpqa-diamond-184-r01,gpqa-diamond-184,184,1,Physics,Quantum Mechanics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1609,136,1745,768,841,1745,True,0
+gpqa-diamond-185-r01,gpqa-diamond-185,185,1,Chemistry,Organic Chemistry,zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1638,495,2133,768,870,2133,True,0
+gpqa-diamond-186-r01,gpqa-diamond-186,186,1,Physics,Astrophysics,zcode,completed,0,0,0,incorrect,native_final,False,False,1,0,False,1774,357,2131,768,1006,2131,True,0
+gpqa-diamond-187-r01,gpqa-diamond-187,187,1,Physics,Physics (general),zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1583,305,1888,768,815,1888,True,0
+gpqa-diamond-188-r01,gpqa-diamond-188,188,1,Physics,High-energy particle physics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1537,149,1686,768,769,1686,True,0
+gpqa-diamond-189-r01,gpqa-diamond-189,189,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1736,216,1952,768,968,1952,True,0
+gpqa-diamond-190-r01,gpqa-diamond-190,190,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1708,531,2239,768,940,2239,True,0
+gpqa-diamond-191-r01,gpqa-diamond-191,191,1,Physics,Electromagnetism and Photonics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1756,54,1810,768,988,1810,True,0
+gpqa-diamond-192-r01,gpqa-diamond-192,192,1,Physics,Astrophysics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1579,144,1723,768,811,1723,True,0
+gpqa-diamond-193-r01,gpqa-diamond-193,193,1,Physics,Physics (general),zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1655,183,1838,768,887,1838,True,0
+gpqa-diamond-194-r01,gpqa-diamond-194,194,1,Physics,Astrophysics,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1649,687,2336,768,881,2336,True,0
+gpqa-diamond-195-r01,gpqa-diamond-195,195,1,Physics,Physics (general),zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1661,406,2067,768,893,2067,True,0
+gpqa-diamond-196-r01,gpqa-diamond-196,196,1,Chemistry,Organic Chemistry,zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1697,367,2064,768,929,2064,True,0
+gpqa-diamond-197-r01,gpqa-diamond-197,197,1,Chemistry,Chemistry (general),zcode,completed,0,1,1,correct,native_final,False,False,1,0,False,1629,220,1849,768,861,1849,True,0

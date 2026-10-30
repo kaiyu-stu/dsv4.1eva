@@ -114,3 +114,6 @@ if __name__=='__main__':
         elif record['benchmark']=='mrcr':
             from validate_mrcr import validate as validate_mrcr
             validate_mrcr(ROOT/'benchmarks'/record['relative_path'])
+        elif record['benchmark']=='gpqa-diamond' and record.get('repeats')==1:
+            from validate_gpqa import main as validate_gpqa
+            validate_gpqa()

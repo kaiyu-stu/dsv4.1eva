@@ -1,0 +1,803 @@
+{
+  "settings": {
+    "model": "deepseek-flash",
+    "temperature": 0,
+    "thinking": "disabled",
+    "max_tokens_per_request": 4096,
+    "questions": 10,
+    "repeats": 10,
+    "tools_forwarded": 0,
+    "selection_seed": 0
+  },
+  "runs": {
+    "api": {
+      "summary": {
+        "selected": 100,
+        "unique_questions": 10,
+        "attempted": 100,
+        "completed": 100,
+        "remaining": 0,
+        "correct": 68,
+        "incorrect": 32,
+        "accuracy": 0.68,
+        "status_counts": {
+          "completed": 100
+        },
+        "answer_parse_failures": 10,
+        "output_truncated": 10,
+        "model_requests": 100,
+        "accounting_gaps": 0,
+        "usage_missing_requests": 0,
+        "usage": {
+          "prompt_tokens": 21481,
+          "completion_tokens": 92172,
+          "total_tokens": 113653,
+          "prompt_cache_hit_tokens": 512,
+          "prompt_cache_miss_tokens": 20969
+        },
+        "reasoning_tokens": 0,
+        "reasoning_tokens_reported_requests": 0,
+        "reasoning_note": "Reasoning tokens are a subset of completion tokens when reported; absent breakdown is unknown, not proof of zero.",
+        "by_domain": {
+          "Physics": {
+            "completed": 40,
+            "correct": 27,
+            "accuracy": 0.675
+          },
+          "Chemistry": {
+            "completed": 50,
+            "correct": 31,
+            "accuracy": 0.62
+          },
+          "Biology": {
+            "completed": 10,
+            "correct": 10,
+            "accuracy": 1.0
+          }
+        },
+        "per_question_mean_score": {
+          "gpqa-diamond-003": 0.0,
+          "gpqa-diamond-036": 0.7,
+          "gpqa-diamond-040": 1.0,
+          "gpqa-diamond-041": 1.0,
+          "gpqa-diamond-064": 0.5,
+          "gpqa-diamond-086": 1.0,
+          "gpqa-diamond-091": 0.8,
+          "gpqa-diamond-115": 0.1,
+          "gpqa-diamond-151": 1.0,
+          "gpqa-diamond-159": 0.7
+        }
+      },
+      "cli_version": null,
+      "first_request_correct": 68,
+      "first_request_parse_failures": 10,
+      "first_vs_final_correctness_changed": 0,
+      "additional_requests": 0,
+      "length_terminated_requests": 10,
+      "native_final_count": 0,
+      "raw_truncation_fallback_count": 0,
+      "adapter_rejections": 0,
+      "first_request_system_tokens_o200k": null,
+      "native_tool_schema_counts": [],
+      "identical_prompt_groups": 14,
+      "identical_prompt_valid_answer_changed_groups": 3,
+      "wall_seconds": 184.67544221878052
+    },
+    "claude": {
+      "summary": {
+        "selected": 100,
+        "unique_questions": 10,
+        "attempted": 100,
+        "completed": 100,
+        "remaining": 0,
+        "correct": 70,
+        "incorrect": 30,
+        "accuracy": 0.7,
+        "status_counts": {
+          "completed": 100
+        },
+        "answer_parse_failures": 0,
+        "output_truncated": 4,
+        "model_requests": 104,
+        "accounting_gaps": 0,
+        "usage_missing_requests": 0,
+        "usage": {
+          "prompt_tokens": 140057,
+          "completion_tokens": 49873,
+          "total_tokens": 189930,
+          "prompt_cache_hit_tokens": 94336,
+          "prompt_cache_miss_tokens": 45721
+        },
+        "reasoning_tokens": 0,
+        "reasoning_tokens_reported_requests": 0,
+        "reasoning_note": "Reasoning tokens are a subset of completion tokens when reported; absent breakdown is unknown, not proof of zero.",
+        "by_domain": {
+          "Physics": {
+            "completed": 40,
+            "correct": 35,
+            "accuracy": 0.875
+          },
+          "Chemistry": {
+            "completed": 50,
+            "correct": 25,
+            "accuracy": 0.5
+          },
+          "Biology": {
+            "completed": 10,
+            "correct": 10,
+            "accuracy": 1.0
+          }
+        },
+        "per_question_mean_score": {
+          "gpqa-diamond-003": 0.6,
+          "gpqa-diamond-036": 0.4,
+          "gpqa-diamond-040": 1.0,
+          "gpqa-diamond-041": 1.0,
+          "gpqa-diamond-064": 0.5,
+          "gpqa-diamond-086": 0.7,
+          "gpqa-diamond-091": 0.3,
+          "gpqa-diamond-115": 0.6,
+          "gpqa-diamond-151": 1.0,
+          "gpqa-diamond-159": 0.9
+        }
+      },
+      "cli_version": "2.1.301 (Claude Code)",
+      "first_request_correct": 69,
+      "first_request_parse_failures": 2,
+      "first_vs_final_correctness_changed": 3,
+      "additional_requests": 4,
+      "length_terminated_requests": 4,
+      "native_final_count": 100,
+      "raw_truncation_fallback_count": 0,
+      "adapter_rejections": 0,
+      "first_request_system_tokens_o200k": 981.7,
+      "native_tool_schema_counts": [
+        0
+      ],
+      "identical_prompt_groups": 14,
+      "identical_prompt_valid_answer_changed_groups": 6,
+      "wall_seconds": 225.58718013763428
+    },
+    "codex": {
+      "summary": {
+        "selected": 100,
+        "unique_questions": 10,
+        "attempted": 100,
+        "completed": 100,
+        "remaining": 0,
+        "correct": 64,
+        "incorrect": 36,
+        "accuracy": 0.64,
+        "status_counts": {
+          "completed": 100
+        },
+        "answer_parse_failures": 5,
+        "output_truncated": 6,
+        "model_requests": 100,
+        "accounting_gaps": 0,
+        "usage_missing_requests": 0,
+        "usage": {
+          "prompt_tokens": 452371,
+          "completion_tokens": 56936,
+          "total_tokens": 509307,
+          "prompt_cache_hit_tokens": 354816,
+          "prompt_cache_miss_tokens": 97555
+        },
+        "reasoning_tokens": 0,
+        "reasoning_tokens_reported_requests": 0,
+        "reasoning_note": "Reasoning tokens are a subset of completion tokens when reported; absent breakdown is unknown, not proof of zero.",
+        "by_domain": {
+          "Physics": {
+            "completed": 40,
+            "correct": 30,
+            "accuracy": 0.75
+          },
+          "Chemistry": {
+            "completed": 50,
+            "correct": 24,
+            "accuracy": 0.48
+          },
+          "Biology": {
+            "completed": 10,
+            "correct": 10,
+            "accuracy": 1.0
+          }
+        },
+        "per_question_mean_score": {
+          "gpqa-diamond-003": 0.0,
+          "gpqa-diamond-036": 0.5,
+          "gpqa-diamond-040": 1.0,
+          "gpqa-diamond-041": 1.0,
+          "gpqa-diamond-064": 0.3,
+          "gpqa-diamond-086": 0.6,
+          "gpqa-diamond-091": 0.6,
+          "gpqa-diamond-115": 0.4,
+          "gpqa-diamond-151": 1.0,
+          "gpqa-diamond-159": 1.0
+        }
+      },
+      "cli_version": "codex-cli 0.161.0",
+      "first_request_correct": 64,
+      "first_request_parse_failures": 5,
+      "first_vs_final_correctness_changed": 0,
+      "additional_requests": 0,
+      "length_terminated_requests": 6,
+      "native_final_count": 94,
+      "raw_truncation_fallback_count": 6,
+      "adapter_rejections": 0,
+      "first_request_system_tokens_o200k": 4108,
+      "native_tool_schema_counts": [
+        5
+      ],
+      "identical_prompt_groups": 14,
+      "identical_prompt_valid_answer_changed_groups": 2,
+      "wall_seconds": 508.76141715049744
+    },
+    "dsh": {
+      "summary": {
+        "selected": 100,
+        "unique_questions": 10,
+        "attempted": 100,
+        "completed": 100,
+        "remaining": 0,
+        "correct": 76,
+        "incorrect": 24,
+        "accuracy": 0.76,
+        "status_counts": {
+          "completed": 100
+        },
+        "answer_parse_failures": 6,
+        "output_truncated": 8,
+        "model_requests": 100,
+        "accounting_gaps": 0,
+        "usage_missing_requests": 0,
+        "usage": {
+          "prompt_tokens": 33034,
+          "completion_tokens": 84878,
+          "total_tokens": 117912,
+          "prompt_cache_hit_tokens": 768,
+          "prompt_cache_miss_tokens": 32266
+        },
+        "reasoning_tokens": 0,
+        "reasoning_tokens_reported_requests": 0,
+        "reasoning_note": "Reasoning tokens are a subset of completion tokens when reported; absent breakdown is unknown, not proof of zero.",
+        "by_domain": {
+          "Physics": {
+            "completed": 40,
+            "correct": 32,
+            "accuracy": 0.8
+          },
+          "Chemistry": {
+            "completed": 50,
+            "correct": 34,
+            "accuracy": 0.68
+          },
+          "Biology": {
+            "completed": 10,
+            "correct": 10,
+            "accuracy": 1.0
+          }
+        },
+        "per_question_mean_score": {
+          "gpqa-diamond-003": 0.2,
+          "gpqa-diamond-036": 0.5,
+          "gpqa-diamond-040": 1.0,
+          "gpqa-diamond-041": 1.0,
+          "gpqa-diamond-064": 0.6,
+          "gpqa-diamond-086": 1.0,
+          "gpqa-diamond-091": 0.9,
+          "gpqa-diamond-115": 0.4,
+          "gpqa-diamond-151": 1.0,
+          "gpqa-diamond-159": 1.0
+        }
+      },
+      "cli_version": "0.2.1-rc.2",
+      "first_request_correct": 76,
+      "first_request_parse_failures": 6,
+      "first_vs_final_correctness_changed": 0,
+      "additional_requests": 0,
+      "length_terminated_requests": 8,
+      "native_final_count": 100,
+      "raw_truncation_fallback_count": 0,
+      "adapter_rejections": 0,
+      "first_request_system_tokens_o200k": 25,
+      "native_tool_schema_counts": [
+        0
+      ],
+      "identical_prompt_groups": 14,
+      "identical_prompt_valid_answer_changed_groups": 4,
+      "wall_seconds": 350.80265641212463
+    },
+    "pi": {
+      "summary": {
+        "selected": 100,
+        "unique_questions": 10,
+        "attempted": 100,
+        "completed": 100,
+        "remaining": 0,
+        "correct": 80,
+        "incorrect": 20,
+        "accuracy": 0.8,
+        "status_counts": {
+          "completed": 100
+        },
+        "answer_parse_failures": 6,
+        "output_truncated": 7,
+        "model_requests": 100,
+        "accounting_gaps": 0,
+        "usage_missing_requests": 0,
+        "usage": {
+          "prompt_tokens": 68349,
+          "completion_tokens": 68448,
+          "total_tokens": 136797,
+          "prompt_cache_hit_tokens": 25344,
+          "prompt_cache_miss_tokens": 43005
+        },
+        "reasoning_tokens": 0,
+        "reasoning_tokens_reported_requests": 0,
+        "reasoning_note": "Reasoning tokens are a subset of completion tokens when reported; absent breakdown is unknown, not proof of zero.",
+        "by_domain": {
+          "Physics": {
+            "completed": 40,
+            "correct": 34,
+            "accuracy": 0.85
+          },
+          "Chemistry": {
+            "completed": 50,
+            "correct": 36,
+            "accuracy": 0.72
+          },
+          "Biology": {
+            "completed": 10,
+            "correct": 10,
+            "accuracy": 1.0
+          }
+        },
+        "per_question_mean_score": {
+          "gpqa-diamond-003": 0.4,
+          "gpqa-diamond-036": 0.6,
+          "gpqa-diamond-040": 1.0,
+          "gpqa-diamond-041": 1.0,
+          "gpqa-diamond-064": 0.7,
+          "gpqa-diamond-086": 1.0,
+          "gpqa-diamond-091": 0.9,
+          "gpqa-diamond-115": 0.4,
+          "gpqa-diamond-151": 1.0,
+          "gpqa-diamond-159": 1.0
+        }
+      },
+      "cli_version": "1.3.0",
+      "first_request_correct": 80,
+      "first_request_parse_failures": 6,
+      "first_vs_final_correctness_changed": 0,
+      "additional_requests": 0,
+      "length_terminated_requests": 7,
+      "native_final_count": 93,
+      "raw_truncation_fallback_count": 7,
+      "adapter_rejections": 16,
+      "first_request_system_tokens_o200k": 440.58,
+      "native_tool_schema_counts": [
+        0
+      ],
+      "identical_prompt_groups": 14,
+      "identical_prompt_valid_answer_changed_groups": 1,
+      "wall_seconds": 274.57704424858093
+    },
+    "zcode": {
+      "summary": {
+        "selected": 100,
+        "unique_questions": 10,
+        "attempted": 100,
+        "completed": 100,
+        "remaining": 0,
+        "correct": 77,
+        "incorrect": 23,
+        "accuracy": 0.77,
+        "status_counts": {
+          "completed": 100
+        },
+        "answer_parse_failures": 0,
+        "output_truncated": 2,
+        "model_requests": 103,
+        "accounting_gaps": 0,
+        "usage_missing_requests": 0,
+        "usage": {
+          "prompt_tokens": 187247,
+          "completion_tokens": 65584,
+          "total_tokens": 252831,
+          "prompt_cache_hit_tokens": 96896,
+          "prompt_cache_miss_tokens": 90351
+        },
+        "reasoning_tokens": 0,
+        "reasoning_tokens_reported_requests": 0,
+        "reasoning_note": "Reasoning tokens are a subset of completion tokens when reported; absent breakdown is unknown, not proof of zero.",
+        "by_domain": {
+          "Physics": {
+            "completed": 40,
+            "correct": 35,
+            "accuracy": 0.875
+          },
+          "Chemistry": {
+            "completed": 50,
+            "correct": 32,
+            "accuracy": 0.64
+          },
+          "Biology": {
+            "completed": 10,
+            "correct": 10,
+            "accuracy": 1.0
+          }
+        },
+        "per_question_mean_score": {
+          "gpqa-diamond-003": 0.5,
+          "gpqa-diamond-036": 0.8,
+          "gpqa-diamond-040": 1.0,
+          "gpqa-diamond-041": 1.0,
+          "gpqa-diamond-064": 0.5,
+          "gpqa-diamond-086": 0.9,
+          "gpqa-diamond-091": 0.4,
+          "gpqa-diamond-115": 0.6,
+          "gpqa-diamond-151": 1.0,
+          "gpqa-diamond-159": 1.0
+        }
+      },
+      "cli_version": "0.16.9",
+      "first_request_correct": 75,
+      "first_request_parse_failures": 2,
+      "first_vs_final_correctness_changed": 2,
+      "additional_requests": 3,
+      "length_terminated_requests": 3,
+      "native_final_count": 100,
+      "raw_truncation_fallback_count": 0,
+      "adapter_rejections": 0,
+      "first_request_system_tokens_o200k": 1346.79,
+      "native_tool_schema_counts": [
+        0
+      ],
+      "identical_prompt_groups": 14,
+      "identical_prompt_valid_answer_changed_groups": 0,
+      "wall_seconds": 467.61297726631165
+    }
+  },
+  "questions": [
+    {
+      "question_id": "gpqa-diamond-003",
+      "domain": "Physics",
+      "api_correct": 0,
+      "api_truncated": 0,
+      "claude_correct": 6,
+      "claude_truncated": 0,
+      "codex_correct": 0,
+      "codex_truncated": 0,
+      "dsh_correct": 2,
+      "dsh_truncated": 0,
+      "pi_correct": 4,
+      "pi_truncated": 0,
+      "zcode_correct": 5,
+      "zcode_truncated": 0
+    },
+    {
+      "question_id": "gpqa-diamond-036",
+      "domain": "Chemistry",
+      "api_correct": 7,
+      "api_truncated": 2,
+      "claude_correct": 4,
+      "claude_truncated": 0,
+      "codex_correct": 5,
+      "codex_truncated": 0,
+      "dsh_correct": 5,
+      "dsh_truncated": 1,
+      "pi_correct": 6,
+      "pi_truncated": 1,
+      "zcode_correct": 8,
+      "zcode_truncated": 1
+    },
+    {
+      "question_id": "gpqa-diamond-040",
+      "domain": "Physics",
+      "api_correct": 10,
+      "api_truncated": 0,
+      "claude_correct": 10,
+      "claude_truncated": 0,
+      "codex_correct": 10,
+      "codex_truncated": 0,
+      "dsh_correct": 10,
+      "dsh_truncated": 0,
+      "pi_correct": 10,
+      "pi_truncated": 0,
+      "zcode_correct": 10,
+      "zcode_truncated": 0
+    },
+    {
+      "question_id": "gpqa-diamond-041",
+      "domain": "Physics",
+      "api_correct": 10,
+      "api_truncated": 0,
+      "claude_correct": 10,
+      "claude_truncated": 0,
+      "codex_correct": 10,
+      "codex_truncated": 0,
+      "dsh_correct": 10,
+      "dsh_truncated": 0,
+      "pi_correct": 10,
+      "pi_truncated": 0,
+      "zcode_correct": 10,
+      "zcode_truncated": 0
+    },
+    {
+      "question_id": "gpqa-diamond-064",
+      "domain": "Chemistry",
+      "api_correct": 5,
+      "api_truncated": 0,
+      "claude_correct": 5,
+      "claude_truncated": 0,
+      "codex_correct": 3,
+      "codex_truncated": 1,
+      "dsh_correct": 6,
+      "dsh_truncated": 0,
+      "pi_correct": 7,
+      "pi_truncated": 1,
+      "zcode_correct": 5,
+      "zcode_truncated": 0
+    },
+    {
+      "question_id": "gpqa-diamond-086",
+      "domain": "Chemistry",
+      "api_correct": 10,
+      "api_truncated": 0,
+      "claude_correct": 7,
+      "claude_truncated": 0,
+      "codex_correct": 6,
+      "codex_truncated": 0,
+      "dsh_correct": 10,
+      "dsh_truncated": 0,
+      "pi_correct": 10,
+      "pi_truncated": 0,
+      "zcode_correct": 9,
+      "zcode_truncated": 0
+    },
+    {
+      "question_id": "gpqa-diamond-091",
+      "domain": "Chemistry",
+      "api_correct": 8,
+      "api_truncated": 0,
+      "claude_correct": 3,
+      "claude_truncated": 0,
+      "codex_correct": 6,
+      "codex_truncated": 0,
+      "dsh_correct": 9,
+      "dsh_truncated": 0,
+      "pi_correct": 9,
+      "pi_truncated": 0,
+      "zcode_correct": 4,
+      "zcode_truncated": 0
+    },
+    {
+      "question_id": "gpqa-diamond-115",
+      "domain": "Chemistry",
+      "api_correct": 1,
+      "api_truncated": 8,
+      "claude_correct": 6,
+      "claude_truncated": 4,
+      "codex_correct": 4,
+      "codex_truncated": 5,
+      "dsh_correct": 4,
+      "dsh_truncated": 7,
+      "pi_correct": 4,
+      "pi_truncated": 5,
+      "zcode_correct": 6,
+      "zcode_truncated": 1
+    },
+    {
+      "question_id": "gpqa-diamond-151",
+      "domain": "Biology",
+      "api_correct": 10,
+      "api_truncated": 0,
+      "claude_correct": 10,
+      "claude_truncated": 0,
+      "codex_correct": 10,
+      "codex_truncated": 0,
+      "dsh_correct": 10,
+      "dsh_truncated": 0,
+      "pi_correct": 10,
+      "pi_truncated": 0,
+      "zcode_correct": 10,
+      "zcode_truncated": 0
+    },
+    {
+      "question_id": "gpqa-diamond-159",
+      "domain": "Physics",
+      "api_correct": 7,
+      "api_truncated": 0,
+      "claude_correct": 9,
+      "claude_truncated": 0,
+      "codex_correct": 10,
+      "codex_truncated": 0,
+      "dsh_correct": 10,
+      "dsh_truncated": 0,
+      "pi_correct": 10,
+      "pi_truncated": 0,
+      "zcode_correct": 10,
+      "zcode_truncated": 0
+    }
+  ],
+  "pairwise": [
+    {
+      "harness_a": "api",
+      "harness_b": "claude",
+      "both_correct": 54,
+      "both_wrong": 16,
+      "only_a_correct": 14,
+      "only_b_correct": 16,
+      "both_parseable": 90,
+      "same_valid_canonical_answer": 64,
+      "both_unparseable": 0
+    },
+    {
+      "harness_a": "api",
+      "harness_b": "codex",
+      "both_correct": 55,
+      "both_wrong": 23,
+      "only_a_correct": 13,
+      "only_b_correct": 9,
+      "both_parseable": 87,
+      "same_valid_canonical_answer": 66,
+      "both_unparseable": 2
+    },
+    {
+      "harness_a": "api",
+      "harness_b": "dsh",
+      "both_correct": 62,
+      "both_wrong": 18,
+      "only_a_correct": 6,
+      "only_b_correct": 14,
+      "both_parseable": 88,
+      "same_valid_canonical_answer": 69,
+      "both_unparseable": 4
+    },
+    {
+      "harness_a": "api",
+      "harness_b": "pi",
+      "both_correct": 63,
+      "both_wrong": 15,
+      "only_a_correct": 5,
+      "only_b_correct": 17,
+      "both_parseable": 86,
+      "same_valid_canonical_answer": 68,
+      "both_unparseable": 2
+    },
+    {
+      "harness_a": "api",
+      "harness_b": "zcode",
+      "both_correct": 58,
+      "both_wrong": 13,
+      "only_a_correct": 10,
+      "only_b_correct": 19,
+      "both_parseable": 90,
+      "same_valid_canonical_answer": 65,
+      "both_unparseable": 0
+    },
+    {
+      "harness_a": "claude",
+      "harness_b": "codex",
+      "both_correct": 54,
+      "both_wrong": 20,
+      "only_a_correct": 16,
+      "only_b_correct": 10,
+      "both_parseable": 95,
+      "same_valid_canonical_answer": 64,
+      "both_unparseable": 0
+    },
+    {
+      "harness_a": "claude",
+      "harness_b": "dsh",
+      "both_correct": 61,
+      "both_wrong": 15,
+      "only_a_correct": 9,
+      "only_b_correct": 15,
+      "both_parseable": 94,
+      "same_valid_canonical_answer": 68,
+      "both_unparseable": 0
+    },
+    {
+      "harness_a": "claude",
+      "harness_b": "pi",
+      "both_correct": 63,
+      "both_wrong": 13,
+      "only_a_correct": 7,
+      "only_b_correct": 17,
+      "both_parseable": 94,
+      "same_valid_canonical_answer": 68,
+      "both_unparseable": 0
+    },
+    {
+      "harness_a": "claude",
+      "harness_b": "zcode",
+      "both_correct": 63,
+      "both_wrong": 16,
+      "only_a_correct": 7,
+      "only_b_correct": 14,
+      "both_parseable": 100,
+      "same_valid_canonical_answer": 75,
+      "both_unparseable": 0
+    },
+    {
+      "harness_a": "codex",
+      "harness_b": "dsh",
+      "both_correct": 56,
+      "both_wrong": 16,
+      "only_a_correct": 8,
+      "only_b_correct": 20,
+      "both_parseable": 91,
+      "same_valid_canonical_answer": 64,
+      "both_unparseable": 2
+    },
+    {
+      "harness_a": "codex",
+      "harness_b": "pi",
+      "both_correct": 60,
+      "both_wrong": 16,
+      "only_a_correct": 4,
+      "only_b_correct": 20,
+      "both_parseable": 91,
+      "same_valid_canonical_answer": 67,
+      "both_unparseable": 2
+    },
+    {
+      "harness_a": "codex",
+      "harness_b": "zcode",
+      "both_correct": 60,
+      "both_wrong": 19,
+      "only_a_correct": 4,
+      "only_b_correct": 17,
+      "both_parseable": 95,
+      "same_valid_canonical_answer": 73,
+      "both_unparseable": 0
+    },
+    {
+      "harness_a": "dsh",
+      "harness_b": "pi",
+      "both_correct": 69,
+      "both_wrong": 13,
+      "only_a_correct": 7,
+      "only_b_correct": 11,
+      "both_parseable": 90,
+      "same_valid_canonical_answer": 72,
+      "both_unparseable": 2
+    },
+    {
+      "harness_a": "dsh",
+      "harness_b": "zcode",
+      "both_correct": 65,
+      "both_wrong": 12,
+      "only_a_correct": 11,
+      "only_b_correct": 12,
+      "both_parseable": 94,
+      "same_valid_canonical_answer": 70,
+      "both_unparseable": 0
+    },
+    {
+      "harness_a": "pi",
+      "harness_b": "zcode",
+      "both_correct": 71,
+      "both_wrong": 14,
+      "only_a_correct": 9,
+      "only_b_correct": 6,
+      "both_parseable": 94,
+      "same_valid_canonical_answer": 77,
+      "both_unparseable": 0
+    }
+  ],
+  "joint": {
+    "all_five_correct": 47,
+    "all_five_wrong": 8,
+    "all_five_same_valid_answer": 47,
+    "mixed_correctness": 45
+  },
+  "implementation_sha256": {
+    "scripts/run_gpqa_harness.py": "df954ac0a79a2d5eb3c0279e87e52f7851a0cf46e9c854f5c2eadbf756083593",
+    "scripts/gpqa_native_gateway.py": "dbdd9ddb93686a672d76b3388bb6fbf6e01f73efdff369a58b0e0ffb7ea5c5bf",
+    "scripts/zcode_gpqa_entry.mjs": "e7702e2f90053b015482c43b964c1d831e6f11e7bd027723ba5753ce11eed13a",
+    "scripts/analyze_gpqa_harnesses.py": "ed1c11130bfd8888fddc1fa769426fe92680e7ae1ad692e32c94b1aa8cb5e71c"
+  }
+}
