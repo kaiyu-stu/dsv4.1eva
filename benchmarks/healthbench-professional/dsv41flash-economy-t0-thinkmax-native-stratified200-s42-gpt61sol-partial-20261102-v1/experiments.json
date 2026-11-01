@@ -1,0 +1,227 @@
+{
+  "claude": {
+    "model": "deepseek-v4.1-flash-economy",
+    "ark_base_url": "https://ark.cn-beijing.volces.com/api/coding/v3",
+    "temperature": 0,
+    "thinking": "enabled",
+    "reasoning_effort": "max",
+    "max_output_tokens": 131072,
+    "timeout": 1800,
+    "n_repeats": 1,
+    "tools": false,
+    "compression_policy": "native_defaults_no_acon",
+    "cli_version": "2.1.301 (Claude Code)",
+    "dataset_sha256": "d44b08e6e952e04c945e2c406f02533d9e7a989a84e35820ee7efdff20c9e4e2",
+    "sampling": {
+      "method": "stratified_proportional",
+      "stratify_by": "use_case",
+      "seed": 42,
+      "size": 200,
+      "population_size": 525,
+      "selected_ids_sha256": "1ad97f9479598a725f7eaf404033724631d61129d4c39f03bc1f6eeab3abedba",
+      "population_counts": {
+        "consult": 236,
+        "research": 147,
+        "writing": 142
+      },
+      "selected_counts": {
+        "consult": 90,
+        "research": 56,
+        "writing": 54
+      }
+    },
+    "track": "native_harness_no_tools_professional_reference_scoring",
+    "input_policy": "Dataset messages retain roles; benchmark history inserted before final native user message; no rubrics or physician response sent to candidate",
+    "official_grader_sha256": "dfcb3592809bbf97d389fb9256fc0f912621cc23ccac017f2c5af6a39d9d7880",
+    "length_adjustment_center": 2000,
+    "length_adjustment_penalty_per_500_chars": 0.0147,
+    "grader": {
+      "provider": "openai_compatible",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "low",
+      "base_url": "https://api.dreamger.cc/v1",
+      "api_format": "responses",
+      "official_gpt54_reference_grader": false
+    }
+  },
+  "codex": {
+    "model": "deepseek-v4.1-flash-economy",
+    "ark_base_url": "https://ark.cn-beijing.volces.com/api/coding/v3",
+    "temperature": 0,
+    "thinking": "enabled",
+    "reasoning_effort": "max",
+    "max_output_tokens": 131072,
+    "timeout": 1800,
+    "n_repeats": 1,
+    "tools": false,
+    "compression_policy": "native_defaults_no_acon",
+    "cli_version": "codex-cli 0.161.0",
+    "dataset_sha256": "d44b08e6e952e04c945e2c406f02533d9e7a989a84e35820ee7efdff20c9e4e2",
+    "sampling": {
+      "method": "stratified_proportional",
+      "stratify_by": "use_case",
+      "seed": 42,
+      "size": 200,
+      "population_size": 525,
+      "selected_ids_sha256": "1ad97f9479598a725f7eaf404033724631d61129d4c39f03bc1f6eeab3abedba",
+      "population_counts": {
+        "consult": 236,
+        "research": 147,
+        "writing": 142
+      },
+      "selected_counts": {
+        "consult": 90,
+        "research": 56,
+        "writing": 54
+      }
+    },
+    "track": "native_harness_no_tools_professional_reference_scoring",
+    "input_policy": "Dataset messages retain roles; benchmark history inserted before final native user message; no rubrics or physician response sent to candidate",
+    "official_grader_sha256": "dfcb3592809bbf97d389fb9256fc0f912621cc23ccac017f2c5af6a39d9d7880",
+    "length_adjustment_center": 2000,
+    "length_adjustment_penalty_per_500_chars": 0.0147,
+    "grader": {
+      "provider": "openai_compatible",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "low",
+      "base_url": "https://api.dreamger.cc/v1",
+      "api_format": "responses",
+      "official_gpt54_reference_grader": false
+    }
+  },
+  "dsh": {
+    "model": "deepseek-v4.1-flash-economy",
+    "ark_base_url": "https://ark.cn-beijing.volces.com/api/coding/v3",
+    "temperature": 0,
+    "thinking": "enabled",
+    "reasoning_effort": "max",
+    "max_output_tokens": 131072,
+    "timeout": 1800,
+    "n_repeats": 1,
+    "tools": false,
+    "compression_policy": "native_defaults_no_acon",
+    "cli_version": "0.2.1-rc.2",
+    "dataset_sha256": "d44b08e6e952e04c945e2c406f02533d9e7a989a84e35820ee7efdff20c9e4e2",
+    "sampling": {
+      "method": "stratified_proportional",
+      "stratify_by": "use_case",
+      "seed": 42,
+      "size": 200,
+      "population_size": 525,
+      "selected_ids_sha256": "1ad97f9479598a725f7eaf404033724631d61129d4c39f03bc1f6eeab3abedba",
+      "population_counts": {
+        "consult": 236,
+        "research": 147,
+        "writing": 142
+      },
+      "selected_counts": {
+        "consult": 90,
+        "research": 56,
+        "writing": 54
+      }
+    },
+    "track": "native_harness_no_tools_professional_reference_scoring",
+    "input_policy": "Dataset messages retain roles; benchmark history inserted before final native user message; no rubrics or physician response sent to candidate",
+    "official_grader_sha256": "dfcb3592809bbf97d389fb9256fc0f912621cc23ccac017f2c5af6a39d9d7880",
+    "length_adjustment_center": 2000,
+    "length_adjustment_penalty_per_500_chars": 0.0147,
+    "grader": {
+      "provider": "openai_compatible",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "low",
+      "base_url": "https://api.dreamger.cc/v1",
+      "api_format": "responses",
+      "official_gpt54_reference_grader": false
+    }
+  },
+  "pi": {
+    "model": "deepseek-v4.1-flash-economy",
+    "ark_base_url": "https://ark.cn-beijing.volces.com/api/coding/v3",
+    "temperature": 0,
+    "thinking": "enabled",
+    "reasoning_effort": "max",
+    "max_output_tokens": 131072,
+    "timeout": 1800,
+    "n_repeats": 1,
+    "tools": false,
+    "compression_policy": "native_defaults_no_acon",
+    "cli_version": "1.3.0",
+    "dataset_sha256": "d44b08e6e952e04c945e2c406f02533d9e7a989a84e35820ee7efdff20c9e4e2",
+    "sampling": {
+      "method": "stratified_proportional",
+      "stratify_by": "use_case",
+      "seed": 42,
+      "size": 200,
+      "population_size": 525,
+      "selected_ids_sha256": "1ad97f9479598a725f7eaf404033724631d61129d4c39f03bc1f6eeab3abedba",
+      "population_counts": {
+        "consult": 236,
+        "research": 147,
+        "writing": 142
+      },
+      "selected_counts": {
+        "consult": 90,
+        "research": 56,
+        "writing": 54
+      }
+    },
+    "track": "native_harness_no_tools_professional_reference_scoring",
+    "input_policy": "Dataset messages retain roles; benchmark history inserted before final native user message; no rubrics or physician response sent to candidate",
+    "official_grader_sha256": "dfcb3592809bbf97d389fb9256fc0f912621cc23ccac017f2c5af6a39d9d7880",
+    "length_adjustment_center": 2000,
+    "length_adjustment_penalty_per_500_chars": 0.0147,
+    "grader": {
+      "provider": "openai_compatible",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "low",
+      "base_url": "https://api.dreamger.cc/v1",
+      "api_format": "responses",
+      "official_gpt54_reference_grader": false
+    }
+  },
+  "zcode": {
+    "model": "deepseek-v4.1-flash-economy",
+    "ark_base_url": "https://ark.cn-beijing.volces.com/api/coding/v3",
+    "temperature": 0,
+    "thinking": "enabled",
+    "reasoning_effort": "max",
+    "max_output_tokens": 131072,
+    "timeout": 1800,
+    "n_repeats": 1,
+    "tools": false,
+    "compression_policy": "native_defaults_no_acon",
+    "cli_version": "0.16.9",
+    "dataset_sha256": "d44b08e6e952e04c945e2c406f02533d9e7a989a84e35820ee7efdff20c9e4e2",
+    "sampling": {
+      "method": "stratified_proportional",
+      "stratify_by": "use_case",
+      "seed": 42,
+      "size": 200,
+      "population_size": 525,
+      "selected_ids_sha256": "1ad97f9479598a725f7eaf404033724631d61129d4c39f03bc1f6eeab3abedba",
+      "population_counts": {
+        "consult": 236,
+        "research": 147,
+        "writing": 142
+      },
+      "selected_counts": {
+        "consult": 90,
+        "research": 56,
+        "writing": 54
+      }
+    },
+    "track": "native_harness_no_tools_professional_reference_scoring",
+    "input_policy": "Dataset messages retain roles; benchmark history inserted before final native user message; no rubrics or physician response sent to candidate",
+    "official_grader_sha256": "dfcb3592809bbf97d389fb9256fc0f912621cc23ccac017f2c5af6a39d9d7880",
+    "length_adjustment_center": 2000,
+    "length_adjustment_penalty_per_500_chars": 0.0147,
+    "grader": {
+      "provider": "openai_compatible",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "low",
+      "base_url": "https://api.dreamger.cc/v1",
+      "api_format": "responses",
+      "official_gpt54_reference_grader": false
+    }
+  }
+}

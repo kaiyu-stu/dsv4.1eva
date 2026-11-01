@@ -1,0 +1,262 @@
+{
+  "claude": {
+    "model": "deepseek-v4.1-flash-economy",
+    "ark_base_url": "https://ark.cn-beijing.volces.com/api/plan/v3",
+    "temperature": 0,
+    "thinking": "disabled",
+    "max_output_tokens": 4096,
+    "timeout": 1800,
+    "tools": false,
+    "cli_version": "2.1.301 (Claude Code)",
+    "dataset_sha256": {
+      "data/mrcr/2needle/2needle_0.parquet": "1c297b254bf64a31856b74918cd7db889a214503e0b67daa834e84f20df6aa93",
+      "data/mrcr/2needle/2needle_1.parquet": "a5a1dc9ccc945623253d04d33c03d89aee2d676c88955ce368da2ab16a0ce94d",
+      "data/mrcr/4needle/4needle_0.parquet": "4d4fa3d11ce064749de3cd039eef1a621e30a81c2c9b3e64f1df37f8afeaf312",
+      "data/mrcr/4needle/4needle_1.parquet": "8dfdb94a208cf3eee73c4e7ac6ee8a5ccb7236c6934c13c6c5f67c0a9928cdf3",
+      "data/mrcr/8needle/8needle_0.parquet": "65df601a2e0ae4a3cfb56920a6ef99f26c0de37c6b1018695e8aed684e6a94c1",
+      "data/mrcr/8needle/8needle_1.parquet": "c80b19573bff1d38e1c157d6a0bdf9cfd1a8ab6372296174c9a7015e164189e3"
+    },
+    "track": "mrcr_native_cli_gateway_full_context_agentplan3_continuation_v1",
+    "history_policy": "Original roles injected at gateway; not visible in native session; no compaction claim",
+    "system_policy": "Preserve native harness system prompts",
+    "implementation_sha256": {
+      "run_mrcr_harness.py": "18e3697323e71cc7594a088983f0ee8c9a6021a45c07467da1c88b7273ce1cb3",
+      "run_gpqa_harness.py": "fc12fd85405264d9037ed5b9cf4d7972ac2a56d5f7a146ff900a17102263d9dc",
+      "gpqa_native_gateway.py": "7f28e4df4a6da2d66377ad9472b7fb9a071177b264683cc7d739d7efe6fc6d21"
+    },
+    "original_codingplan": {
+      "model": "deepseek-v4.1-flash-economy",
+      "ark_base_url": "https://ark.cn-beijing.volces.com/api/coding/v3",
+      "temperature": 0,
+      "thinking": "disabled",
+      "max_output_tokens": 4096,
+      "timeout": 1800,
+      "tools": false,
+      "cli_version": "2.1.301 (Claude Code)",
+      "dataset_sha256": {
+        "data/mrcr/2needle/2needle_0.parquet": "1c297b254bf64a31856b74918cd7db889a214503e0b67daa834e84f20df6aa93",
+        "data/mrcr/2needle/2needle_1.parquet": "a5a1dc9ccc945623253d04d33c03d89aee2d676c88955ce368da2ab16a0ce94d",
+        "data/mrcr/4needle/4needle_0.parquet": "4d4fa3d11ce064749de3cd039eef1a621e30a81c2c9b3e64f1df37f8afeaf312",
+        "data/mrcr/4needle/4needle_1.parquet": "8dfdb94a208cf3eee73c4e7ac6ee8a5ccb7236c6934c13c6c5f67c0a9928cdf3",
+        "data/mrcr/8needle/8needle_0.parquet": "65df601a2e0ae4a3cfb56920a6ef99f26c0de37c6b1018695e8aed684e6a94c1",
+        "data/mrcr/8needle/8needle_1.parquet": "c80b19573bff1d38e1c157d6a0bdf9cfd1a8ab6372296174c9a7015e164189e3"
+      },
+      "track": "mrcr_native_cli_gateway_full_context_v1",
+      "history_policy": "Original roles injected at gateway; not visible in native session; no compaction claim",
+      "system_policy": "Preserve native harness system prompts",
+      "implementation_sha256": {
+        "run_mrcr_harness.py": "e87828d7e705e0fdecb4a8a0ad8d90c6f7845440e212b9d6dd10dcc54468ae3c",
+        "run_gpqa_harness.py": "fc12fd85405264d9037ed5b9cf4d7972ac2a56d5f7a146ff900a17102263d9dc",
+        "gpqa_native_gateway.py": "7f28e4df4a6da2d66377ad9472b7fb9a071177b264683cc7d739d7efe6fc6d21"
+      }
+    }
+  },
+  "codex": {
+    "model": "deepseek-v4.1-flash-economy",
+    "ark_base_url": "https://ark.cn-beijing.volces.com/api/plan/v3",
+    "temperature": 0,
+    "thinking": "disabled",
+    "max_output_tokens": 4096,
+    "timeout": 1800,
+    "tools": false,
+    "cli_version": "codex-cli 0.161.0",
+    "dataset_sha256": {
+      "data/mrcr/2needle/2needle_0.parquet": "1c297b254bf64a31856b74918cd7db889a214503e0b67daa834e84f20df6aa93",
+      "data/mrcr/2needle/2needle_1.parquet": "a5a1dc9ccc945623253d04d33c03d89aee2d676c88955ce368da2ab16a0ce94d",
+      "data/mrcr/4needle/4needle_0.parquet": "4d4fa3d11ce064749de3cd039eef1a621e30a81c2c9b3e64f1df37f8afeaf312",
+      "data/mrcr/4needle/4needle_1.parquet": "8dfdb94a208cf3eee73c4e7ac6ee8a5ccb7236c6934c13c6c5f67c0a9928cdf3",
+      "data/mrcr/8needle/8needle_0.parquet": "65df601a2e0ae4a3cfb56920a6ef99f26c0de37c6b1018695e8aed684e6a94c1",
+      "data/mrcr/8needle/8needle_1.parquet": "c80b19573bff1d38e1c157d6a0bdf9cfd1a8ab6372296174c9a7015e164189e3"
+    },
+    "track": "mrcr_native_cli_gateway_full_context_agentplan3_continuation_v1",
+    "history_policy": "Original roles injected at gateway; not visible in native session; no compaction claim",
+    "system_policy": "Preserve native harness system prompts",
+    "implementation_sha256": {
+      "run_mrcr_harness.py": "18e3697323e71cc7594a088983f0ee8c9a6021a45c07467da1c88b7273ce1cb3",
+      "run_gpqa_harness.py": "fc12fd85405264d9037ed5b9cf4d7972ac2a56d5f7a146ff900a17102263d9dc",
+      "gpqa_native_gateway.py": "7f28e4df4a6da2d66377ad9472b7fb9a071177b264683cc7d739d7efe6fc6d21"
+    },
+    "original_codingplan": {
+      "model": "deepseek-v4.1-flash-economy",
+      "ark_base_url": "https://ark.cn-beijing.volces.com/api/coding/v3",
+      "temperature": 0,
+      "thinking": "disabled",
+      "max_output_tokens": 4096,
+      "timeout": 1800,
+      "tools": false,
+      "cli_version": "codex-cli 0.161.0",
+      "dataset_sha256": {
+        "data/mrcr/2needle/2needle_0.parquet": "1c297b254bf64a31856b74918cd7db889a214503e0b67daa834e84f20df6aa93",
+        "data/mrcr/2needle/2needle_1.parquet": "a5a1dc9ccc945623253d04d33c03d89aee2d676c88955ce368da2ab16a0ce94d",
+        "data/mrcr/4needle/4needle_0.parquet": "4d4fa3d11ce064749de3cd039eef1a621e30a81c2c9b3e64f1df37f8afeaf312",
+        "data/mrcr/4needle/4needle_1.parquet": "8dfdb94a208cf3eee73c4e7ac6ee8a5ccb7236c6934c13c6c5f67c0a9928cdf3",
+        "data/mrcr/8needle/8needle_0.parquet": "65df601a2e0ae4a3cfb56920a6ef99f26c0de37c6b1018695e8aed684e6a94c1",
+        "data/mrcr/8needle/8needle_1.parquet": "c80b19573bff1d38e1c157d6a0bdf9cfd1a8ab6372296174c9a7015e164189e3"
+      },
+      "track": "mrcr_native_cli_gateway_full_context_v1",
+      "history_policy": "Original roles injected at gateway; not visible in native session; no compaction claim",
+      "system_policy": "Preserve native harness system prompts",
+      "implementation_sha256": {
+        "run_mrcr_harness.py": "e87828d7e705e0fdecb4a8a0ad8d90c6f7845440e212b9d6dd10dcc54468ae3c",
+        "run_gpqa_harness.py": "fc12fd85405264d9037ed5b9cf4d7972ac2a56d5f7a146ff900a17102263d9dc",
+        "gpqa_native_gateway.py": "7f28e4df4a6da2d66377ad9472b7fb9a071177b264683cc7d739d7efe6fc6d21"
+      }
+    }
+  },
+  "dsh": {
+    "model": "deepseek-v4.1-flash-economy",
+    "ark_base_url": "https://ark.cn-beijing.volces.com/api/plan/v3",
+    "temperature": 0,
+    "thinking": "disabled",
+    "max_output_tokens": 4096,
+    "timeout": 1800,
+    "tools": false,
+    "cli_version": "0.2.1-rc.2",
+    "dataset_sha256": {
+      "data/mrcr/2needle/2needle_0.parquet": "1c297b254bf64a31856b74918cd7db889a214503e0b67daa834e84f20df6aa93",
+      "data/mrcr/2needle/2needle_1.parquet": "a5a1dc9ccc945623253d04d33c03d89aee2d676c88955ce368da2ab16a0ce94d",
+      "data/mrcr/4needle/4needle_0.parquet": "4d4fa3d11ce064749de3cd039eef1a621e30a81c2c9b3e64f1df37f8afeaf312",
+      "data/mrcr/4needle/4needle_1.parquet": "8dfdb94a208cf3eee73c4e7ac6ee8a5ccb7236c6934c13c6c5f67c0a9928cdf3",
+      "data/mrcr/8needle/8needle_0.parquet": "65df601a2e0ae4a3cfb56920a6ef99f26c0de37c6b1018695e8aed684e6a94c1",
+      "data/mrcr/8needle/8needle_1.parquet": "c80b19573bff1d38e1c157d6a0bdf9cfd1a8ab6372296174c9a7015e164189e3"
+    },
+    "track": "mrcr_native_cli_gateway_full_context_agentplan3_continuation_v1",
+    "history_policy": "Original roles injected at gateway; not visible in native session; no compaction claim",
+    "system_policy": "Preserve native harness system prompts",
+    "implementation_sha256": {
+      "run_mrcr_harness.py": "18e3697323e71cc7594a088983f0ee8c9a6021a45c07467da1c88b7273ce1cb3",
+      "run_gpqa_harness.py": "fc12fd85405264d9037ed5b9cf4d7972ac2a56d5f7a146ff900a17102263d9dc",
+      "gpqa_native_gateway.py": "7f28e4df4a6da2d66377ad9472b7fb9a071177b264683cc7d739d7efe6fc6d21"
+    },
+    "original_codingplan": {
+      "model": "deepseek-v4.1-flash-economy",
+      "ark_base_url": "https://ark.cn-beijing.volces.com/api/coding/v3",
+      "temperature": 0,
+      "thinking": "disabled",
+      "max_output_tokens": 4096,
+      "timeout": 1800,
+      "tools": false,
+      "cli_version": "0.2.1-rc.2",
+      "dataset_sha256": {
+        "data/mrcr/2needle/2needle_0.parquet": "1c297b254bf64a31856b74918cd7db889a214503e0b67daa834e84f20df6aa93",
+        "data/mrcr/2needle/2needle_1.parquet": "a5a1dc9ccc945623253d04d33c03d89aee2d676c88955ce368da2ab16a0ce94d",
+        "data/mrcr/4needle/4needle_0.parquet": "4d4fa3d11ce064749de3cd039eef1a621e30a81c2c9b3e64f1df37f8afeaf312",
+        "data/mrcr/4needle/4needle_1.parquet": "8dfdb94a208cf3eee73c4e7ac6ee8a5ccb7236c6934c13c6c5f67c0a9928cdf3",
+        "data/mrcr/8needle/8needle_0.parquet": "65df601a2e0ae4a3cfb56920a6ef99f26c0de37c6b1018695e8aed684e6a94c1",
+        "data/mrcr/8needle/8needle_1.parquet": "c80b19573bff1d38e1c157d6a0bdf9cfd1a8ab6372296174c9a7015e164189e3"
+      },
+      "track": "mrcr_native_cli_gateway_full_context_v1",
+      "history_policy": "Original roles injected at gateway; not visible in native session; no compaction claim",
+      "system_policy": "Preserve native harness system prompts",
+      "implementation_sha256": {
+        "run_mrcr_harness.py": "e87828d7e705e0fdecb4a8a0ad8d90c6f7845440e212b9d6dd10dcc54468ae3c",
+        "run_gpqa_harness.py": "fc12fd85405264d9037ed5b9cf4d7972ac2a56d5f7a146ff900a17102263d9dc",
+        "gpqa_native_gateway.py": "7f28e4df4a6da2d66377ad9472b7fb9a071177b264683cc7d739d7efe6fc6d21"
+      }
+    }
+  },
+  "pi": {
+    "model": "deepseek-v4.1-flash-economy",
+    "ark_base_url": "https://ark.cn-beijing.volces.com/api/plan/v3",
+    "temperature": 0,
+    "thinking": "disabled",
+    "max_output_tokens": 4096,
+    "timeout": 1800,
+    "tools": false,
+    "cli_version": "1.3.0",
+    "dataset_sha256": {
+      "data/mrcr/2needle/2needle_0.parquet": "1c297b254bf64a31856b74918cd7db889a214503e0b67daa834e84f20df6aa93",
+      "data/mrcr/2needle/2needle_1.parquet": "a5a1dc9ccc945623253d04d33c03d89aee2d676c88955ce368da2ab16a0ce94d",
+      "data/mrcr/4needle/4needle_0.parquet": "4d4fa3d11ce064749de3cd039eef1a621e30a81c2c9b3e64f1df37f8afeaf312",
+      "data/mrcr/4needle/4needle_1.parquet": "8dfdb94a208cf3eee73c4e7ac6ee8a5ccb7236c6934c13c6c5f67c0a9928cdf3",
+      "data/mrcr/8needle/8needle_0.parquet": "65df601a2e0ae4a3cfb56920a6ef99f26c0de37c6b1018695e8aed684e6a94c1",
+      "data/mrcr/8needle/8needle_1.parquet": "c80b19573bff1d38e1c157d6a0bdf9cfd1a8ab6372296174c9a7015e164189e3"
+    },
+    "track": "mrcr_native_cli_gateway_full_context_agentplan3_continuation_v1",
+    "history_policy": "Original roles injected at gateway; not visible in native session; no compaction claim",
+    "system_policy": "Preserve native harness system prompts",
+    "implementation_sha256": {
+      "run_mrcr_harness.py": "18e3697323e71cc7594a088983f0ee8c9a6021a45c07467da1c88b7273ce1cb3",
+      "run_gpqa_harness.py": "fc12fd85405264d9037ed5b9cf4d7972ac2a56d5f7a146ff900a17102263d9dc",
+      "gpqa_native_gateway.py": "7f28e4df4a6da2d66377ad9472b7fb9a071177b264683cc7d739d7efe6fc6d21"
+    },
+    "original_codingplan": {
+      "model": "deepseek-v4.1-flash-economy",
+      "ark_base_url": "https://ark.cn-beijing.volces.com/api/coding/v3",
+      "temperature": 0,
+      "thinking": "disabled",
+      "max_output_tokens": 4096,
+      "timeout": 1800,
+      "tools": false,
+      "cli_version": "1.3.0",
+      "dataset_sha256": {
+        "data/mrcr/2needle/2needle_0.parquet": "1c297b254bf64a31856b74918cd7db889a214503e0b67daa834e84f20df6aa93",
+        "data/mrcr/2needle/2needle_1.parquet": "a5a1dc9ccc945623253d04d33c03d89aee2d676c88955ce368da2ab16a0ce94d",
+        "data/mrcr/4needle/4needle_0.parquet": "4d4fa3d11ce064749de3cd039eef1a621e30a81c2c9b3e64f1df37f8afeaf312",
+        "data/mrcr/4needle/4needle_1.parquet": "8dfdb94a208cf3eee73c4e7ac6ee8a5ccb7236c6934c13c6c5f67c0a9928cdf3",
+        "data/mrcr/8needle/8needle_0.parquet": "65df601a2e0ae4a3cfb56920a6ef99f26c0de37c6b1018695e8aed684e6a94c1",
+        "data/mrcr/8needle/8needle_1.parquet": "c80b19573bff1d38e1c157d6a0bdf9cfd1a8ab6372296174c9a7015e164189e3"
+      },
+      "track": "mrcr_native_cli_gateway_full_context_v1",
+      "history_policy": "Original roles injected at gateway; not visible in native session; no compaction claim",
+      "system_policy": "Preserve native harness system prompts",
+      "implementation_sha256": {
+        "run_mrcr_harness.py": "e87828d7e705e0fdecb4a8a0ad8d90c6f7845440e212b9d6dd10dcc54468ae3c",
+        "run_gpqa_harness.py": "fc12fd85405264d9037ed5b9cf4d7972ac2a56d5f7a146ff900a17102263d9dc",
+        "gpqa_native_gateway.py": "7f28e4df4a6da2d66377ad9472b7fb9a071177b264683cc7d739d7efe6fc6d21"
+      }
+    }
+  },
+  "zcode": {
+    "model": "deepseek-v4.1-flash-economy",
+    "ark_base_url": "https://ark.cn-beijing.volces.com/api/plan/v3",
+    "temperature": 0,
+    "thinking": "disabled",
+    "max_output_tokens": 4096,
+    "timeout": 1800,
+    "tools": false,
+    "cli_version": "0.16.9",
+    "dataset_sha256": {
+      "data/mrcr/2needle/2needle_0.parquet": "1c297b254bf64a31856b74918cd7db889a214503e0b67daa834e84f20df6aa93",
+      "data/mrcr/2needle/2needle_1.parquet": "a5a1dc9ccc945623253d04d33c03d89aee2d676c88955ce368da2ab16a0ce94d",
+      "data/mrcr/4needle/4needle_0.parquet": "4d4fa3d11ce064749de3cd039eef1a621e30a81c2c9b3e64f1df37f8afeaf312",
+      "data/mrcr/4needle/4needle_1.parquet": "8dfdb94a208cf3eee73c4e7ac6ee8a5ccb7236c6934c13c6c5f67c0a9928cdf3",
+      "data/mrcr/8needle/8needle_0.parquet": "65df601a2e0ae4a3cfb56920a6ef99f26c0de37c6b1018695e8aed684e6a94c1",
+      "data/mrcr/8needle/8needle_1.parquet": "c80b19573bff1d38e1c157d6a0bdf9cfd1a8ab6372296174c9a7015e164189e3"
+    },
+    "track": "mrcr_native_cli_gateway_full_context_agentplan3_continuation_v1",
+    "history_policy": "Original roles injected at gateway; not visible in native session; no compaction claim",
+    "system_policy": "Preserve native harness system prompts",
+    "implementation_sha256": {
+      "run_mrcr_harness.py": "18e3697323e71cc7594a088983f0ee8c9a6021a45c07467da1c88b7273ce1cb3",
+      "run_gpqa_harness.py": "fc12fd85405264d9037ed5b9cf4d7972ac2a56d5f7a146ff900a17102263d9dc",
+      "gpqa_native_gateway.py": "7f28e4df4a6da2d66377ad9472b7fb9a071177b264683cc7d739d7efe6fc6d21"
+    },
+    "original_codingplan": {
+      "model": "deepseek-v4.1-flash-economy",
+      "ark_base_url": "https://ark.cn-beijing.volces.com/api/coding/v3",
+      "temperature": 0,
+      "thinking": "disabled",
+      "max_output_tokens": 4096,
+      "timeout": 1800,
+      "tools": false,
+      "cli_version": "0.16.9",
+      "dataset_sha256": {
+        "data/mrcr/2needle/2needle_0.parquet": "1c297b254bf64a31856b74918cd7db889a214503e0b67daa834e84f20df6aa93",
+        "data/mrcr/2needle/2needle_1.parquet": "a5a1dc9ccc945623253d04d33c03d89aee2d676c88955ce368da2ab16a0ce94d",
+        "data/mrcr/4needle/4needle_0.parquet": "4d4fa3d11ce064749de3cd039eef1a621e30a81c2c9b3e64f1df37f8afeaf312",
+        "data/mrcr/4needle/4needle_1.parquet": "8dfdb94a208cf3eee73c4e7ac6ee8a5ccb7236c6934c13c6c5f67c0a9928cdf3",
+        "data/mrcr/8needle/8needle_0.parquet": "65df601a2e0ae4a3cfb56920a6ef99f26c0de37c6b1018695e8aed684e6a94c1",
+        "data/mrcr/8needle/8needle_1.parquet": "c80b19573bff1d38e1c157d6a0bdf9cfd1a8ab6372296174c9a7015e164189e3"
+      },
+      "track": "mrcr_native_cli_gateway_full_context_v1",
+      "history_policy": "Original roles injected at gateway; not visible in native session; no compaction claim",
+      "system_policy": "Preserve native harness system prompts",
+      "implementation_sha256": {
+        "run_mrcr_harness.py": "e87828d7e705e0fdecb4a8a0ad8d90c6f7845440e212b9d6dd10dcc54468ae3c",
+        "run_gpqa_harness.py": "fc12fd85405264d9037ed5b9cf4d7972ac2a56d5f7a146ff900a17102263d9dc",
+        "gpqa_native_gateway.py": "7f28e4df4a6da2d66377ad9472b7fb9a071177b264683cc7d739d7efe6fc6d21"
+      }
+    }
+  }
+}

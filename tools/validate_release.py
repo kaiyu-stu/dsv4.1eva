@@ -106,7 +106,10 @@ def validate(base):
 
 if __name__=='__main__':
     for record in json.loads((ROOT/'benchmarks/index.json').read_text()):
-        if record['benchmark']=='terminal-bench-2.0':
+        if record.get('track') in ['native_no_tools_reference_grading','native_fullcontext_codingplan_agentplan3_continuation']:
+            from validate_native_snapshots import validate as validate_native_snapshot
+            validate_native_snapshot(ROOT/'benchmarks'/record['relative_path'])
+        elif record['benchmark']=='terminal-bench-2.0':
             validate(ROOT/'benchmarks'/record['relative_path'])
         elif record['benchmark']=='tau2-bench':
             from validate_tau2 import validate as validate_tau2

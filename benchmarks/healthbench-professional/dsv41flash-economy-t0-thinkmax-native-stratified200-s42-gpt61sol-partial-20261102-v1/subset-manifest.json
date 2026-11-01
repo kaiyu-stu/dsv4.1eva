@@ -1,0 +1,2002 @@
+[
+  {
+    "sample_id": "healthbench-professional-0001",
+    "source_row": 1,
+    "dataset_id": "c19c2113ba68bb3c4a3e63836e31b558",
+    "conversation_sha256": "faed9959791ed9177bb3ffb6fd3b84a3d32b4f953806852c83f0d2faa81af3db",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "ent"
+  },
+  {
+    "sample_id": "healthbench-professional-0005",
+    "source_row": 5,
+    "dataset_id": "3533d9bfd2d32f8c465e7af62aec9781",
+    "conversation_sha256": "3f391c5767c3cb06ce7c3abba0299d943ca63239bf3ba90d8942502590e0cf7a",
+    "use_case": "writing",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "ent"
+  },
+  {
+    "sample_id": "healthbench-professional-0009",
+    "source_row": 9,
+    "dataset_id": "f056cdb489e3636b0b51afb8fd6b3a8a",
+    "conversation_sha256": "132ae28bb751078e2f857b115bbf4624b6935255a9cbfb949e289e624f591cf3",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "gi"
+  },
+  {
+    "sample_id": "healthbench-professional-0014",
+    "source_row": 14,
+    "dataset_id": "ed8b3ca0a4dabfd0827c17a08513a181",
+    "conversation_sha256": "b5f4f9b58a99252eb6fdace2f47b19b5c05aeb9be7c7a2b336aafad6708cc87d",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "gi"
+  },
+  {
+    "sample_id": "healthbench-professional-0016",
+    "source_row": 16,
+    "dataset_id": "f00a97ad9c1f6f9d51f7595d2f1fb192",
+    "conversation_sha256": "7ac5fa926cb62045f45888bb16dc2c60e3c137e8cbf66ff832a25873a966a1ed",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "difficult",
+    "specialty": "gi"
+  },
+  {
+    "sample_id": "healthbench-professional-0017",
+    "source_row": 17,
+    "dataset_id": "b24258427538a4738c0fb8695b8e88c2",
+    "conversation_sha256": "ba5ac6876c3ccb912ebadffd4479cb5670a902564c205a079c6a444b524519a7",
+    "use_case": "writing",
+    "type": "good_faith",
+    "difficulty": "difficult",
+    "specialty": "gi"
+  },
+  {
+    "sample_id": "healthbench-professional-0018",
+    "source_row": 18,
+    "dataset_id": "ba61acc5f41d03f6c4350fbec738c8f6",
+    "conversation_sha256": "81dc576c74de3789435b77bd53a448ed8989e67a6a612a03dba0b2a40d91d8c0",
+    "use_case": "consult",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "gi"
+  },
+  {
+    "sample_id": "healthbench-professional-0019",
+    "source_row": 19,
+    "dataset_id": "b3d32c955eca9915b39e7844142e0a7c",
+    "conversation_sha256": "c74630a305deb74f24d78b2836174d772b3b32c9688bd55eb5b7922f29d71608",
+    "use_case": "consult",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "gi"
+  },
+  {
+    "sample_id": "healthbench-professional-0026",
+    "source_row": 26,
+    "dataset_id": "9a0a92b2f7944d9dd91772b48e59cf28",
+    "conversation_sha256": "139adbb8c25edf21a04a6213da30a335b8d7e53c294675b7cb0c2736545d260b",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "id"
+  },
+  {
+    "sample_id": "healthbench-professional-0027",
+    "source_row": 27,
+    "dataset_id": "6daac09cf85897e495539f3255bcf14c",
+    "conversation_sha256": "97afcdb19cd53d739377edbfd3ef0d1cb74766f7ce4ea5ed50a6d5a4a5783a0b",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "id"
+  },
+  {
+    "sample_id": "healthbench-professional-0030",
+    "source_row": 30,
+    "dataset_id": "34de42d85191eec893b650337159ae32",
+    "conversation_sha256": "b45ed332429a61cf02f7bf5ed79063e52cc8c10c51a2abbb96ea7292c7788efe",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "id"
+  },
+  {
+    "sample_id": "healthbench-professional-0033",
+    "source_row": 33,
+    "dataset_id": "5b639eecb6a0a71ce39b9f5349cf50db",
+    "conversation_sha256": "7e35ddc03db0d75be07c984bb389ccb46ec74d8a617b688d20959457d9694f43",
+    "use_case": "writing",
+    "type": "good_faith",
+    "difficulty": "difficult",
+    "specialty": "id"
+  },
+  {
+    "sample_id": "healthbench-professional-0035",
+    "source_row": 35,
+    "dataset_id": "725e0669a5554ccfc7609d1c831c8abb",
+    "conversation_sha256": "debea3b595dace91caebaf9d62766c90926cc9203de43f05c22d86f97e4b9db3",
+    "use_case": "writing",
+    "type": "good_faith",
+    "difficulty": "difficult",
+    "specialty": "id"
+  },
+  {
+    "sample_id": "healthbench-professional-0041",
+    "source_row": 41,
+    "dataset_id": "c820187649a64fca4be8aa237bd93fd6",
+    "conversation_sha256": "c83092f388d911c496c0d2377ac13b034dcb3338f6ce1368c25e3eeb8dabfbce",
+    "use_case": "writing",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "id"
+  },
+  {
+    "sample_id": "healthbench-professional-0045",
+    "source_row": 45,
+    "dataset_id": "5433d7fd883062036203893c8b32e771",
+    "conversation_sha256": "acbce00a2bfaf034ffa230518cabbf64b88eb90c6230b622d37dba35ffe90008",
+    "use_case": "writing",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "id"
+  },
+  {
+    "sample_id": "healthbench-professional-0046",
+    "source_row": 46,
+    "dataset_id": "5b139efb2c8c5881d782135358d5ec25",
+    "conversation_sha256": "c01bae4fe52bc00756afdcef79e16f45c3d694379a763bf9952bd0bfb9312cc1",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "difficult",
+    "specialty": "allergy"
+  },
+  {
+    "sample_id": "healthbench-professional-0047",
+    "source_row": 47,
+    "dataset_id": "304e1196cbe5caa7907f30d170174adc",
+    "conversation_sha256": "a9d1e5e0a926ce751600ce777a427f564e82dd0f02c0376165b842bedb0233b6",
+    "use_case": "consult",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "allergy"
+  },
+  {
+    "sample_id": "healthbench-professional-0049",
+    "source_row": 49,
+    "dataset_id": "d701c74f2d7a7a70dee79fb1bbb1f7e6",
+    "conversation_sha256": "0ab02085d8625d99e2980753a78f1e8dbbe4329e88c51d2c1bda9178fa7306f2",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "anesthesia"
+  },
+  {
+    "sample_id": "healthbench-professional-0051",
+    "source_row": 51,
+    "dataset_id": "977f694d9e913f02c3cc043c3e880cf3",
+    "conversation_sha256": "e40cc1feb389db540bbc94a5fda9b9b810a37f1942b2bf109cc5f4504e96b19b",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "anesthesia"
+  },
+  {
+    "sample_id": "healthbench-professional-0053",
+    "source_row": 53,
+    "dataset_id": "584f84f2ba215592e2356cbcd98240e4",
+    "conversation_sha256": "839357395fa007f859ea3c963df37da323f2bd6d2505c18b6e55d0e119981fd4",
+    "use_case": "writing",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "anesthesia"
+  },
+  {
+    "sample_id": "healthbench-professional-0055",
+    "source_row": 55,
+    "dataset_id": "75826cd07bfeffd48b53789dd4205f03",
+    "conversation_sha256": "55bbd7f2bb501461635891550d332643668366890908260a31a6b1d629f58a55",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "anesthesia"
+  },
+  {
+    "sample_id": "healthbench-professional-0056",
+    "source_row": 56,
+    "dataset_id": "83a295db73b1bc551ed5941434655de1",
+    "conversation_sha256": "e1ab1ab820bd23f5b746c304b96b1185dc005e409fdefe16099896353f342ea3",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "anesthesia"
+  },
+  {
+    "sample_id": "healthbench-professional-0058",
+    "source_row": 58,
+    "dataset_id": "cd5940a3d17aee98aa6e4018b35daa98",
+    "conversation_sha256": "00928a53d724d828153f640c90585044436c5d422de5b53229eaa04b0d14f795",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "anesthesia"
+  },
+  {
+    "sample_id": "healthbench-professional-0059",
+    "source_row": 59,
+    "dataset_id": "6f2fb5f8acd1abf5d2fe47300cffc923",
+    "conversation_sha256": "6c8e3304bfb925f5acdb421d8aeb16c24b847b82e60acf6f6b34d101f6556c60",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "difficult",
+    "specialty": "anesthesia"
+  },
+  {
+    "sample_id": "healthbench-professional-0060",
+    "source_row": 60,
+    "dataset_id": "6b8d7147e81bea94d88ffd1c7a99fb25",
+    "conversation_sha256": "701eedc1ea2d8ba096e14b9b3a3c7297535f66dbaa21f436adbb0dca3565fd94",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "difficult",
+    "specialty": "anesthesia"
+  },
+  {
+    "sample_id": "healthbench-professional-0061",
+    "source_row": 61,
+    "dataset_id": "54927c2849dc77d31f5cdec37707a1c9",
+    "conversation_sha256": "056acbb814fe1a109334c6c9554da96c265e0a36a55813c112584f530568edad",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "difficult",
+    "specialty": "anesthesia"
+  },
+  {
+    "sample_id": "healthbench-professional-0062",
+    "source_row": 62,
+    "dataset_id": "b436aa3e35424fb868cbd87172dd7dfb",
+    "conversation_sha256": "90967c564697449f703465a9ebbd9479e3c144d2ed501e1e5d7d48db7aba8b8a",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "difficult",
+    "specialty": "anesthesia"
+  },
+  {
+    "sample_id": "healthbench-professional-0063",
+    "source_row": 63,
+    "dataset_id": "35b9ab1e8dc0ef2244dde26f4872d185",
+    "conversation_sha256": "c5ca0c00115c8d607d658017bbe6ef31f6afd033bbb2e014a582c0c2a81cb526",
+    "use_case": "consult",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "anesthesia"
+  },
+  {
+    "sample_id": "healthbench-professional-0064",
+    "source_row": 64,
+    "dataset_id": "c8ff5c99cc87bca185aa0432259deeff",
+    "conversation_sha256": "cae3677ef067138a2f2b6aef8bc64072947d1c7dcac2b3bc8571be7ac1e17632",
+    "use_case": "consult",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "anesthesia"
+  },
+  {
+    "sample_id": "healthbench-professional-0066",
+    "source_row": 66,
+    "dataset_id": "503b75b4cba8e5abd656cd2512a449bb",
+    "conversation_sha256": "e8fb41fc801b308107b3e5dcd30f11683c61d1ad33c142d0ebc83415a680ab50",
+    "use_case": "consult",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "anesthesia"
+  },
+  {
+    "sample_id": "healthbench-professional-0072",
+    "source_row": 72,
+    "dataset_id": "d07578daa48030c376c70d3e9bd81d48",
+    "conversation_sha256": "f4792009dc66371b9c5671e5efa734054e8513b8991da993cf9876bcf8a24f60",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "cards"
+  },
+  {
+    "sample_id": "healthbench-professional-0076",
+    "source_row": 76,
+    "dataset_id": "43195fe0fc4d3af8a379242fb06582dd",
+    "conversation_sha256": "f24619b8b0667fa90a557975907b67b4850e9a49f1280f8d02871d8261f6eb43",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "cards"
+  },
+  {
+    "sample_id": "healthbench-professional-0078",
+    "source_row": 78,
+    "dataset_id": "282e788a7f8be989ae55aa236fcd9f88",
+    "conversation_sha256": "f448cded3b6a1c33c11ab9b3991a65d92fe6d22a8bd9405bbb02058f05d1e71f",
+    "use_case": "writing",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "cards"
+  },
+  {
+    "sample_id": "healthbench-professional-0079",
+    "source_row": 79,
+    "dataset_id": "458add9eb24073846f7864852018af56",
+    "conversation_sha256": "eb3c75151f0fbdc4e1d05f23b1159f6aad2e952c2ccc2c70a5d8cfa8137dfdd1",
+    "use_case": "writing",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "cards"
+  },
+  {
+    "sample_id": "healthbench-professional-0081",
+    "source_row": 81,
+    "dataset_id": "c1633d335487b8a56df1f7a993ce3be0",
+    "conversation_sha256": "7f7a98ec044c43bb8f8fbb168bd1d22e229895e8f29015489752a6ff60c4b8e6",
+    "use_case": "writing",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "cards"
+  },
+  {
+    "sample_id": "healthbench-professional-0086",
+    "source_row": 86,
+    "dataset_id": "69ce3f03e8cd876e3d6e65fb80062c47",
+    "conversation_sha256": "00e88eceadad35e61cadd56a54b0560754deb511a1d72e6d88f0988c0a22aa6f",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "cards"
+  },
+  {
+    "sample_id": "healthbench-professional-0092",
+    "source_row": 92,
+    "dataset_id": "b2ca9a7335466400874603783b181252",
+    "conversation_sha256": "e2f8fe9025e45c67decb8229564a687d607dbe796f5a996af71e9a01195931d4",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "cards"
+  },
+  {
+    "sample_id": "healthbench-professional-0093",
+    "source_row": 93,
+    "dataset_id": "065a88b40640f4e6b26f6ebaa4d14f0c",
+    "conversation_sha256": "fbc2fdfb69bcdc9cf1afeb12550a7079af3381ef74376dc89ed42abb95b3dce8",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "cards"
+  },
+  {
+    "sample_id": "healthbench-professional-0095",
+    "source_row": 95,
+    "dataset_id": "a8f50fd2cf3c7cf8fc2cebb60e3f3202",
+    "conversation_sha256": "baa9d060d443a67d06299053566ac3866a1f72a8c7603985080ddf947e22e3ad",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "cards"
+  },
+  {
+    "sample_id": "healthbench-professional-0099",
+    "source_row": 99,
+    "dataset_id": "57ceb8d0506f3263702e59eef9ce8ad3",
+    "conversation_sha256": "5c59e667539a44eeac31a296ca2c86e0e7c4e21da991a50cf03ebe784daf230a",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "difficult",
+    "specialty": "cards"
+  },
+  {
+    "sample_id": "healthbench-professional-0100",
+    "source_row": 100,
+    "dataset_id": "3decb44b98204650079838963bae22cc",
+    "conversation_sha256": "5a5f5eea0731215761da048162772462bb6951794eafa36718853ea3a33bb64e",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "difficult",
+    "specialty": "cards"
+  },
+  {
+    "sample_id": "healthbench-professional-0101",
+    "source_row": 101,
+    "dataset_id": "90945d27377c40a39ed5a393b8457c30",
+    "conversation_sha256": "dd72ccc0d8ed66a35b0fd0c68016590835570f6c064e1cfaff6fd9decd23ca35",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "difficult",
+    "specialty": "cards"
+  },
+  {
+    "sample_id": "healthbench-professional-0103",
+    "source_row": 103,
+    "dataset_id": "b96c46ec3c96437b8e448e2cb1abe7a7",
+    "conversation_sha256": "f1917e83770690ef63eec289447a594c2665bed37e528e938f7f9b0e1054b65c",
+    "use_case": "consult",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "cards"
+  },
+  {
+    "sample_id": "healthbench-professional-0109",
+    "source_row": 109,
+    "dataset_id": "8ff15e203f0537239318271d60c97896",
+    "conversation_sha256": "2ccdb9506fa6475cb56e8256fd743b6e916743284085088f1ee59e090424e628",
+    "use_case": "consult",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "cards"
+  },
+  {
+    "sample_id": "healthbench-professional-0110",
+    "source_row": 110,
+    "dataset_id": "068abd7e3805cfacf547bedf2be204d5",
+    "conversation_sha256": "28fdfd3a711ed6e5a4186986d032ece01562e0581f722f22b5c6823215f02f46",
+    "use_case": "consult",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "cards"
+  },
+  {
+    "sample_id": "healthbench-professional-0114",
+    "source_row": 114,
+    "dataset_id": "7ddaff0971d31fb1b8495587cd5b075c",
+    "conversation_sha256": "f9dc492c523a4683192c3591997cc8833239eab9b8f78a0a6a0b204db035b188",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "derm"
+  },
+  {
+    "sample_id": "healthbench-professional-0116",
+    "source_row": 116,
+    "dataset_id": "54f98e63dbdd317b1a6bf3d8f84f7bf0",
+    "conversation_sha256": "25ff8791a7421db3ada1666793db61e520abeef9d1de301e04e5fa731de277ca",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "derm"
+  },
+  {
+    "sample_id": "healthbench-professional-0117",
+    "source_row": 117,
+    "dataset_id": "cf4dcb33df1de7f98b4e463fba383e7a",
+    "conversation_sha256": "556325c13f759af318491c251efbfc407110d34ef619f075b7cd9b824b3e7634",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "derm"
+  },
+  {
+    "sample_id": "healthbench-professional-0118",
+    "source_row": 118,
+    "dataset_id": "704fc35c00a01020f25a210f10bd1e8e",
+    "conversation_sha256": "bad1d40263ee4f89fef53d680c22d3d212905fcc5030c8645db0aaf44a52b7b6",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "derm"
+  },
+  {
+    "sample_id": "healthbench-professional-0119",
+    "source_row": 119,
+    "dataset_id": "5ce259604fbfef1118840478e256e126",
+    "conversation_sha256": "b9d957a40a63c1c5519e8a881b933d3d8dcab63dc5a87383c9d0875709b63417",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "derm"
+  },
+  {
+    "sample_id": "healthbench-professional-0122",
+    "source_row": 122,
+    "dataset_id": "6a1461a4f831cbf80ed23fdf8e253ceb",
+    "conversation_sha256": "ba67362e6f5f560cfd6874c5f5abb327af2d2663974c642ae0eb44323edaaf92",
+    "use_case": "writing",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "derm"
+  },
+  {
+    "sample_id": "healthbench-professional-0124",
+    "source_row": 124,
+    "dataset_id": "5c3ac439452be4dd558976e3edfd3198",
+    "conversation_sha256": "19c5e2143854fb9bf7b612084eb4a63e21043118ece1f704680c69a15c90b19b",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "difficult",
+    "specialty": "derm"
+  },
+  {
+    "sample_id": "healthbench-professional-0125",
+    "source_row": 125,
+    "dataset_id": "27bbb5684615ff90c2934062536a9abd",
+    "conversation_sha256": "819a3450bfc268236b9139481313d55e6d0aa23498b8a78d49f4ac9f6c1f43f3",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "difficult",
+    "specialty": "derm"
+  },
+  {
+    "sample_id": "healthbench-professional-0128",
+    "source_row": 128,
+    "dataset_id": "9fe38f530e2efbca4bd3b60ab8c618d7",
+    "conversation_sha256": "4af98f84d0b46e36e26182159d4bf9c72bc8c5a8682e2af61c7a716099dc5347",
+    "use_case": "consult",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "derm"
+  },
+  {
+    "sample_id": "healthbench-professional-0133",
+    "source_row": 133,
+    "dataset_id": "4248b300598106e33a9909e3d91a1aa3",
+    "conversation_sha256": "4c69812fe2b808a418227da02a2a92b7246bc032c8f6e43154e42d0fc545e7b9",
+    "use_case": "writing",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "derm"
+  },
+  {
+    "sample_id": "healthbench-professional-0134",
+    "source_row": 134,
+    "dataset_id": "8e019a6f0b4efdbb8661b546cdcfde23",
+    "conversation_sha256": "f5e3004a4c25e9c16eed57dd6dd7063578e88ad525378c42ad40117eadd09a83",
+    "use_case": "writing",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "derm"
+  },
+  {
+    "sample_id": "healthbench-professional-0135",
+    "source_row": 135,
+    "dataset_id": "5ed718b4a79b3c7233d56ae7d1fb985b",
+    "conversation_sha256": "e48fa5686b51d354b171f83425e46b450725632fec0c432337e23b39c10552b7",
+    "use_case": "writing",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "derm"
+  },
+  {
+    "sample_id": "healthbench-professional-0136",
+    "source_row": 136,
+    "dataset_id": "4b21d2ae3dc5920673ec68881937653f",
+    "conversation_sha256": "aa226399d653a6fa77063a5f06fc6f0eeaf9d978101b82aeaba32e148c0b137c",
+    "use_case": "writing",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "derm"
+  },
+  {
+    "sample_id": "healthbench-professional-0139",
+    "source_row": 139,
+    "dataset_id": "23385171a6ac25cffc85a38817fe4874",
+    "conversation_sha256": "b5a05e41c5d13a44dea0d2ce5c7b8db024e74d6cdc6c26bcf0643c2a351793b1",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "emergency"
+  },
+  {
+    "sample_id": "healthbench-professional-0141",
+    "source_row": 141,
+    "dataset_id": "393359cdda634f9cc1afe3e0ff6629a8",
+    "conversation_sha256": "cea58d3a384db46e7b97f1fb24030316601e0361c319729a018842419db7f894",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "difficult",
+    "specialty": "emergency"
+  },
+  {
+    "sample_id": "healthbench-professional-0142",
+    "source_row": 142,
+    "dataset_id": "a5ae0d76d5da23eca71028bb5bf82e15",
+    "conversation_sha256": "b520b53cb26910e2bb7f9f1b56f5a4901ca19a3a317e1070c24c9e9060632f32",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "difficult",
+    "specialty": "emergency"
+  },
+  {
+    "sample_id": "healthbench-professional-0143",
+    "source_row": 143,
+    "dataset_id": "5ee17c763b59e50153e5bb9d8c8b7f5c",
+    "conversation_sha256": "5414d71c36dd7eff2283a62454fa2ea12ef0cd871fa00630390e5c75273df513",
+    "use_case": "consult",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "emergency"
+  },
+  {
+    "sample_id": "healthbench-professional-0144",
+    "source_row": 144,
+    "dataset_id": "286d2d4a7872a39d284753d2f39e188e",
+    "conversation_sha256": "05f5bd452eef49ecde0a8a5db78f01b7b1763cda499854ad1d14fa34c1734fc5",
+    "use_case": "consult",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "emergency"
+  },
+  {
+    "sample_id": "healthbench-professional-0148",
+    "source_row": 148,
+    "dataset_id": "4942367456125379e7e5a0d3ae360341",
+    "conversation_sha256": "6c2757d10b54eec489c647906836c61ec3b808140d4d599f327be32e601f509f",
+    "use_case": "writing",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "emergency"
+  },
+  {
+    "sample_id": "healthbench-professional-0154",
+    "source_row": 154,
+    "dataset_id": "c602c219ff959d78675f36ad244dc426",
+    "conversation_sha256": "ad5a27797a57a122387c7f3eaefde42e8b4f1204f11c1df8ba55067641b3e50f",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "endo"
+  },
+  {
+    "sample_id": "healthbench-professional-0155",
+    "source_row": 155,
+    "dataset_id": "e5b252720b17453c32f2bce7e2c86415",
+    "conversation_sha256": "c9fc47c4125b0767ccc7d7ea2d131d9ca633d6891d6fe6a4556542f961540c4e",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "endo"
+  },
+  {
+    "sample_id": "healthbench-professional-0157",
+    "source_row": 157,
+    "dataset_id": "a59578f36b999968132fb6af5e1ecc4e",
+    "conversation_sha256": "41c1534c82848759e4db754fd7398dba45a5fc05be3263fb56dd903ce0d9b59d",
+    "use_case": "writing",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "endo"
+  },
+  {
+    "sample_id": "healthbench-professional-0158",
+    "source_row": 158,
+    "dataset_id": "02f723bdccbbe759af218a406c9a0d82",
+    "conversation_sha256": "24671b9d82195758405e8f90c119d5701754c38872624b5504a979614e810675",
+    "use_case": "writing",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "endo"
+  },
+  {
+    "sample_id": "healthbench-professional-0170",
+    "source_row": 170,
+    "dataset_id": "94e81100b5ef7fee15061235a4e22cdc",
+    "conversation_sha256": "c06cf296d7b9ae37e2fb8baaf499f09199d3eed3e454dba155576627bd0b7c8e",
+    "use_case": "research",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "endo"
+  },
+  {
+    "sample_id": "healthbench-professional-0171",
+    "source_row": 171,
+    "dataset_id": "728d95d7b101878e2fe2def0d4db75d9",
+    "conversation_sha256": "99345cd1424828bad1026843fd81ebf4b23e6f48625a36ba865dbbe47b92b5fa",
+    "use_case": "writing",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "endo"
+  },
+  {
+    "sample_id": "healthbench-professional-0177",
+    "source_row": 177,
+    "dataset_id": "73a89ab53f56f0aade8fa8b229c125b0",
+    "conversation_sha256": "736772d6569d1fa50234f624ef12df9315efbbc22aee7f239a5f3e27d5a8bd0a",
+    "use_case": "research",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "genetics"
+  },
+  {
+    "sample_id": "healthbench-professional-0180",
+    "source_row": 180,
+    "dataset_id": "6d7385494242595c03cdc6d2812f4a3d",
+    "conversation_sha256": "f63b35eb7422ca9eddc7d2be0d8cbadda9647280ef47b3c6aa49a0c59c8476c4",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "heme/onc"
+  },
+  {
+    "sample_id": "healthbench-professional-0181",
+    "source_row": 181,
+    "dataset_id": "af231e9755e0717989a6bf4ac17a467f",
+    "conversation_sha256": "4787beb262fbbc9548d10c1dbb3af272d5d8ab0a42d1b3c455ef18e34b448df1",
+    "use_case": "writing",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "heme/onc"
+  },
+  {
+    "sample_id": "healthbench-professional-0182",
+    "source_row": 182,
+    "dataset_id": "0187e39434668c08c7b18b8e81cc3604",
+    "conversation_sha256": "637235f4de0aa98fe4fb47772a09f0980cea07b1b9d4cd351eb9202912f11496",
+    "use_case": "writing",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "heme/onc"
+  },
+  {
+    "sample_id": "healthbench-professional-0183",
+    "source_row": 183,
+    "dataset_id": "61bc9faa961acf03dd9e469f0603fe4e",
+    "conversation_sha256": "805c20a71bf43d8495400b9fd28628319338dae1a8e92c4dd0a8d76520ed87b0",
+    "use_case": "writing",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "heme/onc"
+  },
+  {
+    "sample_id": "healthbench-professional-0184",
+    "source_row": 184,
+    "dataset_id": "375c7dd8697a5589ebd8b144d01291ba",
+    "conversation_sha256": "e70c60b6d8d669e2f742cb677003e35b4ca7c7f9e6ca8d3fa69d2fc4c54c42f8",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "heme/onc"
+  },
+  {
+    "sample_id": "healthbench-professional-0186",
+    "source_row": 186,
+    "dataset_id": "688978f1706b8b81e54704a901457024",
+    "conversation_sha256": "5f4adb3d9e61f8bfa15553a57d7397a737538e6e8c3481e9d45eacfc61af502b",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "heme/onc"
+  },
+  {
+    "sample_id": "healthbench-professional-0189",
+    "source_row": 189,
+    "dataset_id": "da4348ca2c9de9d4b966f48320ff6c5f",
+    "conversation_sha256": "fcf731cd92f7872878f4733703e9f8c47c225ea06aa841632e052991e2fd7c21",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "difficult",
+    "specialty": "heme/onc"
+  },
+  {
+    "sample_id": "healthbench-professional-0190",
+    "source_row": 190,
+    "dataset_id": "d52fb2405d6f6c57e1e1472bfe5be65e",
+    "conversation_sha256": "03aaf9e625be5b6b9b4d58ecf904618aa10c24cb39fed0faeaf35bf3e5750a32",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "difficult",
+    "specialty": "heme/onc"
+  },
+  {
+    "sample_id": "healthbench-professional-0192",
+    "source_row": 192,
+    "dataset_id": "22a7f2862a4fe89164daaead579fadec",
+    "conversation_sha256": "c46c527d5401663d9eabed319b9a94dc8670b928d181c67dcc7f2c621b6f4a18",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "difficult",
+    "specialty": "heme/onc"
+  },
+  {
+    "sample_id": "healthbench-professional-0194",
+    "source_row": 194,
+    "dataset_id": "8c85c825f5a136570e526068f0b40d07",
+    "conversation_sha256": "08db849d53dc753d012638840bb10605dd9c8e2d8c406e8c5a61c40d33521d7d",
+    "use_case": "consult",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "heme/onc"
+  },
+  {
+    "sample_id": "healthbench-professional-0195",
+    "source_row": 195,
+    "dataset_id": "d1eb45963258aa1be3eebe5aff02ed90",
+    "conversation_sha256": "74322e5d7bc5b8597fbe52751add6a72e2f96d5f75d4ff9789f3fe078268e52b",
+    "use_case": "consult",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "heme/onc"
+  },
+  {
+    "sample_id": "healthbench-professional-0196",
+    "source_row": 196,
+    "dataset_id": "48e7e92683fe9a0e1feece4beb6f7d96",
+    "conversation_sha256": "4954b32320c0f393fd6fdd432f4a8bfcf7fcb921e9d911f8bdf85be693764bd6",
+    "use_case": "consult",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "heme/onc"
+  },
+  {
+    "sample_id": "healthbench-professional-0197",
+    "source_row": 197,
+    "dataset_id": "e19d20e74fd53b0d532168e929ddd13b",
+    "conversation_sha256": "cf09325771f7b332a686d4c2c8d54b2e7d3be2d9522711a56d37980763a0d1c6",
+    "use_case": "consult",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "heme/onc"
+  },
+  {
+    "sample_id": "healthbench-professional-0205",
+    "source_row": 205,
+    "dataset_id": "dace36cafe50a814df0d5b0f1dd65a7c",
+    "conversation_sha256": "db2f3924ae4e17f667f6bcf55ddc9d380fd5e43e82cc3d99134117f2db6689ab",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "medicine"
+  },
+  {
+    "sample_id": "healthbench-professional-0206",
+    "source_row": 206,
+    "dataset_id": "5d8d28712724b471fc891215afff4448",
+    "conversation_sha256": "00a87f9a1152c7fd10780689958542bb7447440e86f19e9a4731b4ecbfd8beb4",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "medicine"
+  },
+  {
+    "sample_id": "healthbench-professional-0208",
+    "source_row": 208,
+    "dataset_id": "e1e4f0d338d41f4e2eb7e53af9bdabfb",
+    "conversation_sha256": "b7e9df58e60be8a066048bd5a2948085971a57281808546e67b8b6a4a3e80908",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "medicine"
+  },
+  {
+    "sample_id": "healthbench-professional-0209",
+    "source_row": 209,
+    "dataset_id": "6d762acc294598202a2a8532467af93a",
+    "conversation_sha256": "2dfa6293dd9d6062acb17c981a95d3ce592eb982b8535f68cb9a5cb288ac4f2a",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "medicine"
+  },
+  {
+    "sample_id": "healthbench-professional-0214",
+    "source_row": 214,
+    "dataset_id": "c9e24f50a089434f7ded3c0f07c7762e",
+    "conversation_sha256": "fcb85dc8de532863421f0504021bb0344d50cae4eab319656f7c438750092028",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "difficult",
+    "specialty": "medicine"
+  },
+  {
+    "sample_id": "healthbench-professional-0215",
+    "source_row": 215,
+    "dataset_id": "922986f9ef36c600dfca993f5febf46b",
+    "conversation_sha256": "a4038a0b89b05561b133d80d3e069e2897ce7990fc6536b19dbc5a2f5d9e5e1f",
+    "use_case": "consult",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "medicine"
+  },
+  {
+    "sample_id": "healthbench-professional-0216",
+    "source_row": 216,
+    "dataset_id": "0bfb5926e92991296c43e4ede7c06896",
+    "conversation_sha256": "f8ca8e6a25de42f19443ae033009e688bf82a09ba752deedc209b647a1fcee22",
+    "use_case": "consult",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "medicine"
+  },
+  {
+    "sample_id": "healthbench-professional-0228",
+    "source_row": 228,
+    "dataset_id": "5ec7e5dbe93d45a341a648d13fb73b12",
+    "conversation_sha256": "bf53ddad2e85d10758d5a87bc0a9de8c98911c175b5e75813e3db1d1a9db3296",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "nephro"
+  },
+  {
+    "sample_id": "healthbench-professional-0231",
+    "source_row": 231,
+    "dataset_id": "ab8b45389459eebfc6b31682b1f12041",
+    "conversation_sha256": "15f35cb80e9c8e76a7a170315d064b9a49b10a43f5d99977b8b07622c6ea1f1e",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "nephro"
+  },
+  {
+    "sample_id": "healthbench-professional-0233",
+    "source_row": 233,
+    "dataset_id": "b14de0d6528a27139e85942f78ac8c88",
+    "conversation_sha256": "07b13a4089593f7be374d6d4ee94367c045fb5172c58777b860377ffbfecac57",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "nephro"
+  },
+  {
+    "sample_id": "healthbench-professional-0235",
+    "source_row": 235,
+    "dataset_id": "2cca611d46dfcb9a9e4af17c7e29cbb0",
+    "conversation_sha256": "cdf747c6abe6229dc9b5ffd7a94d5b85fbacc4392dbdfe17508bd484ff411e2f",
+    "use_case": "writing",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "nephro"
+  },
+  {
+    "sample_id": "healthbench-professional-0237",
+    "source_row": 237,
+    "dataset_id": "05569de0534eb183cc9935ff9498a7cf",
+    "conversation_sha256": "173954ac53d3c60eced815898e84eb732b5b95ca3269ff6cd7a24a0e117ccb1d",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "nephro"
+  },
+  {
+    "sample_id": "healthbench-professional-0239",
+    "source_row": 239,
+    "dataset_id": "eb91499e6f26bd490c9eb86b6fb5e43b",
+    "conversation_sha256": "1d430a82985188ed78b0445b7c80e43c2490608a1ec4e3945388fbb42e61d606",
+    "use_case": "writing",
+    "type": "good_faith",
+    "difficulty": "difficult",
+    "specialty": "nephro"
+  },
+  {
+    "sample_id": "healthbench-professional-0241",
+    "source_row": 241,
+    "dataset_id": "2159ea0354a2e29e4d8449527d600681",
+    "conversation_sha256": "aa1259dd65aa5ac36d0b9506ba17e87d196e69fb3df22244ed34399f41ba4704",
+    "use_case": "consult",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "nephro"
+  },
+  {
+    "sample_id": "healthbench-professional-0242",
+    "source_row": 242,
+    "dataset_id": "804cafd64fb62587fd8b1632a3dfa509",
+    "conversation_sha256": "a7c932aa1a88dd15546eac887ea4f65554a5935a6c4f33c62f74427c1a910060",
+    "use_case": "consult",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "nephro"
+  },
+  {
+    "sample_id": "healthbench-professional-0249",
+    "source_row": 249,
+    "dataset_id": "c0ac4b7f657724e74c85b782a985daf3",
+    "conversation_sha256": "31a66551cd0b1d968788586e0be393c3aeade0520d6ac44cd7486537acbedc93",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "neuro"
+  },
+  {
+    "sample_id": "healthbench-professional-0251",
+    "source_row": 251,
+    "dataset_id": "346463ff8f2fe8a4526f8ccccbfe07f9",
+    "conversation_sha256": "6c7e974d86778e612046fe4ccf7dc3035e80e362109f3ceef03b30c4aca142ab",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "neuro"
+  },
+  {
+    "sample_id": "healthbench-professional-0252",
+    "source_row": 252,
+    "dataset_id": "c603be303303141a02f00551a96c8cab",
+    "conversation_sha256": "4020620d21ebf93bd7bdd10339f83fd236134bc76351d3034bd27247d6709722",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "neuro"
+  },
+  {
+    "sample_id": "healthbench-professional-0253",
+    "source_row": 253,
+    "dataset_id": "7d9ab07f18dec074944cdc230d366ac9",
+    "conversation_sha256": "b8910a63a658e4affb3042fa0ca708577d51e15c3412f5ff531906b2959fb6df",
+    "use_case": "writing",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "neuro"
+  },
+  {
+    "sample_id": "healthbench-professional-0254",
+    "source_row": 254,
+    "dataset_id": "892256e1c944089f29d5ac5c80d1ed3d",
+    "conversation_sha256": "cdbe7004615e7a67742155f43c2030bff75059d086c191e56b825930b1cd4800",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "neuro"
+  },
+  {
+    "sample_id": "healthbench-professional-0259",
+    "source_row": 259,
+    "dataset_id": "e2b5e0f3974a0ccebfb22e6e2247359b",
+    "conversation_sha256": "536ae42d20a622762478328044bf77c0c7aee71a251deabca4ae34094fcfdd78",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "neuro"
+  },
+  {
+    "sample_id": "healthbench-professional-0261",
+    "source_row": 261,
+    "dataset_id": "0a2ce20b6253077ae5ad31ea8f684ca3",
+    "conversation_sha256": "578847e967e86f031c7b935b82dcc0912d95d569b0b7d3b69d42dd07a5f37bbf",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "neuro"
+  },
+  {
+    "sample_id": "healthbench-professional-0265",
+    "source_row": 265,
+    "dataset_id": "f3f1182e86b37be585cfb0af4eb44ccd",
+    "conversation_sha256": "d8e549b51b5e998701cedf1e5f574678536663ba476a5827e89b9ba7ba2805eb",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "neuro"
+  },
+  {
+    "sample_id": "healthbench-professional-0268",
+    "source_row": 268,
+    "dataset_id": "69e4c5e898f11a8361cc128e69bb9f7d",
+    "conversation_sha256": "8248a29a693b053174e5254364ae14b94c005b89ef45a05b678a87a1e2f4b5f7",
+    "use_case": "writing",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "neuro"
+  },
+  {
+    "sample_id": "healthbench-professional-0269",
+    "source_row": 269,
+    "dataset_id": "2d11620a117cb2aec3c1ad4054dbbc8f",
+    "conversation_sha256": "db8b2f8872f9646298aa7b0fdad26e04678be32df3f2dd250ec06c00d5048b6e",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "neuro"
+  },
+  {
+    "sample_id": "healthbench-professional-0273",
+    "source_row": 273,
+    "dataset_id": "fa8bbaf7d4a2fb57f360b27d89b6bcd4",
+    "conversation_sha256": "890d22bb392337ced0a0f6b2fd105754bbb1270f883fd7a5e1338f82edf8b4d1",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "neuro"
+  },
+  {
+    "sample_id": "healthbench-professional-0274",
+    "source_row": 274,
+    "dataset_id": "a83cb237634f092349efe9f06815e0a1",
+    "conversation_sha256": "26e28be243292d6108620f30257ac5953b89f1069d942f944af397a1d018e272",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "difficult",
+    "specialty": "neuro"
+  },
+  {
+    "sample_id": "healthbench-professional-0277",
+    "source_row": 277,
+    "dataset_id": "bd2ab710e7126941644cecc8a258388f",
+    "conversation_sha256": "409a7dfe16c0d3d79cb599eef1e9f3ce58bf864bf47183133a6f80123354c398",
+    "use_case": "writing",
+    "type": "good_faith",
+    "difficulty": "difficult",
+    "specialty": "neuro"
+  },
+  {
+    "sample_id": "healthbench-professional-0283",
+    "source_row": 283,
+    "dataset_id": "30df807354da23334ea56eff3588c915",
+    "conversation_sha256": "efe4708fd2a0fe5fbdd033f1a74eeadc54b2f05a8829478e7b21379959acfa11",
+    "use_case": "writing",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "neuro"
+  },
+  {
+    "sample_id": "healthbench-professional-0284",
+    "source_row": 284,
+    "dataset_id": "5c67feb33ca184f2a0d39de298cebd62",
+    "conversation_sha256": "127592f59bc0efa89687eeded28f3e0e0062122319517bdfaf63d64765a57d03",
+    "use_case": "writing",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "neuro"
+  },
+  {
+    "sample_id": "healthbench-professional-0286",
+    "source_row": 286,
+    "dataset_id": "449ba767eff17a9bfb86c974c11380b7",
+    "conversation_sha256": "dd864c67f3276433bf273e4a3a8fdc0791a398bf06fb5f3ce6bb566253d16ece",
+    "use_case": "writing",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "neuro"
+  },
+  {
+    "sample_id": "healthbench-professional-0294",
+    "source_row": 294,
+    "dataset_id": "a0ece82c5a4dfc8f476a574e7637f634",
+    "conversation_sha256": "0385fe6315945426dfe755b6b7800d9ed2fee9c2486f0f6b090be67586252a28",
+    "use_case": "consult",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "neurosurg"
+  },
+  {
+    "sample_id": "healthbench-professional-0296",
+    "source_row": 296,
+    "dataset_id": "171d96950d977bccf3d646e5b5591bef",
+    "conversation_sha256": "ebda680bc17f0714c4e0bc3c56d1ebdc09941a72c1048e6aa1ff29c87856f82e",
+    "use_case": "writing",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "neurosurg"
+  },
+  {
+    "sample_id": "healthbench-professional-0297",
+    "source_row": 297,
+    "dataset_id": "06d878d083a6cd90c882750bb08df30e",
+    "conversation_sha256": "3649a226cb8c1b2516fc83813d898ffcaa6bd474a9d9fa5d5be1567a03005d7c",
+    "use_case": "writing",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "neurosurg"
+  },
+  {
+    "sample_id": "healthbench-professional-0304",
+    "source_row": 304,
+    "dataset_id": "eec81e8363a30d53edf8ed8b55bd535c",
+    "conversation_sha256": "fb48c65ff1be336ef52cb20ce8482823be63a159edffd9f3e3634a60fdc9663b",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "obgyn"
+  },
+  {
+    "sample_id": "healthbench-professional-0305",
+    "source_row": 305,
+    "dataset_id": "2346e3e2d47f1326ba63811a6a4d0910",
+    "conversation_sha256": "79b98cdb221beb689784da903268647a885213da9cc40be0cb59593bfeef9d64",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "obgyn"
+  },
+  {
+    "sample_id": "healthbench-professional-0307",
+    "source_row": 307,
+    "dataset_id": "7ea425f696ec5a3e1a4fb10d50f7e263",
+    "conversation_sha256": "205245ba58d7f19cad7764737654774afa400fb666b4db5766f3fa2b445c1766",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "obgyn"
+  },
+  {
+    "sample_id": "healthbench-professional-0310",
+    "source_row": 310,
+    "dataset_id": "c9bd569d826b3613bb2cee93b8c6395b",
+    "conversation_sha256": "a20d3e30f99c03ea39fd0fa8ef0badf45e76e81c6e6bed18de23949738b94967",
+    "use_case": "writing",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "obgyn"
+  },
+  {
+    "sample_id": "healthbench-professional-0316",
+    "source_row": 316,
+    "dataset_id": "004691ba3ff3eec87d6a5598d9e1b04b",
+    "conversation_sha256": "5cd48f33ff46b6427e31564e612cac690e231cb41880a35825f58bdffa5aeed8",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "obgyn"
+  },
+  {
+    "sample_id": "healthbench-professional-0317",
+    "source_row": 317,
+    "dataset_id": "a0142561e9aeadbcb5d18ab74d40eff8",
+    "conversation_sha256": "bf115b088e9e8052788e32f62917347d70c22d9646dcc85130e827f806bd8281",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "obgyn"
+  },
+  {
+    "sample_id": "healthbench-professional-0320",
+    "source_row": 320,
+    "dataset_id": "4414cb81ffaf3aa7f135fa69c922d576",
+    "conversation_sha256": "92137d46bbe6064be818ce2292a92828381053365db0455e7b183c1527e5bd82",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "difficult",
+    "specialty": "obgyn"
+  },
+  {
+    "sample_id": "healthbench-professional-0322",
+    "source_row": 322,
+    "dataset_id": "3e700f616cccc0c3cbeea24244544f27",
+    "conversation_sha256": "fa311a891f921c4f4e9d50f0134e939bd4a9f072daa1d34460ff83b2138aac61",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "difficult",
+    "specialty": "obgyn"
+  },
+  {
+    "sample_id": "healthbench-professional-0328",
+    "source_row": 328,
+    "dataset_id": "415bf8bc30554039662afbaf4b778231",
+    "conversation_sha256": "28bca40b2085b0c62cc032eb0770810a5277dadd495b55859ee6b6d61375c51c",
+    "use_case": "consult",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "obgyn"
+  },
+  {
+    "sample_id": "healthbench-professional-0330",
+    "source_row": 330,
+    "dataset_id": "4223ade5acc1d70a9b5d305cf6c8917d",
+    "conversation_sha256": "502ed5e914faf28056591822b226808e783c4f8a0a5ad2bfe1dffdc5d205dfc8",
+    "use_case": "writing",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "obgyn"
+  },
+  {
+    "sample_id": "healthbench-professional-0333",
+    "source_row": 333,
+    "dataset_id": "4d85894b4f67dec92b48bfe0d9f03540",
+    "conversation_sha256": "306e56f1ad485dc8891fa6118e5ae3b945c0bd73bc7de9d97cbe3bcbdba7cc14",
+    "use_case": "writing",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "obgyn"
+  },
+  {
+    "sample_id": "healthbench-professional-0336",
+    "source_row": 336,
+    "dataset_id": "19c0631140234e6847b03bd271cb3b5e",
+    "conversation_sha256": "d920aa1dd879c664cc9796dd1a9f5bca38eaec399d6b6a092ee1ad072e16cb8a",
+    "use_case": "writing",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "obgyn"
+  },
+  {
+    "sample_id": "healthbench-professional-0340",
+    "source_row": 340,
+    "dataset_id": "94fdd3ad2a1d4f8ad6c315b18bfbbd94",
+    "conversation_sha256": "930a18221bc693897be97858ad79c2dfe7ee2328d72e64f08a1edc0155658cf9",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "ophtho"
+  },
+  {
+    "sample_id": "healthbench-professional-0341",
+    "source_row": 341,
+    "dataset_id": "b7c602e406d097649024fcd6cb66091a",
+    "conversation_sha256": "e653b6b56f1af2e882146725bcd39e5e4922d0868c1dce54b759a3478a65194b",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "ophtho"
+  },
+  {
+    "sample_id": "healthbench-professional-0342",
+    "source_row": 342,
+    "dataset_id": "b5ad1d97eeccdaeba7427a4ad67e483d",
+    "conversation_sha256": "273ba210edc009bc1aa693b8b6a96323f9fabf473c9dd1beb555faa760bbaee2",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "ophtho"
+  },
+  {
+    "sample_id": "healthbench-professional-0344",
+    "source_row": 344,
+    "dataset_id": "92fdf7f68c0562be4f4208ed66f31385",
+    "conversation_sha256": "f01c6acbc7aad5bf55224b8f11e2561de7809c2cbae7bba395891b58ed1f529a",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "ophtho"
+  },
+  {
+    "sample_id": "healthbench-professional-0346",
+    "source_row": 346,
+    "dataset_id": "aed140e65843002434c2ec18d245a721",
+    "conversation_sha256": "a65eba8c3b17476685771be2fdce92defce503d4b929db315d5ded5a6dd798e6",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "ophtho"
+  },
+  {
+    "sample_id": "healthbench-professional-0348",
+    "source_row": 348,
+    "dataset_id": "caa25e342c53b9fbd589582c4cb3883c",
+    "conversation_sha256": "49d53a20e02650d68d21cd962821d79db3aaee99207110a6073466f4c4cce18c",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "difficult",
+    "specialty": "ophtho"
+  },
+  {
+    "sample_id": "healthbench-professional-0351",
+    "source_row": 351,
+    "dataset_id": "de2ec257fc67783dcbd50058a779751a",
+    "conversation_sha256": "22223d9788d95abc1b3eb9156d32d92196cbb0f7a48897402ce19ad34f3fc0fc",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "difficult",
+    "specialty": "ophtho"
+  },
+  {
+    "sample_id": "healthbench-professional-0355",
+    "source_row": 355,
+    "dataset_id": "adbd492362f7fdaf8db61216df114ad4",
+    "conversation_sha256": "0c9cda6beeb2d52fdd43d7721640e21f7ab06d3f05d2cf640f50818225f498be",
+    "use_case": "writing",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "ophtho"
+  },
+  {
+    "sample_id": "healthbench-professional-0357",
+    "source_row": 357,
+    "dataset_id": "6c3ac900869912e93d445be13f7ca2bf",
+    "conversation_sha256": "c00a682716513e259a15997e7e4ed510494f9d21462509b102fd67ef72dd9a7f",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "ortho"
+  },
+  {
+    "sample_id": "healthbench-professional-0359",
+    "source_row": 359,
+    "dataset_id": "1fbeb885eb2615ab99d2e24521077cb0",
+    "conversation_sha256": "3df7497e554c853d6b5b74510b31822a546578c24c012441a3cfa8f7ab3a9a92",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "ortho"
+  },
+  {
+    "sample_id": "healthbench-professional-0366",
+    "source_row": 366,
+    "dataset_id": "cff4218fded97514c5d9894b55eead3f",
+    "conversation_sha256": "52efea0b7fabaf99b41b65505b4a53ca98549c973303f1ec7a2b6d63cd1ef2c8",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "difficult",
+    "specialty": "ortho"
+  },
+  {
+    "sample_id": "healthbench-professional-0367",
+    "source_row": 367,
+    "dataset_id": "c6b2da2a85e39bd9b9018cf135476cf0",
+    "conversation_sha256": "c88cd49a9e26c2a6dc49a000de12585d9ae3373523f8bf0cca57ae49a931eda8",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "difficult",
+    "specialty": "ortho"
+  },
+  {
+    "sample_id": "healthbench-professional-0370",
+    "source_row": 370,
+    "dataset_id": "247501f61a88c48fbf4eccaaf0bb4c97",
+    "conversation_sha256": "58334069413a201a54db0b6ce0b6e8ece49efdd2e29903dfc0f7737e172667e3",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "difficult",
+    "specialty": "ortho"
+  },
+  {
+    "sample_id": "healthbench-professional-0376",
+    "source_row": 376,
+    "dataset_id": "286ea1fd32b143e4f5880cca26865741",
+    "conversation_sha256": "4cbfc843b57f29be022d6801846c7d1dcf93f121db4436eeaa164fac68bed4fe",
+    "use_case": "writing",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "ortho"
+  },
+  {
+    "sample_id": "healthbench-professional-0379",
+    "source_row": 379,
+    "dataset_id": "571bb544ee42e1d03ad809b07dbc7223",
+    "conversation_sha256": "3eb77c1df532317742498a48f05404c162728a44874ab3c2306339c295970c48",
+    "use_case": "writing",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "ortho"
+  },
+  {
+    "sample_id": "healthbench-professional-0384",
+    "source_row": 384,
+    "dataset_id": "ec01cbca0e677185ae31af9a89ca7bea",
+    "conversation_sha256": "3154897f12f410821b6c5645338db203c2ccef158e1290062ebb2f6debb0cdce",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "other"
+  },
+  {
+    "sample_id": "healthbench-professional-0388",
+    "source_row": 388,
+    "dataset_id": "637c1df5d0d11a9f6a8ff9ef183dfd02",
+    "conversation_sha256": "7d5dba9caabc6a1f09b15fb5f9f2e07c25ccc785495d801029f10e6db22840e6",
+    "use_case": "writing",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "other"
+  },
+  {
+    "sample_id": "healthbench-professional-0389",
+    "source_row": 389,
+    "dataset_id": "7c89332a3de133ed53ba5a4e99f03862",
+    "conversation_sha256": "67c9e838b0da566ffd9daca13bd7c1175d5763199bbcb70b67a90bbcde8d2191",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "other"
+  },
+  {
+    "sample_id": "healthbench-professional-0390",
+    "source_row": 390,
+    "dataset_id": "ca453ab13aa0ee164387f4cd8ef2e197",
+    "conversation_sha256": "711934057b99a30051899d70b3bd760a5b07bbb2a717213024a19c536ee94877",
+    "use_case": "writing",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "other"
+  },
+  {
+    "sample_id": "healthbench-professional-0392",
+    "source_row": 392,
+    "dataset_id": "6656f26e2d17a8bc7749020ba7129ee6",
+    "conversation_sha256": "2c7923b150be2f64c99d3ba3c5e589dbb24cc8c051253501102536d334473225",
+    "use_case": "consult",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "other"
+  },
+  {
+    "sample_id": "healthbench-professional-0397",
+    "source_row": 397,
+    "dataset_id": "0df5ce0b5b83dd2a1907ad3d3debf0b6",
+    "conversation_sha256": "c87139a1312df24780d3f0a65e97e6b9afad267d7303a1657c39bf56934c8cbb",
+    "use_case": "writing",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "other"
+  },
+  {
+    "sample_id": "healthbench-professional-0398",
+    "source_row": 398,
+    "dataset_id": "a2662700c0b4e67f99c6397c5e115be4",
+    "conversation_sha256": "340b30d6556155f0abff75f086d344cb743b0bef7dbf3e780fbfc208ff4e9d37",
+    "use_case": "writing",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "other"
+  },
+  {
+    "sample_id": "healthbench-professional-0401",
+    "source_row": 401,
+    "dataset_id": "c8fb9f90d8a429d9395b4a5989082631",
+    "conversation_sha256": "a520addce9c2f977f1be4fcb186167d2fe764663486c7d81dad1ea8a8cd2e213",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "difficult",
+    "specialty": "path"
+  },
+  {
+    "sample_id": "healthbench-professional-0402",
+    "source_row": 402,
+    "dataset_id": "354a8bee8cf473e2aba50fe1716c08aa",
+    "conversation_sha256": "1fb995e048ba4b86cccaae393c48ff1e99ea71598fa8f675c9f10576e50a7dc1",
+    "use_case": "consult",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "path"
+  },
+  {
+    "sample_id": "healthbench-professional-0403",
+    "source_row": 403,
+    "dataset_id": "7fefb6f5fdde9a80bdefb5d762d2c318",
+    "conversation_sha256": "d821edb03b53deca348248d94619e363fe30affece7b672ad3c8b3f93a984448",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "peds"
+  },
+  {
+    "sample_id": "healthbench-professional-0405",
+    "source_row": 405,
+    "dataset_id": "eba8602cffc95990c67a76ed51230e81",
+    "conversation_sha256": "afcdc1fb498e789da40f6e65ac4dc55dd585208d6b6c5f9b6b707f0f318d271d",
+    "use_case": "writing",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "peds"
+  },
+  {
+    "sample_id": "healthbench-professional-0406",
+    "source_row": 406,
+    "dataset_id": "21a80ac4a9fc6cb728b444dd1caeca05",
+    "conversation_sha256": "0f421d3454bb2047ecde56f2cd8c7a469e83a448b7dd1cec37a37631dde14ac3",
+    "use_case": "writing",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "peds"
+  },
+  {
+    "sample_id": "healthbench-professional-0408",
+    "source_row": 408,
+    "dataset_id": "d78e01ce39d53760b290c7327833c313",
+    "conversation_sha256": "05c0999eb31aefb327f00ecd444d9820d1663baa2037b2a74fac11eb23a098dc",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "peds"
+  },
+  {
+    "sample_id": "healthbench-professional-0409",
+    "source_row": 409,
+    "dataset_id": "6cc5e176790b69b97e11908b40a603d8",
+    "conversation_sha256": "5b34de590266098403a46b50f0d1806fee038108e682649833f5cdf1f6647b2c",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "peds"
+  },
+  {
+    "sample_id": "healthbench-professional-0417",
+    "source_row": 417,
+    "dataset_id": "678759b212fb0229a8de563938cd7fc0",
+    "conversation_sha256": "4366a6162fe6d0f21de5045fb4c17b961eafc7e69ab429c2566440348ed2e86b",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "difficult",
+    "specialty": "peds"
+  },
+  {
+    "sample_id": "healthbench-professional-0418",
+    "source_row": 418,
+    "dataset_id": "29a25e964b952d354b5dbba07e126bcb",
+    "conversation_sha256": "a0f5ebd033e7b0083e48476f61df99d5a51b9b7b68376d9edb854c91fac67b36",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "difficult",
+    "specialty": "peds"
+  },
+  {
+    "sample_id": "healthbench-professional-0423",
+    "source_row": 423,
+    "dataset_id": "591e65a532772478e98b0d9a8e579cf0",
+    "conversation_sha256": "380d1d402680f5cd8c84eed0a9350d1ba47b8ad95f7e3857af61adaad05c629d",
+    "use_case": "consult",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "peds"
+  },
+  {
+    "sample_id": "healthbench-professional-0424",
+    "source_row": 424,
+    "dataset_id": "5d02069b155114c21848a27903b22fa6",
+    "conversation_sha256": "910b86bd8015bb34706f2bb855950a78a6105f058aba96480e8d5347f6461fe1",
+    "use_case": "consult",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "peds"
+  },
+  {
+    "sample_id": "healthbench-professional-0428",
+    "source_row": 428,
+    "dataset_id": "7e2f0b466ba696d1217dafe64560523d",
+    "conversation_sha256": "049e930b8a08af49c2fe9240dd362a4c88fa64fb6fd3e7650335c579859ac91b",
+    "use_case": "writing",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "peds"
+  },
+  {
+    "sample_id": "healthbench-professional-0432",
+    "source_row": 432,
+    "dataset_id": "b4b7b3c3610819fe8e30da6e7265c4f2",
+    "conversation_sha256": "bd1f9ca4e3e135a071a8abbd73fb5a0e37d2455795402af7b25bd59d496978cd",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "primary"
+  },
+  {
+    "sample_id": "healthbench-professional-0437",
+    "source_row": 437,
+    "dataset_id": "7287501c95bb4bf99928f74d77c8e8c9",
+    "conversation_sha256": "f339b56b3f897361cb75f79f23e9e295e0c339d9b5ba2d1d88ba68f6918e5372",
+    "use_case": "writing",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "primary"
+  },
+  {
+    "sample_id": "healthbench-professional-0440",
+    "source_row": 440,
+    "dataset_id": "fe022a5d992828991a3747d674027a79",
+    "conversation_sha256": "915fddc4e9914907df7e7a705a4f5e728dde82f6338f2084ef02d38c67fe1796",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "psychiatry"
+  },
+  {
+    "sample_id": "healthbench-professional-0448",
+    "source_row": 448,
+    "dataset_id": "05b6fa65abadeec22256cc7d67f46e30",
+    "conversation_sha256": "1983e1cdeef820483c23230c91af715bfe8496e7862b7b1f5f8fd10336e39b2e",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "psychiatry"
+  },
+  {
+    "sample_id": "healthbench-professional-0449",
+    "source_row": 449,
+    "dataset_id": "26ae3bcf430ac9c6b0885dde8c560447",
+    "conversation_sha256": "115ba401c52b14d46c27a31dcce9ff16f1d899c552e05fc1ebb8af0b9a2358ab",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "psychiatry"
+  },
+  {
+    "sample_id": "healthbench-professional-0453",
+    "source_row": 453,
+    "dataset_id": "c48d8b2d75d26489f873d1b1cd12587a",
+    "conversation_sha256": "65122bb455e96ab438b6d5ab00ad9e4d75d8fcc4e122f20b1820081404a14270",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "psychiatry"
+  },
+  {
+    "sample_id": "healthbench-professional-0456",
+    "source_row": 456,
+    "dataset_id": "113c9b4b5dae630e4f2f31a968e373b2",
+    "conversation_sha256": "78fbaac8bb7ecb649e40a56117e125af252fff66cd2badbdc09aa97c4f5f441e",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "psychiatry"
+  },
+  {
+    "sample_id": "healthbench-professional-0458",
+    "source_row": 458,
+    "dataset_id": "d1937a86dbc6f208e80e817f27a693d5",
+    "conversation_sha256": "0e71cab1d81d2cd6023873fe0207e3a309adab68cd13aa8352e2a79f6327ef39",
+    "use_case": "consult",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "psychiatry"
+  },
+  {
+    "sample_id": "healthbench-professional-0464",
+    "source_row": 464,
+    "dataset_id": "98bca240ac32ece9028791e722cb5438",
+    "conversation_sha256": "02f6064bc8947735d691177d16f9d4623a32740d301497f70446d2850840b251",
+    "use_case": "writing",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "psychiatry"
+  },
+  {
+    "sample_id": "healthbench-professional-0465",
+    "source_row": 465,
+    "dataset_id": "bddaae8902144bed80386db8885ad807",
+    "conversation_sha256": "4e3a3bebebc468736b5484e537fc066a9e284344d5a64bef56e7432faf08e71a",
+    "use_case": "research",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "psychiatry"
+  },
+  {
+    "sample_id": "healthbench-professional-0466",
+    "source_row": 466,
+    "dataset_id": "79d2e7c5e03aa4949d55bf2bbd819ceb",
+    "conversation_sha256": "09b176cbb85465ee425a754f8dff0b7541d376e3155f3a2c8d791d2b598715e5",
+    "use_case": "writing",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "psychiatry"
+  },
+  {
+    "sample_id": "healthbench-professional-0469",
+    "source_row": 469,
+    "dataset_id": "540588c49617772207aee3cc5f3f47cd",
+    "conversation_sha256": "c5d237c289b1b52b50c55e67d629c671164bb472378e147a85d06ca0e19c4f62",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "pulm"
+  },
+  {
+    "sample_id": "healthbench-professional-0470",
+    "source_row": 470,
+    "dataset_id": "484dbbd65d250dafa61f86b40598d040",
+    "conversation_sha256": "bb9f2899d43668e42527bad736d127df3c2e466eca959c55c3d31335b07f90dd",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "pulm"
+  },
+  {
+    "sample_id": "healthbench-professional-0471",
+    "source_row": 471,
+    "dataset_id": "bb96444a828382b4f651369c3f4fed07",
+    "conversation_sha256": "3ce1bfb1abea3549121c608ef2b4de4de84b94c8e7464e599244f7d23fcdff99",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "pulm"
+  },
+  {
+    "sample_id": "healthbench-professional-0482",
+    "source_row": 482,
+    "dataset_id": "bab08061e5836026d850726cf87b2130",
+    "conversation_sha256": "339e7894386788a2c9db2886d21cd0e57569b53807f3eb5e86ba17d2ef53a76c",
+    "use_case": "consult",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "rads"
+  },
+  {
+    "sample_id": "healthbench-professional-0484",
+    "source_row": 484,
+    "dataset_id": "b49146d79a995a2e32ce3f2f7eb52955",
+    "conversation_sha256": "acc6062c60b54b2b445b047449761953edea0e0a1ffd9a176f4b61cd36af93d9",
+    "use_case": "consult",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "rads"
+  },
+  {
+    "sample_id": "healthbench-professional-0485",
+    "source_row": 485,
+    "dataset_id": "d2b888b434515d422c0d1588d08dc0c5",
+    "conversation_sha256": "6ab5146f8b963d7e7652fdf2bd64dca37f2275be3e745f9cafef8cbb8c5385d7",
+    "use_case": "consult",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "rads"
+  },
+  {
+    "sample_id": "healthbench-professional-0486",
+    "source_row": 486,
+    "dataset_id": "fdd5825f09e8d26f269d5707aefd8f81",
+    "conversation_sha256": "33a77479d2e0402eb2e97419f6669c36d29ce702ed2a19b0698da84a5a394927",
+    "use_case": "writing",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "rads"
+  },
+  {
+    "sample_id": "healthbench-professional-0487",
+    "source_row": 487,
+    "dataset_id": "856e608c5b92730fa9fcc8e0dea0ccac",
+    "conversation_sha256": "187cca3e3b41012e76e5662884be087f859a43bf8001d9eb451f08663d367e2d",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "rheum"
+  },
+  {
+    "sample_id": "healthbench-professional-0489",
+    "source_row": 489,
+    "dataset_id": "e59b9ffb8d9cf945be86485ae83825dc",
+    "conversation_sha256": "18133ae496f540c919585e6eee0cedce9c006ff0462889c29c69845830188e89",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "rheum"
+  },
+  {
+    "sample_id": "healthbench-professional-0491",
+    "source_row": 491,
+    "dataset_id": "1fdab1ca31af653b3f0803b21ac60a4d",
+    "conversation_sha256": "590ef4a22e2efe054c1ff6d20e61891ec909e6b06f0e0e8c2fef52069246bcc4",
+    "use_case": "consult",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "rheum"
+  },
+  {
+    "sample_id": "healthbench-professional-0493",
+    "source_row": 493,
+    "dataset_id": "35b3491359ab7e2232c335e8c5b01ed2",
+    "conversation_sha256": "bb29500dab6bd104b79bb53abe88216b7f442c3e5425dc7c0539409429b42387",
+    "use_case": "writing",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "rheum"
+  },
+  {
+    "sample_id": "healthbench-professional-0496",
+    "source_row": 496,
+    "dataset_id": "c649bfda44029bfd4c6d207925e14f54",
+    "conversation_sha256": "c773a35fd4696c3e00a1feff6dd3386fc6abbd692137a49fce96dc852b703ffc",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "surgery"
+  },
+  {
+    "sample_id": "healthbench-professional-0498",
+    "source_row": 498,
+    "dataset_id": "145254e9da9bd035b6a5a759d5a3b1b2",
+    "conversation_sha256": "bcbda16858651ecea376f9e2d297c0d27d110f704f19d7f4af833ad17be6ee1b",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "surgery"
+  },
+  {
+    "sample_id": "healthbench-professional-0499",
+    "source_row": 499,
+    "dataset_id": "3b27921820d74d54d7114f6f7a569902",
+    "conversation_sha256": "c401b562402a93699f307787ea4e1ccf6519c0f359df578f78497c411219bba7",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "surgery"
+  },
+  {
+    "sample_id": "healthbench-professional-0502",
+    "source_row": 502,
+    "dataset_id": "62ae980c586068d1c735e24da18eefd4",
+    "conversation_sha256": "29a03b78c40ff0c1f1ca8e3d333beeff9896f6a1ef7a006a382a5cc78f3a7577",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "difficult",
+    "specialty": "surgery"
+  },
+  {
+    "sample_id": "healthbench-professional-0503",
+    "source_row": 503,
+    "dataset_id": "92c4a9cc6ae29fcd6c7cac006c4bdfa0",
+    "conversation_sha256": "d8b3d0297a35db6b9a490d915de6e044a08b4b0fc483b9894948566ec1981a00",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "difficult",
+    "specialty": "surgery"
+  },
+  {
+    "sample_id": "healthbench-professional-0504",
+    "source_row": 504,
+    "dataset_id": "9840a6872697a30f20d7f116acb93d3d",
+    "conversation_sha256": "4e18fbb353a6fec4646957ef35b8f82f6821ce9906eca9098bacc132c14f4e02",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "difficult",
+    "specialty": "surgery"
+  },
+  {
+    "sample_id": "healthbench-professional-0507",
+    "source_row": 507,
+    "dataset_id": "cb51e6a2ee096d0b5ea37b052143faf2",
+    "conversation_sha256": "64ace73c9052cb2241935af458833fa72a7ac0c7da055ff684ff831758bd949a",
+    "use_case": "consult",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "surgery"
+  },
+  {
+    "sample_id": "healthbench-professional-0509",
+    "source_row": 509,
+    "dataset_id": "82dc4bfca3329f77018572273472d3d9",
+    "conversation_sha256": "3b56cce19a8491e1c1f763eebd29a0edd84ce72610ccf895595ba26f6585eac6",
+    "use_case": "writing",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "surgery"
+  },
+  {
+    "sample_id": "healthbench-professional-0511",
+    "source_row": 511,
+    "dataset_id": "925eab45a9e25e626618be58ccda6033",
+    "conversation_sha256": "800501c7a426b4c2a4d7fb01f2b2a0c1122cb2a0b72f3655c5053a716aed206e",
+    "use_case": "writing",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "surgery"
+  },
+  {
+    "sample_id": "healthbench-professional-0512",
+    "source_row": 512,
+    "dataset_id": "5a5ff4b2b727dacb76eae6d10b15abea",
+    "conversation_sha256": "17d249535fca0705328730931eda3b40d47a86f13606a33f8fe5e81b0160fe5e",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "uro"
+  },
+  {
+    "sample_id": "healthbench-professional-0513",
+    "source_row": 513,
+    "dataset_id": "438e816288083f1398ef459a08d240ff",
+    "conversation_sha256": "abcc9c866001a9ca9381d7081f6a31ea7e3cda3d20d981a001a6fbef79826352",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "uro"
+  },
+  {
+    "sample_id": "healthbench-professional-0514",
+    "source_row": 514,
+    "dataset_id": "924b069395928cd26576cd3fb1aceab0",
+    "conversation_sha256": "16743416fd120c7903739f1d133311280c2ec1e1ef2c39dde74a46374285cddb",
+    "use_case": "research",
+    "type": "good_faith",
+    "difficulty": "typical",
+    "specialty": "uro"
+  },
+  {
+    "sample_id": "healthbench-professional-0519",
+    "source_row": 519,
+    "dataset_id": "eab7f166cf24f5e9f049bd939f8c93c8",
+    "conversation_sha256": "52071740033b12708d62683a66b52583104937d71ff57ce820a577ade56e982c",
+    "use_case": "consult",
+    "type": "good_faith",
+    "difficulty": "difficult",
+    "specialty": "uro"
+  },
+  {
+    "sample_id": "healthbench-professional-0522",
+    "source_row": 522,
+    "dataset_id": "265c5c317c443f5d6ca22c95a82c3c5e",
+    "conversation_sha256": "77003afd24c4cb8decc8bb0a2aa80503ff88459a8ed91a673a5ac1a0f9f9dcc4",
+    "use_case": "writing",
+    "type": "red_teaming",
+    "difficulty": "difficult",
+    "specialty": "uro"
+  }
+]

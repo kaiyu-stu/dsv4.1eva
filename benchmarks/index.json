@@ -91,5 +91,47 @@
     "track": "native_no_tools",
     "repeats": 10,
     "includes_prior_direct_api_baseline": true
+  },
+  {
+    "benchmark": "healthbench-professional",
+    "release_id": "dsv41flash-economy-t0-thinkmax-native-stratified200-s42-gpt61sol-partial-20261102-v1",
+    "relative_path": "healthbench-professional/dsv41flash-economy-t0-thinkmax-native-stratified200-s42-gpt61sol-partial-20261102-v1",
+    "model": "deepseek-v4.1-flash-economy",
+    "tasks": 200,
+    "harnesses": [
+      "claude",
+      "codex",
+      "dsh",
+      "pi",
+      "zcode"
+    ],
+    "rows": 1000,
+    "scored_rows": 955,
+    "status": "partial_snapshot",
+    "binary_labels_available": false,
+    "primary_metric": "length_adjusted_score",
+    "track": "native_no_tools_reference_grading",
+    "snapshot_date": "2026-11-02"
+  },
+  {
+    "benchmark": "mrcr",
+    "release_id": "dsv41flash-economy-t0-native-fullcontext-stratified200-s20261030-coding-agentplan3-v1",
+    "relative_path": "mrcr/dsv41flash-economy-t0-native-fullcontext-stratified200-s20261030-coding-agentplan3-v1",
+    "model": "deepseek-v4.1-flash-economy",
+    "tasks": 200,
+    "harnesses": [
+      "claude",
+      "codex",
+      "dsh",
+      "pi",
+      "zcode"
+    ],
+    "rows": 1000,
+    "scored_rows": 1000,
+    "status": "finished",
+    "binary_labels_available": true,
+    "primary_metric": "mean_score",
+    "track": "native_fullcontext_codingplan_agentplan3_continuation",
+    "snapshot_date": "2026-11-02"
   }
 ]

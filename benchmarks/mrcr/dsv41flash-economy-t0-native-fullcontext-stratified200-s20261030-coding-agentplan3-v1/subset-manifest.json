@@ -1,0 +1,2002 @@
+[
+  {
+    "sample_id": "8needle-8needle_0-40",
+    "file": "data/mrcr/8needle/8needle_0.parquet",
+    "row": 40,
+    "needles": 8,
+    "prompt_tokens_o200k": 255285,
+    "answer_tokens_o200k": 255,
+    "bin": "128k-256k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_1-138",
+    "file": "data/mrcr/2needle/2needle_1.parquet",
+    "row": 138,
+    "needles": 2,
+    "prompt_tokens_o200k": 693504,
+    "answer_tokens_o200k": 519,
+    "bin": "512k-1024k",
+    "date_added": "12-05-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_0-198",
+    "file": "data/mrcr/4needle/4needle_0.parquet",
+    "row": 198,
+    "needles": 4,
+    "prompt_tokens_o200k": 19147,
+    "answer_tokens_o200k": 416,
+    "bin": "16k-32k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_0-347",
+    "file": "data/mrcr/2needle/2needle_0.parquet",
+    "row": 347,
+    "needles": 2,
+    "prompt_tokens_o200k": 56754,
+    "answer_tokens_o200k": 523,
+    "bin": "32k-64k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_1-398",
+    "file": "data/mrcr/4needle/4needle_1.parquet",
+    "row": 398,
+    "needles": 4,
+    "prompt_tokens_o200k": 9716,
+    "answer_tokens_o200k": 167,
+    "bin": "8k-16k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_0-312",
+    "file": "data/mrcr/2needle/2needle_0.parquet",
+    "row": 312,
+    "needles": 2,
+    "prompt_tokens_o200k": 52152,
+    "answer_tokens_o200k": 454,
+    "bin": "32k-64k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_0-233",
+    "file": "data/mrcr/4needle/4needle_0.parquet",
+    "row": 233,
+    "needles": 4,
+    "prompt_tokens_o200k": 483336,
+    "answer_tokens_o200k": 72,
+    "bin": "256k-512k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_1-193",
+    "file": "data/mrcr/2needle/2needle_1.parquet",
+    "row": 193,
+    "needles": 2,
+    "prompt_tokens_o200k": 565827,
+    "answer_tokens_o200k": 544,
+    "bin": "512k-1024k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_1-146",
+    "file": "data/mrcr/8needle/8needle_1.parquet",
+    "row": 146,
+    "needles": 8,
+    "prompt_tokens_o200k": 791116,
+    "answer_tokens_o200k": 451,
+    "bin": "512k-1024k",
+    "date_added": "12-05-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_1-256",
+    "file": "data/mrcr/8needle/8needle_1.parquet",
+    "row": 256,
+    "needles": 8,
+    "prompt_tokens_o200k": 84862,
+    "answer_tokens_o200k": 684,
+    "bin": "64k-128k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_1-173",
+    "file": "data/mrcr/4needle/4needle_1.parquet",
+    "row": 173,
+    "needles": 4,
+    "prompt_tokens_o200k": 544539,
+    "answer_tokens_o200k": 261,
+    "bin": "512k-1024k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_1-332",
+    "file": "data/mrcr/4needle/4needle_1.parquet",
+    "row": 332,
+    "needles": 4,
+    "prompt_tokens_o200k": 10753,
+    "answer_tokens_o200k": 207,
+    "bin": "8k-16k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_0-16",
+    "file": "data/mrcr/4needle/4needle_0.parquet",
+    "row": 16,
+    "needles": 4,
+    "prompt_tokens_o200k": 182142,
+    "answer_tokens_o200k": 70,
+    "bin": "128k-256k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_0-128",
+    "file": "data/mrcr/2needle/2needle_0.parquet",
+    "row": 128,
+    "needles": 2,
+    "prompt_tokens_o200k": 29121,
+    "answer_tokens_o200k": 459,
+    "bin": "16k-32k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_0-27",
+    "file": "data/mrcr/2needle/2needle_0.parquet",
+    "row": 27,
+    "needles": 2,
+    "prompt_tokens_o200k": 192987,
+    "answer_tokens_o200k": 445,
+    "bin": "128k-256k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_0-126",
+    "file": "data/mrcr/4needle/4needle_0.parquet",
+    "row": 126,
+    "needles": 4,
+    "prompt_tokens_o200k": 21646,
+    "answer_tokens_o200k": 548,
+    "bin": "16k-32k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_0-309",
+    "file": "data/mrcr/8needle/8needle_0.parquet",
+    "row": 309,
+    "needles": 8,
+    "prompt_tokens_o200k": 41624,
+    "answer_tokens_o200k": 406,
+    "bin": "32k-64k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_0-347",
+    "file": "data/mrcr/4needle/4needle_0.parquet",
+    "row": 347,
+    "needles": 4,
+    "prompt_tokens_o200k": 52119,
+    "answer_tokens_o200k": 485,
+    "bin": "32k-64k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_1-287",
+    "file": "data/mrcr/8needle/8needle_1.parquet",
+    "row": 287,
+    "needles": 8,
+    "prompt_tokens_o200k": 126307,
+    "answer_tokens_o200k": 419,
+    "bin": "64k-128k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_1-300",
+    "file": "data/mrcr/2needle/2needle_1.parquet",
+    "row": 300,
+    "needles": 2,
+    "prompt_tokens_o200k": 11591,
+    "answer_tokens_o200k": 478,
+    "bin": "8k-16k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_1-11",
+    "file": "data/mrcr/4needle/4needle_1.parquet",
+    "row": 11,
+    "needles": 4,
+    "prompt_tokens_o200k": 5373,
+    "answer_tokens_o200k": 274,
+    "bin": "4k-8k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_1-196",
+    "file": "data/mrcr/8needle/8needle_1.parquet",
+    "row": 196,
+    "needles": 8,
+    "prompt_tokens_o200k": 865784,
+    "answer_tokens_o200k": 721,
+    "bin": "512k-1024k",
+    "date_added": "12-05-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_1-271",
+    "file": "data/mrcr/4needle/4needle_1.parquet",
+    "row": 271,
+    "needles": 4,
+    "prompt_tokens_o200k": 94803,
+    "answer_tokens_o200k": 458,
+    "bin": "64k-128k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_1-378",
+    "file": "data/mrcr/8needle/8needle_1.parquet",
+    "row": 378,
+    "needles": 8,
+    "prompt_tokens_o200k": 10049,
+    "answer_tokens_o200k": 337,
+    "bin": "8k-16k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_0-141",
+    "file": "data/mrcr/2needle/2needle_0.parquet",
+    "row": 141,
+    "needles": 2,
+    "prompt_tokens_o200k": 18598,
+    "answer_tokens_o200k": 490,
+    "bin": "16k-32k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_1-80",
+    "file": "data/mrcr/2needle/2needle_1.parquet",
+    "row": 80,
+    "needles": 2,
+    "prompt_tokens_o200k": 6991,
+    "answer_tokens_o200k": 496,
+    "bin": "4k-8k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_1-218",
+    "file": "data/mrcr/2needle/2needle_1.parquet",
+    "row": 218,
+    "needles": 2,
+    "prompt_tokens_o200k": 83789,
+    "answer_tokens_o200k": 303,
+    "bin": "64k-128k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_0-179",
+    "file": "data/mrcr/8needle/8needle_0.parquet",
+    "row": 179,
+    "needles": 8,
+    "prompt_tokens_o200k": 21297,
+    "answer_tokens_o200k": 357,
+    "bin": "16k-32k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_1-82",
+    "file": "data/mrcr/4needle/4needle_1.parquet",
+    "row": 82,
+    "needles": 4,
+    "prompt_tokens_o200k": 5737,
+    "answer_tokens_o200k": 611,
+    "bin": "4k-8k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_0-321",
+    "file": "data/mrcr/8needle/8needle_0.parquet",
+    "row": 321,
+    "needles": 8,
+    "prompt_tokens_o200k": 42659,
+    "answer_tokens_o200k": 471,
+    "bin": "32k-64k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_1-113",
+    "file": "data/mrcr/2needle/2needle_1.parquet",
+    "row": 113,
+    "needles": 2,
+    "prompt_tokens_o200k": 919857,
+    "answer_tokens_o200k": 130,
+    "bin": "512k-1024k",
+    "date_added": "12-05-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_0-95",
+    "file": "data/mrcr/2needle/2needle_0.parquet",
+    "row": 95,
+    "needles": 2,
+    "prompt_tokens_o200k": 222287,
+    "answer_tokens_o200k": 442,
+    "bin": "128k-256k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_0-39",
+    "file": "data/mrcr/2needle/2needle_0.parquet",
+    "row": 39,
+    "needles": 2,
+    "prompt_tokens_o200k": 253431,
+    "answer_tokens_o200k": 442,
+    "bin": "128k-256k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_0-82",
+    "file": "data/mrcr/8needle/8needle_0.parquet",
+    "row": 82,
+    "needles": 8,
+    "prompt_tokens_o200k": 148454,
+    "answer_tokens_o200k": 538,
+    "bin": "128k-256k",
+    "date_added": "12-05-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_1-155",
+    "file": "data/mrcr/2needle/2needle_1.parquet",
+    "row": 155,
+    "needles": 2,
+    "prompt_tokens_o200k": 526010,
+    "answer_tokens_o200k": 648,
+    "bin": "512k-1024k",
+    "date_added": "12-05-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_1-308",
+    "file": "data/mrcr/2needle/2needle_1.parquet",
+    "row": 308,
+    "needles": 2,
+    "prompt_tokens_o200k": 12519,
+    "answer_tokens_o200k": 383,
+    "bin": "8k-16k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_1-113",
+    "file": "data/mrcr/8needle/8needle_1.parquet",
+    "row": 113,
+    "needles": 8,
+    "prompt_tokens_o200k": 804217,
+    "answer_tokens_o200k": 439,
+    "bin": "512k-1024k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_0-351",
+    "file": "data/mrcr/8needle/8needle_0.parquet",
+    "row": 351,
+    "needles": 8,
+    "prompt_tokens_o200k": 61160,
+    "answer_tokens_o200k": 259,
+    "bin": "32k-64k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_1-231",
+    "file": "data/mrcr/2needle/2needle_1.parquet",
+    "row": 231,
+    "needles": 2,
+    "prompt_tokens_o200k": 85596,
+    "answer_tokens_o200k": 494,
+    "bin": "64k-128k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_1-387",
+    "file": "data/mrcr/8needle/8needle_1.parquet",
+    "row": 387,
+    "needles": 8,
+    "prompt_tokens_o200k": 12517,
+    "answer_tokens_o200k": 450,
+    "bin": "8k-16k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_1-138",
+    "file": "data/mrcr/4needle/4needle_1.parquet",
+    "row": 138,
+    "needles": 4,
+    "prompt_tokens_o200k": 843856,
+    "answer_tokens_o200k": 407,
+    "bin": "512k-1024k",
+    "date_added": "12-05-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_1-223",
+    "file": "data/mrcr/2needle/2needle_1.parquet",
+    "row": 223,
+    "needles": 2,
+    "prompt_tokens_o200k": 71318,
+    "answer_tokens_o200k": 444,
+    "bin": "64k-128k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_0-323",
+    "file": "data/mrcr/4needle/4needle_0.parquet",
+    "row": 323,
+    "needles": 4,
+    "prompt_tokens_o200k": 32945,
+    "answer_tokens_o200k": 169,
+    "bin": "32k-64k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_0-36",
+    "file": "data/mrcr/4needle/4needle_0.parquet",
+    "row": 36,
+    "needles": 4,
+    "prompt_tokens_o200k": 170587,
+    "answer_tokens_o200k": 177,
+    "bin": "128k-256k",
+    "date_added": "12-05-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_0-92",
+    "file": "data/mrcr/2needle/2needle_0.parquet",
+    "row": 92,
+    "needles": 2,
+    "prompt_tokens_o200k": 210169,
+    "answer_tokens_o200k": 734,
+    "bin": "128k-256k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_0-276",
+    "file": "data/mrcr/4needle/4needle_0.parquet",
+    "row": 276,
+    "needles": 4,
+    "prompt_tokens_o200k": 398929,
+    "answer_tokens_o200k": 561,
+    "bin": "256k-512k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_0-229",
+    "file": "data/mrcr/8needle/8needle_0.parquet",
+    "row": 229,
+    "needles": 8,
+    "prompt_tokens_o200k": 357883,
+    "answer_tokens_o200k": 407,
+    "bin": "256k-512k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_1-93",
+    "file": "data/mrcr/4needle/4needle_1.parquet",
+    "row": 93,
+    "needles": 4,
+    "prompt_tokens_o200k": 6744,
+    "answer_tokens_o200k": 76,
+    "bin": "4k-8k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_1-338",
+    "file": "data/mrcr/8needle/8needle_1.parquet",
+    "row": 338,
+    "needles": 8,
+    "prompt_tokens_o200k": 14686,
+    "answer_tokens_o200k": 230,
+    "bin": "8k-16k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_1-332",
+    "file": "data/mrcr/8needle/8needle_1.parquet",
+    "row": 332,
+    "needles": 8,
+    "prompt_tokens_o200k": 9317,
+    "answer_tokens_o200k": 440,
+    "bin": "8k-16k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_1-173",
+    "file": "data/mrcr/8needle/8needle_1.parquet",
+    "row": 173,
+    "needles": 8,
+    "prompt_tokens_o200k": 762309,
+    "answer_tokens_o200k": 568,
+    "bin": "512k-1024k",
+    "date_added": "12-05-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_1-213",
+    "file": "data/mrcr/4needle/4needle_1.parquet",
+    "row": 213,
+    "needles": 4,
+    "prompt_tokens_o200k": 68817,
+    "answer_tokens_o200k": 377,
+    "bin": "64k-128k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_0-383",
+    "file": "data/mrcr/8needle/8needle_0.parquet",
+    "row": 383,
+    "needles": 8,
+    "prompt_tokens_o200k": 48457,
+    "answer_tokens_o200k": 461,
+    "bin": "32k-64k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_1-28",
+    "file": "data/mrcr/4needle/4needle_1.parquet",
+    "row": 28,
+    "needles": 4,
+    "prompt_tokens_o200k": 5614,
+    "answer_tokens_o200k": 488,
+    "bin": "4k-8k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_1-31",
+    "file": "data/mrcr/4needle/4needle_1.parquet",
+    "row": 31,
+    "needles": 4,
+    "prompt_tokens_o200k": 4382,
+    "answer_tokens_o200k": 479,
+    "bin": "4k-8k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_0-272",
+    "file": "data/mrcr/4needle/4needle_0.parquet",
+    "row": 272,
+    "needles": 4,
+    "prompt_tokens_o200k": 363778,
+    "answer_tokens_o200k": 379,
+    "bin": "256k-512k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_0-229",
+    "file": "data/mrcr/2needle/2needle_0.parquet",
+    "row": 229,
+    "needles": 2,
+    "prompt_tokens_o200k": 416482,
+    "answer_tokens_o200k": 180,
+    "bin": "256k-512k",
+    "date_added": "12-05-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_0-269",
+    "file": "data/mrcr/8needle/8needle_0.parquet",
+    "row": 269,
+    "needles": 8,
+    "prompt_tokens_o200k": 359579,
+    "answer_tokens_o200k": 313,
+    "bin": "256k-512k",
+    "date_added": "12-05-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_0-25",
+    "file": "data/mrcr/2needle/2needle_0.parquet",
+    "row": 25,
+    "needles": 2,
+    "prompt_tokens_o200k": 148878,
+    "answer_tokens_o200k": 298,
+    "bin": "128k-256k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_1-322",
+    "file": "data/mrcr/4needle/4needle_1.parquet",
+    "row": 322,
+    "needles": 4,
+    "prompt_tokens_o200k": 15042,
+    "answer_tokens_o200k": 587,
+    "bin": "8k-16k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_1-355",
+    "file": "data/mrcr/4needle/4needle_1.parquet",
+    "row": 355,
+    "needles": 4,
+    "prompt_tokens_o200k": 12731,
+    "answer_tokens_o200k": 758,
+    "bin": "8k-16k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_0-145",
+    "file": "data/mrcr/8needle/8needle_0.parquet",
+    "row": 145,
+    "needles": 8,
+    "prompt_tokens_o200k": 21901,
+    "answer_tokens_o200k": 394,
+    "bin": "16k-32k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_1-310",
+    "file": "data/mrcr/8needle/8needle_1.parquet",
+    "row": 310,
+    "needles": 8,
+    "prompt_tokens_o200k": 8588,
+    "answer_tokens_o200k": 402,
+    "bin": "8k-16k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_0-169",
+    "file": "data/mrcr/2needle/2needle_0.parquet",
+    "row": 169,
+    "needles": 2,
+    "prompt_tokens_o200k": 21822,
+    "answer_tokens_o200k": 387,
+    "bin": "16k-32k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_1-245",
+    "file": "data/mrcr/4needle/4needle_1.parquet",
+    "row": 245,
+    "needles": 4,
+    "prompt_tokens_o200k": 70209,
+    "answer_tokens_o200k": 372,
+    "bin": "64k-128k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_0-4",
+    "file": "data/mrcr/4needle/4needle_0.parquet",
+    "row": 4,
+    "needles": 4,
+    "prompt_tokens_o200k": 151452,
+    "answer_tokens_o200k": 68,
+    "bin": "128k-256k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_1-159",
+    "file": "data/mrcr/8needle/8needle_1.parquet",
+    "row": 159,
+    "needles": 8,
+    "prompt_tokens_o200k": 883333,
+    "answer_tokens_o200k": 479,
+    "bin": "512k-1024k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_1-390",
+    "file": "data/mrcr/2needle/2needle_1.parquet",
+    "row": 390,
+    "needles": 2,
+    "prompt_tokens_o200k": 11516,
+    "answer_tokens_o200k": 323,
+    "bin": "8k-16k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_0-320",
+    "file": "data/mrcr/2needle/2needle_0.parquet",
+    "row": 320,
+    "needles": 2,
+    "prompt_tokens_o200k": 40259,
+    "answer_tokens_o200k": 419,
+    "bin": "32k-64k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_1-128",
+    "file": "data/mrcr/4needle/4needle_1.parquet",
+    "row": 128,
+    "needles": 4,
+    "prompt_tokens_o200k": 798358,
+    "answer_tokens_o200k": 583,
+    "bin": "512k-1024k",
+    "date_added": "12-05-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_0-19",
+    "file": "data/mrcr/4needle/4needle_0.parquet",
+    "row": 19,
+    "needles": 4,
+    "prompt_tokens_o200k": 250192,
+    "answer_tokens_o200k": 426,
+    "bin": "128k-256k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_0-274",
+    "file": "data/mrcr/2needle/2needle_0.parquet",
+    "row": 274,
+    "needles": 2,
+    "prompt_tokens_o200k": 445624,
+    "answer_tokens_o200k": 58,
+    "bin": "256k-512k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_1-200",
+    "file": "data/mrcr/2needle/2needle_1.parquet",
+    "row": 200,
+    "needles": 2,
+    "prompt_tokens_o200k": 97814,
+    "answer_tokens_o200k": 269,
+    "bin": "64k-128k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_1-70",
+    "file": "data/mrcr/2needle/2needle_1.parquet",
+    "row": 70,
+    "needles": 2,
+    "prompt_tokens_o200k": 6060,
+    "answer_tokens_o200k": 602,
+    "bin": "4k-8k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_0-244",
+    "file": "data/mrcr/4needle/4needle_0.parquet",
+    "row": 244,
+    "needles": 4,
+    "prompt_tokens_o200k": 430288,
+    "answer_tokens_o200k": 379,
+    "bin": "256k-512k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_0-356",
+    "file": "data/mrcr/4needle/4needle_0.parquet",
+    "row": 356,
+    "needles": 4,
+    "prompt_tokens_o200k": 35496,
+    "answer_tokens_o200k": 376,
+    "bin": "32k-64k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_1-67",
+    "file": "data/mrcr/8needle/8needle_1.parquet",
+    "row": 67,
+    "needles": 8,
+    "prompt_tokens_o200k": 6974,
+    "answer_tokens_o200k": 158,
+    "bin": "4k-8k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_0-36",
+    "file": "data/mrcr/2needle/2needle_0.parquet",
+    "row": 36,
+    "needles": 2,
+    "prompt_tokens_o200k": 168246,
+    "answer_tokens_o200k": 395,
+    "bin": "128k-256k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_1-314",
+    "file": "data/mrcr/4needle/4needle_1.parquet",
+    "row": 314,
+    "needles": 4,
+    "prompt_tokens_o200k": 7826,
+    "answer_tokens_o200k": 397,
+    "bin": "8k-16k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_0-103",
+    "file": "data/mrcr/4needle/4needle_0.parquet",
+    "row": 103,
+    "needles": 4,
+    "prompt_tokens_o200k": 23869,
+    "answer_tokens_o200k": 98,
+    "bin": "16k-32k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_0-377",
+    "file": "data/mrcr/4needle/4needle_0.parquet",
+    "row": 377,
+    "needles": 4,
+    "prompt_tokens_o200k": 56662,
+    "answer_tokens_o200k": 518,
+    "bin": "32k-64k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_0-268",
+    "file": "data/mrcr/2needle/2needle_0.parquet",
+    "row": 268,
+    "needles": 2,
+    "prompt_tokens_o200k": 348956,
+    "answer_tokens_o200k": 617,
+    "bin": "256k-512k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_0-118",
+    "file": "data/mrcr/2needle/2needle_0.parquet",
+    "row": 118,
+    "needles": 2,
+    "prompt_tokens_o200k": 26253,
+    "answer_tokens_o200k": 266,
+    "bin": "16k-32k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_0-132",
+    "file": "data/mrcr/8needle/8needle_0.parquet",
+    "row": 132,
+    "needles": 8,
+    "prompt_tokens_o200k": 18432,
+    "answer_tokens_o200k": 64,
+    "bin": "16k-32k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_0-284",
+    "file": "data/mrcr/4needle/4needle_0.parquet",
+    "row": 284,
+    "needles": 4,
+    "prompt_tokens_o200k": 382266,
+    "answer_tokens_o200k": 386,
+    "bin": "256k-512k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_0-349",
+    "file": "data/mrcr/2needle/2needle_0.parquet",
+    "row": 349,
+    "needles": 2,
+    "prompt_tokens_o200k": 32396,
+    "answer_tokens_o200k": 275,
+    "bin": "16k-32k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_1-213",
+    "file": "data/mrcr/2needle/2needle_1.parquet",
+    "row": 213,
+    "needles": 2,
+    "prompt_tokens_o200k": 118100,
+    "answer_tokens_o200k": 381,
+    "bin": "64k-128k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_1-282",
+    "file": "data/mrcr/8needle/8needle_1.parquet",
+    "row": 282,
+    "needles": 8,
+    "prompt_tokens_o200k": 91738,
+    "answer_tokens_o200k": 551,
+    "bin": "64k-128k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_1-104",
+    "file": "data/mrcr/8needle/8needle_1.parquet",
+    "row": 104,
+    "needles": 8,
+    "prompt_tokens_o200k": 740650,
+    "answer_tokens_o200k": 394,
+    "bin": "512k-1024k",
+    "date_added": "12-05-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_1-105",
+    "file": "data/mrcr/2needle/2needle_1.parquet",
+    "row": 105,
+    "needles": 2,
+    "prompt_tokens_o200k": 685550,
+    "answer_tokens_o200k": 753,
+    "bin": "512k-1024k",
+    "date_added": "12-05-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_1-368",
+    "file": "data/mrcr/8needle/8needle_1.parquet",
+    "row": 368,
+    "needles": 8,
+    "prompt_tokens_o200k": 11115,
+    "answer_tokens_o200k": 81,
+    "bin": "8k-16k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_0-218",
+    "file": "data/mrcr/8needle/8needle_0.parquet",
+    "row": 218,
+    "needles": 8,
+    "prompt_tokens_o200k": 362085,
+    "answer_tokens_o200k": 472,
+    "bin": "256k-512k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_1-96",
+    "file": "data/mrcr/2needle/2needle_1.parquet",
+    "row": 96,
+    "needles": 2,
+    "prompt_tokens_o200k": 5257,
+    "answer_tokens_o200k": 303,
+    "bin": "4k-8k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_0-275",
+    "file": "data/mrcr/2needle/2needle_0.parquet",
+    "row": 275,
+    "needles": 2,
+    "prompt_tokens_o200k": 324451,
+    "answer_tokens_o200k": 426,
+    "bin": "256k-512k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_1-254",
+    "file": "data/mrcr/2needle/2needle_1.parquet",
+    "row": 254,
+    "needles": 2,
+    "prompt_tokens_o200k": 85722,
+    "answer_tokens_o200k": 235,
+    "bin": "64k-128k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_0-74",
+    "file": "data/mrcr/8needle/8needle_0.parquet",
+    "row": 74,
+    "needles": 8,
+    "prompt_tokens_o200k": 150789,
+    "answer_tokens_o200k": 482,
+    "bin": "128k-256k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_1-255",
+    "file": "data/mrcr/8needle/8needle_1.parquet",
+    "row": 255,
+    "needles": 8,
+    "prompt_tokens_o200k": 102631,
+    "answer_tokens_o200k": 435,
+    "bin": "64k-128k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_1-12",
+    "file": "data/mrcr/8needle/8needle_1.parquet",
+    "row": 12,
+    "needles": 8,
+    "prompt_tokens_o200k": 4390,
+    "answer_tokens_o200k": 62,
+    "bin": "4k-8k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_1-96",
+    "file": "data/mrcr/8needle/8needle_1.parquet",
+    "row": 96,
+    "needles": 8,
+    "prompt_tokens_o200k": 4265,
+    "answer_tokens_o200k": 377,
+    "bin": "4k-8k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_0-242",
+    "file": "data/mrcr/4needle/4needle_0.parquet",
+    "row": 242,
+    "needles": 4,
+    "prompt_tokens_o200k": 415235,
+    "answer_tokens_o200k": 178,
+    "bin": "256k-512k",
+    "date_added": "12-05-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_1-77",
+    "file": "data/mrcr/4needle/4needle_1.parquet",
+    "row": 77,
+    "needles": 4,
+    "prompt_tokens_o200k": 5989,
+    "answer_tokens_o200k": 81,
+    "bin": "4k-8k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_0-189",
+    "file": "data/mrcr/2needle/2needle_0.parquet",
+    "row": 189,
+    "needles": 2,
+    "prompt_tokens_o200k": 18345,
+    "answer_tokens_o200k": 408,
+    "bin": "16k-32k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_0-370",
+    "file": "data/mrcr/4needle/4needle_0.parquet",
+    "row": 370,
+    "needles": 4,
+    "prompt_tokens_o200k": 32410,
+    "answer_tokens_o200k": 307,
+    "bin": "16k-32k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_1-72",
+    "file": "data/mrcr/8needle/8needle_1.parquet",
+    "row": 72,
+    "needles": 8,
+    "prompt_tokens_o200k": 5023,
+    "answer_tokens_o200k": 211,
+    "bin": "4k-8k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_1-340",
+    "file": "data/mrcr/4needle/4needle_1.parquet",
+    "row": 340,
+    "needles": 4,
+    "prompt_tokens_o200k": 8148,
+    "answer_tokens_o200k": 799,
+    "bin": "8k-16k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_1-215",
+    "file": "data/mrcr/8needle/8needle_1.parquet",
+    "row": 215,
+    "needles": 8,
+    "prompt_tokens_o200k": 76063,
+    "answer_tokens_o200k": 438,
+    "bin": "64k-128k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_0-197",
+    "file": "data/mrcr/4needle/4needle_0.parquet",
+    "row": 197,
+    "needles": 4,
+    "prompt_tokens_o200k": 27176,
+    "answer_tokens_o200k": 227,
+    "bin": "16k-32k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_1-147",
+    "file": "data/mrcr/2needle/2needle_1.parquet",
+    "row": 147,
+    "needles": 2,
+    "prompt_tokens_o200k": 611541,
+    "answer_tokens_o200k": 125,
+    "bin": "512k-1024k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_0-170",
+    "file": "data/mrcr/8needle/8needle_0.parquet",
+    "row": 170,
+    "needles": 8,
+    "prompt_tokens_o200k": 28926,
+    "answer_tokens_o200k": 56,
+    "bin": "16k-32k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_0-52",
+    "file": "data/mrcr/2needle/2needle_0.parquet",
+    "row": 52,
+    "needles": 2,
+    "prompt_tokens_o200k": 188371,
+    "answer_tokens_o200k": 483,
+    "bin": "128k-256k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_1-359",
+    "file": "data/mrcr/2needle/2needle_1.parquet",
+    "row": 359,
+    "needles": 2,
+    "prompt_tokens_o200k": 10493,
+    "answer_tokens_o200k": 650,
+    "bin": "8k-16k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_1-131",
+    "file": "data/mrcr/4needle/4needle_1.parquet",
+    "row": 131,
+    "needles": 4,
+    "prompt_tokens_o200k": 855421,
+    "answer_tokens_o200k": 449,
+    "bin": "512k-1024k",
+    "date_added": "12-05-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_0-151",
+    "file": "data/mrcr/8needle/8needle_0.parquet",
+    "row": 151,
+    "needles": 8,
+    "prompt_tokens_o200k": 16395,
+    "answer_tokens_o200k": 595,
+    "bin": "16k-32k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_1-293",
+    "file": "data/mrcr/4needle/4needle_1.parquet",
+    "row": 293,
+    "needles": 4,
+    "prompt_tokens_o200k": 65959,
+    "answer_tokens_o200k": 557,
+    "bin": "64k-128k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_1-389",
+    "file": "data/mrcr/2needle/2needle_1.parquet",
+    "row": 389,
+    "needles": 2,
+    "prompt_tokens_o200k": 8151,
+    "answer_tokens_o200k": 755,
+    "bin": "8k-16k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_1-366",
+    "file": "data/mrcr/8needle/8needle_1.parquet",
+    "row": 366,
+    "needles": 8,
+    "prompt_tokens_o200k": 7858,
+    "answer_tokens_o200k": 479,
+    "bin": "8k-16k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_1-122",
+    "file": "data/mrcr/4needle/4needle_1.parquet",
+    "row": 122,
+    "needles": 4,
+    "prompt_tokens_o200k": 622847,
+    "answer_tokens_o200k": 642,
+    "bin": "512k-1024k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_0-337",
+    "file": "data/mrcr/2needle/2needle_0.parquet",
+    "row": 337,
+    "needles": 2,
+    "prompt_tokens_o200k": 34794,
+    "answer_tokens_o200k": 340,
+    "bin": "32k-64k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_0-86",
+    "file": "data/mrcr/4needle/4needle_0.parquet",
+    "row": 86,
+    "needles": 4,
+    "prompt_tokens_o200k": 188951,
+    "answer_tokens_o200k": 85,
+    "bin": "128k-256k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_1-246",
+    "file": "data/mrcr/4needle/4needle_1.parquet",
+    "row": 246,
+    "needles": 4,
+    "prompt_tokens_o200k": 94162,
+    "answer_tokens_o200k": 407,
+    "bin": "64k-128k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_1-95",
+    "file": "data/mrcr/4needle/4needle_1.parquet",
+    "row": 95,
+    "needles": 4,
+    "prompt_tokens_o200k": 5551,
+    "answer_tokens_o200k": 161,
+    "bin": "4k-8k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_0-48",
+    "file": "data/mrcr/8needle/8needle_0.parquet",
+    "row": 48,
+    "needles": 8,
+    "prompt_tokens_o200k": 139992,
+    "answer_tokens_o200k": 528,
+    "bin": "128k-256k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_1-23",
+    "file": "data/mrcr/2needle/2needle_1.parquet",
+    "row": 23,
+    "needles": 2,
+    "prompt_tokens_o200k": 7297,
+    "answer_tokens_o200k": 83,
+    "bin": "4k-8k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_0-334",
+    "file": "data/mrcr/4needle/4needle_0.parquet",
+    "row": 334,
+    "needles": 4,
+    "prompt_tokens_o200k": 41157,
+    "answer_tokens_o200k": 273,
+    "bin": "32k-64k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_0-365",
+    "file": "data/mrcr/2needle/2needle_0.parquet",
+    "row": 365,
+    "needles": 2,
+    "prompt_tokens_o200k": 43123,
+    "answer_tokens_o200k": 469,
+    "bin": "32k-64k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_0-344",
+    "file": "data/mrcr/2needle/2needle_0.parquet",
+    "row": 344,
+    "needles": 2,
+    "prompt_tokens_o200k": 34900,
+    "answer_tokens_o200k": 59,
+    "bin": "32k-64k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_0-140",
+    "file": "data/mrcr/4needle/4needle_0.parquet",
+    "row": 140,
+    "needles": 4,
+    "prompt_tokens_o200k": 19199,
+    "answer_tokens_o200k": 243,
+    "bin": "16k-32k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_1-195",
+    "file": "data/mrcr/4needle/4needle_1.parquet",
+    "row": 195,
+    "needles": 4,
+    "prompt_tokens_o200k": 838542,
+    "answer_tokens_o200k": 426,
+    "bin": "512k-1024k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_1-217",
+    "file": "data/mrcr/2needle/2needle_1.parquet",
+    "row": 217,
+    "needles": 2,
+    "prompt_tokens_o200k": 84614,
+    "answer_tokens_o200k": 300,
+    "bin": "64k-128k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_0-257",
+    "file": "data/mrcr/2needle/2needle_0.parquet",
+    "row": 257,
+    "needles": 2,
+    "prompt_tokens_o200k": 284914,
+    "answer_tokens_o200k": 378,
+    "bin": "256k-512k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_0-86",
+    "file": "data/mrcr/8needle/8needle_0.parquet",
+    "row": 86,
+    "needles": 8,
+    "prompt_tokens_o200k": 208352,
+    "answer_tokens_o200k": 358,
+    "bin": "128k-256k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_0-391",
+    "file": "data/mrcr/4needle/4needle_0.parquet",
+    "row": 391,
+    "needles": 4,
+    "prompt_tokens_o200k": 52391,
+    "answer_tokens_o200k": 466,
+    "bin": "32k-64k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_1-20",
+    "file": "data/mrcr/8needle/8needle_1.parquet",
+    "row": 20,
+    "needles": 8,
+    "prompt_tokens_o200k": 5751,
+    "answer_tokens_o200k": 424,
+    "bin": "4k-8k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_0-107",
+    "file": "data/mrcr/8needle/8needle_0.parquet",
+    "row": 107,
+    "needles": 8,
+    "prompt_tokens_o200k": 19966,
+    "answer_tokens_o200k": 59,
+    "bin": "16k-32k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_1-8",
+    "file": "data/mrcr/8needle/8needle_1.parquet",
+    "row": 8,
+    "needles": 8,
+    "prompt_tokens_o200k": 5742,
+    "answer_tokens_o200k": 460,
+    "bin": "4k-8k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_1-368",
+    "file": "data/mrcr/2needle/2needle_1.parquet",
+    "row": 368,
+    "needles": 2,
+    "prompt_tokens_o200k": 12018,
+    "answer_tokens_o200k": 433,
+    "bin": "8k-16k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_0-215",
+    "file": "data/mrcr/8needle/8needle_0.parquet",
+    "row": 215,
+    "needles": 8,
+    "prompt_tokens_o200k": 420891,
+    "answer_tokens_o200k": 471,
+    "bin": "256k-512k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_0-148",
+    "file": "data/mrcr/2needle/2needle_0.parquet",
+    "row": 148,
+    "needles": 2,
+    "prompt_tokens_o200k": 22477,
+    "answer_tokens_o200k": 257,
+    "bin": "16k-32k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_0-300",
+    "file": "data/mrcr/8needle/8needle_0.parquet",
+    "row": 300,
+    "needles": 8,
+    "prompt_tokens_o200k": 38404,
+    "answer_tokens_o200k": 232,
+    "bin": "32k-64k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_0-306",
+    "file": "data/mrcr/8needle/8needle_0.parquet",
+    "row": 306,
+    "needles": 8,
+    "prompt_tokens_o200k": 34595,
+    "answer_tokens_o200k": 307,
+    "bin": "32k-64k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_1-385",
+    "file": "data/mrcr/4needle/4needle_1.parquet",
+    "row": 385,
+    "needles": 4,
+    "prompt_tokens_o200k": 12543,
+    "answer_tokens_o200k": 80,
+    "bin": "8k-16k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_0-286",
+    "file": "data/mrcr/8needle/8needle_0.parquet",
+    "row": 286,
+    "needles": 8,
+    "prompt_tokens_o200k": 289527,
+    "answer_tokens_o200k": 284,
+    "bin": "256k-512k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_0-170",
+    "file": "data/mrcr/2needle/2needle_0.parquet",
+    "row": 170,
+    "needles": 2,
+    "prompt_tokens_o200k": 15788,
+    "answer_tokens_o200k": 529,
+    "bin": "8k-16k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_1-28",
+    "file": "data/mrcr/8needle/8needle_1.parquet",
+    "row": 28,
+    "needles": 8,
+    "prompt_tokens_o200k": 6569,
+    "answer_tokens_o200k": 491,
+    "bin": "4k-8k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_0-219",
+    "file": "data/mrcr/2needle/2needle_0.parquet",
+    "row": 219,
+    "needles": 2,
+    "prompt_tokens_o200k": 392208,
+    "answer_tokens_o200k": 449,
+    "bin": "256k-512k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_1-167",
+    "file": "data/mrcr/8needle/8needle_1.parquet",
+    "row": 167,
+    "needles": 8,
+    "prompt_tokens_o200k": 704214,
+    "answer_tokens_o200k": 251,
+    "bin": "512k-1024k",
+    "date_added": "12-05-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_0-308",
+    "file": "data/mrcr/2needle/2needle_0.parquet",
+    "row": 308,
+    "needles": 2,
+    "prompt_tokens_o200k": 55167,
+    "answer_tokens_o200k": 445,
+    "bin": "32k-64k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_1-298",
+    "file": "data/mrcr/2needle/2needle_1.parquet",
+    "row": 298,
+    "needles": 2,
+    "prompt_tokens_o200k": 80611,
+    "answer_tokens_o200k": 413,
+    "bin": "64k-128k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_0-124",
+    "file": "data/mrcr/8needle/8needle_0.parquet",
+    "row": 124,
+    "needles": 8,
+    "prompt_tokens_o200k": 17318,
+    "answer_tokens_o200k": 542,
+    "bin": "16k-32k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_1-204",
+    "file": "data/mrcr/4needle/4needle_1.parquet",
+    "row": 204,
+    "needles": 4,
+    "prompt_tokens_o200k": 73339,
+    "answer_tokens_o200k": 185,
+    "bin": "64k-128k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_1-299",
+    "file": "data/mrcr/8needle/8needle_1.parquet",
+    "row": 299,
+    "needles": 8,
+    "prompt_tokens_o200k": 70524,
+    "answer_tokens_o200k": 86,
+    "bin": "64k-128k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_1-123",
+    "file": "data/mrcr/2needle/2needle_1.parquet",
+    "row": 123,
+    "needles": 2,
+    "prompt_tokens_o200k": 871556,
+    "answer_tokens_o200k": 162,
+    "bin": "512k-1024k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_0-252",
+    "file": "data/mrcr/2needle/2needle_0.parquet",
+    "row": 252,
+    "needles": 2,
+    "prompt_tokens_o200k": 312420,
+    "answer_tokens_o200k": 381,
+    "bin": "256k-512k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_1-140",
+    "file": "data/mrcr/4needle/4needle_1.parquet",
+    "row": 140,
+    "needles": 4,
+    "prompt_tokens_o200k": 742812,
+    "answer_tokens_o200k": 371,
+    "bin": "512k-1024k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_0-47",
+    "file": "data/mrcr/2needle/2needle_0.parquet",
+    "row": 47,
+    "needles": 2,
+    "prompt_tokens_o200k": 198037,
+    "answer_tokens_o200k": 409,
+    "bin": "128k-256k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_0-331",
+    "file": "data/mrcr/8needle/8needle_0.parquet",
+    "row": 331,
+    "needles": 8,
+    "prompt_tokens_o200k": 48661,
+    "answer_tokens_o200k": 477,
+    "bin": "32k-64k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_1-51",
+    "file": "data/mrcr/2needle/2needle_1.parquet",
+    "row": 51,
+    "needles": 2,
+    "prompt_tokens_o200k": 6979,
+    "answer_tokens_o200k": 327,
+    "bin": "4k-8k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_0-200",
+    "file": "data/mrcr/8needle/8needle_0.parquet",
+    "row": 200,
+    "needles": 8,
+    "prompt_tokens_o200k": 358538,
+    "answer_tokens_o200k": 348,
+    "bin": "256k-512k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_0-14",
+    "file": "data/mrcr/8needle/8needle_0.parquet",
+    "row": 14,
+    "needles": 8,
+    "prompt_tokens_o200k": 153265,
+    "answer_tokens_o200k": 468,
+    "bin": "128k-256k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_0-354",
+    "file": "data/mrcr/4needle/4needle_0.parquet",
+    "row": 354,
+    "needles": 4,
+    "prompt_tokens_o200k": 32485,
+    "answer_tokens_o200k": 495,
+    "bin": "32k-64k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_0-53",
+    "file": "data/mrcr/4needle/4needle_0.parquet",
+    "row": 53,
+    "needles": 4,
+    "prompt_tokens_o200k": 206899,
+    "answer_tokens_o200k": 304,
+    "bin": "128k-256k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_1-318",
+    "file": "data/mrcr/2needle/2needle_1.parquet",
+    "row": 318,
+    "needles": 2,
+    "prompt_tokens_o200k": 15019,
+    "answer_tokens_o200k": 139,
+    "bin": "8k-16k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_0-207",
+    "file": "data/mrcr/8needle/8needle_0.parquet",
+    "row": 207,
+    "needles": 8,
+    "prompt_tokens_o200k": 306097,
+    "answer_tokens_o200k": 373,
+    "bin": "256k-512k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_1-124",
+    "file": "data/mrcr/2needle/2needle_1.parquet",
+    "row": 124,
+    "needles": 2,
+    "prompt_tokens_o200k": 812788,
+    "answer_tokens_o200k": 428,
+    "bin": "512k-1024k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_1-269",
+    "file": "data/mrcr/4needle/4needle_1.parquet",
+    "row": 269,
+    "needles": 4,
+    "prompt_tokens_o200k": 71886,
+    "answer_tokens_o200k": 403,
+    "bin": "64k-128k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_0-346",
+    "file": "data/mrcr/4needle/4needle_0.parquet",
+    "row": 346,
+    "needles": 4,
+    "prompt_tokens_o200k": 54347,
+    "answer_tokens_o200k": 323,
+    "bin": "32k-64k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_1-238",
+    "file": "data/mrcr/8needle/8needle_1.parquet",
+    "row": 238,
+    "needles": 8,
+    "prompt_tokens_o200k": 71486,
+    "answer_tokens_o200k": 494,
+    "bin": "64k-128k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_1-298",
+    "file": "data/mrcr/4needle/4needle_1.parquet",
+    "row": 298,
+    "needles": 4,
+    "prompt_tokens_o200k": 98472,
+    "answer_tokens_o200k": 417,
+    "bin": "64k-128k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_0-126",
+    "file": "data/mrcr/2needle/2needle_0.parquet",
+    "row": 126,
+    "needles": 2,
+    "prompt_tokens_o200k": 18472,
+    "answer_tokens_o200k": 402,
+    "bin": "16k-32k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_0-220",
+    "file": "data/mrcr/2needle/2needle_0.parquet",
+    "row": 220,
+    "needles": 2,
+    "prompt_tokens_o200k": 357300,
+    "answer_tokens_o200k": 253,
+    "bin": "256k-512k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_0-158",
+    "file": "data/mrcr/4needle/4needle_0.parquet",
+    "row": 158,
+    "needles": 4,
+    "prompt_tokens_o200k": 30730,
+    "answer_tokens_o200k": 59,
+    "bin": "16k-32k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_1-375",
+    "file": "data/mrcr/4needle/4needle_1.parquet",
+    "row": 375,
+    "needles": 4,
+    "prompt_tokens_o200k": 7345,
+    "answer_tokens_o200k": 369,
+    "bin": "4k-8k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_0-25",
+    "file": "data/mrcr/8needle/8needle_0.parquet",
+    "row": 25,
+    "needles": 8,
+    "prompt_tokens_o200k": 196122,
+    "answer_tokens_o200k": 554,
+    "bin": "128k-256k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_1-132",
+    "file": "data/mrcr/4needle/4needle_1.parquet",
+    "row": 132,
+    "needles": 4,
+    "prompt_tokens_o200k": 801989,
+    "answer_tokens_o200k": 374,
+    "bin": "512k-1024k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_0-288",
+    "file": "data/mrcr/4needle/4needle_0.parquet",
+    "row": 288,
+    "needles": 4,
+    "prompt_tokens_o200k": 278332,
+    "answer_tokens_o200k": 683,
+    "bin": "256k-512k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_1-19",
+    "file": "data/mrcr/8needle/8needle_1.parquet",
+    "row": 19,
+    "needles": 8,
+    "prompt_tokens_o200k": 6196,
+    "answer_tokens_o200k": 368,
+    "bin": "4k-8k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_1-176",
+    "file": "data/mrcr/8needle/8needle_1.parquet",
+    "row": 176,
+    "needles": 8,
+    "prompt_tokens_o200k": 972058,
+    "answer_tokens_o200k": 86,
+    "bin": "512k-1024k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_0-18",
+    "file": "data/mrcr/4needle/4needle_0.parquet",
+    "row": 18,
+    "needles": 4,
+    "prompt_tokens_o200k": 137127,
+    "answer_tokens_o200k": 343,
+    "bin": "128k-256k",
+    "date_added": "12-05-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_0-99",
+    "file": "data/mrcr/2needle/2needle_0.parquet",
+    "row": 99,
+    "needles": 2,
+    "prompt_tokens_o200k": 240031,
+    "answer_tokens_o200k": 466,
+    "bin": "128k-256k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_0-267",
+    "file": "data/mrcr/2needle/2needle_0.parquet",
+    "row": 267,
+    "needles": 2,
+    "prompt_tokens_o200k": 423854,
+    "answer_tokens_o200k": 680,
+    "bin": "256k-512k",
+    "date_added": "12-05-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_1-77",
+    "file": "data/mrcr/2needle/2needle_1.parquet",
+    "row": 77,
+    "needles": 2,
+    "prompt_tokens_o200k": 6240,
+    "answer_tokens_o200k": 518,
+    "bin": "4k-8k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_1-73",
+    "file": "data/mrcr/2needle/2needle_1.parquet",
+    "row": 73,
+    "needles": 2,
+    "prompt_tokens_o200k": 6547,
+    "answer_tokens_o200k": 275,
+    "bin": "4k-8k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_1-62",
+    "file": "data/mrcr/8needle/8needle_1.parquet",
+    "row": 62,
+    "needles": 8,
+    "prompt_tokens_o200k": 5663,
+    "answer_tokens_o200k": 440,
+    "bin": "4k-8k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_1-25",
+    "file": "data/mrcr/2needle/2needle_1.parquet",
+    "row": 25,
+    "needles": 2,
+    "prompt_tokens_o200k": 4913,
+    "answer_tokens_o200k": 185,
+    "bin": "4k-8k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_1-346",
+    "file": "data/mrcr/8needle/8needle_1.parquet",
+    "row": 346,
+    "needles": 8,
+    "prompt_tokens_o200k": 11649,
+    "answer_tokens_o200k": 197,
+    "bin": "8k-16k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_0-28",
+    "file": "data/mrcr/4needle/4needle_0.parquet",
+    "row": 28,
+    "needles": 4,
+    "prompt_tokens_o200k": 232035,
+    "answer_tokens_o200k": 404,
+    "bin": "128k-256k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_0-291",
+    "file": "data/mrcr/4needle/4needle_0.parquet",
+    "row": 291,
+    "needles": 4,
+    "prompt_tokens_o200k": 419774,
+    "answer_tokens_o200k": 130,
+    "bin": "256k-512k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_0-395",
+    "file": "data/mrcr/2needle/2needle_0.parquet",
+    "row": 395,
+    "needles": 2,
+    "prompt_tokens_o200k": 39459,
+    "answer_tokens_o200k": 505,
+    "bin": "32k-64k",
+    "date_added": "12-05-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_0-8",
+    "file": "data/mrcr/4needle/4needle_0.parquet",
+    "row": 8,
+    "needles": 4,
+    "prompt_tokens_o200k": 138196,
+    "answer_tokens_o200k": 415,
+    "bin": "128k-256k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_0-388",
+    "file": "data/mrcr/8needle/8needle_0.parquet",
+    "row": 388,
+    "needles": 8,
+    "prompt_tokens_o200k": 34367,
+    "answer_tokens_o200k": 273,
+    "bin": "32k-64k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_1-328",
+    "file": "data/mrcr/2needle/2needle_1.parquet",
+    "row": 328,
+    "needles": 2,
+    "prompt_tokens_o200k": 11478,
+    "answer_tokens_o200k": 464,
+    "bin": "8k-16k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_0-284",
+    "file": "data/mrcr/8needle/8needle_0.parquet",
+    "row": 284,
+    "needles": 8,
+    "prompt_tokens_o200k": 346200,
+    "answer_tokens_o200k": 286,
+    "bin": "256k-512k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_1-330",
+    "file": "data/mrcr/4needle/4needle_1.parquet",
+    "row": 330,
+    "needles": 4,
+    "prompt_tokens_o200k": 12833,
+    "answer_tokens_o200k": 288,
+    "bin": "8k-16k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_1-283",
+    "file": "data/mrcr/8needle/8needle_1.parquet",
+    "row": 283,
+    "needles": 8,
+    "prompt_tokens_o200k": 76796,
+    "answer_tokens_o200k": 368,
+    "bin": "64k-128k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_0-115",
+    "file": "data/mrcr/2needle/2needle_0.parquet",
+    "row": 115,
+    "needles": 2,
+    "prompt_tokens_o200k": 28985,
+    "answer_tokens_o200k": 393,
+    "bin": "16k-32k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_1-60",
+    "file": "data/mrcr/4needle/4needle_1.parquet",
+    "row": 60,
+    "needles": 4,
+    "prompt_tokens_o200k": 5397,
+    "answer_tokens_o200k": 635,
+    "bin": "4k-8k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "4needle-4needle_0-190",
+    "file": "data/mrcr/4needle/4needle_0.parquet",
+    "row": 190,
+    "needles": 4,
+    "prompt_tokens_o200k": 23381,
+    "answer_tokens_o200k": 446,
+    "bin": "16k-32k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_0-192",
+    "file": "data/mrcr/8needle/8needle_0.parquet",
+    "row": 192,
+    "needles": 8,
+    "prompt_tokens_o200k": 18148,
+    "answer_tokens_o200k": 591,
+    "bin": "16k-32k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "2needle-2needle_1-284",
+    "file": "data/mrcr/2needle/2needle_1.parquet",
+    "row": 284,
+    "needles": 2,
+    "prompt_tokens_o200k": 79509,
+    "answer_tokens_o200k": 363,
+    "bin": "64k-128k",
+    "date_added": "04-12-2025"
+  },
+  {
+    "sample_id": "8needle-8needle_0-20",
+    "file": "data/mrcr/8needle/8needle_0.parquet",
+    "row": 20,
+    "needles": 8,
+    "prompt_tokens_o200k": 143466,
+    "answer_tokens_o200k": 436,
+    "bin": "128k-256k",
+    "date_added": "04-12-2025"
+  }
+]

@@ -3,17 +3,19 @@
 记录 DeepSeek V4.1 在不同 benchmark 上的逐题得分、正误与 token。原生 harness 对比和直接 API 基线分开发布。
 不同 benchmark 和实验版本独立保存；后续结果继续追加，不覆盖历史发布。
 
-|Benchmark|任务 × Harness|二元标签|说明与数据|
+|Benchmark|任务 × Harness|已评分（指标见说明）|说明与数据|
 |---|---:|---:|---|
 |Terminal-Bench 2.0|89 × 5 = 445|444|[dsv41flash-economy-t0-native-1200-v1](benchmarks/terminal-bench-2.0/dsv41flash-economy-t0-native-1200-v1/README.md)|
 |tau2-bench|278 × 5 = 1390|1390|[dsv41flash-economy-t0-native-notimelimit-v3-dialogue](benchmarks/tau2-bench/dsv41flash-economy-t0-native-notimelimit-v3-dialogue/README.md)|
 |mrcr|200 × 1 = 200|200|[deepseek-flash-t0-direct-stratified200-s20261030-v1](benchmarks/mrcr/deepseek-flash-t0-direct-stratified200-s20261030-v1/README.md)|
 |GPQA Diamond|198 × 5 = 990|990（含 196 条已有文本恢复评分）|[单次完整集](benchmarks/gpqa-diamond/deepseek-flash-t0-native-notools-q198-r1-s0-v1/README.md)|
 |GPQA Diamond 试跑|10 × 10 × 6 = 600|600|[五组 harness 与直接 API 对照](benchmarks/gpqa-diamond/deepseek-flash-t0-native-notools-q10-r10-s0-v1/README.md)|
+|MRCR 五组原生 harness|200 × 5 = 1000|1000|[Coding Plan + Agent Plan 续跑](benchmarks/mrcr/dsv41flash-economy-t0-native-fullcontext-stratified200-s20261030-coding-agentplan3-v1/README.md)|
+|HealthBench Professional|200 × 5 = 1000|955；45 未评分|[未完成快照，GPT-6.1-Sol 裁判](benchmarks/healthbench-professional/dsv41flash-economy-t0-thinkmax-native-stratified200-s42-gpt61sol-partial-20261102-v1/README.md)|
 
 Terminal/tau2 使用 Ark 模型别名 `deepseek-v4.1-flash-economy`、temperature=0 和各 harness 原生上下文管理，未指定统一压缩阈值。
 这两组 Claude/Codex/DSH 使用 Coding Plan，Pi/ZCode 使用 Agent Plan。
-MRCR 使用 DeepSeek 官方 API 的 `deepseek-flash`，完整上下文直接调用，不压缩。各实验预算和评分规则分别见说明。
+MRCR 直接 API 基线使用 DeepSeek 官方 API 的 `deepseek-flash`；新发布的五组原生 harness 使用 Ark Coding Plan + Agent Plan 续跑，单独保存。HealthBench 作答使用 Ark Coding Plan，裁判使用第三方 GPT-6.1-Sol。各实验预算和评分规则分别见说明。
 
 ## Terminal-Bench 2.0
 
@@ -76,6 +78,35 @@ MRCR 使用 DeepSeek 官方 API 的 `deepseek-flash`，完整上下文直接调�
 [完整配置与异常说明](benchmarks/gpqa-diamond/deepseek-flash-t0-native-notools-q198-r1-s0-v1/README.md) · [逐题正误与 token](benchmarks/gpqa-diamond/deepseek-flash-t0-native-notools-q198-r1-s0-v1/samples.csv) · [逐请求用量](benchmarks/gpqa-diamond/deepseek-flash-t0-native-notools-q198-r1-s0-v1/requests.csv) · [同题矩阵](benchmarks/gpqa-diamond/deepseek-flash-t0-native-notools-q198-r1-s0-v1/task-matrix.csv)
 
 之前的 [10 题 × 10 次试跑](benchmarks/gpqa-diamond/deepseek-flash-t0-native-notools-q10-r10-s0-v1/README.md) 独立保存，包含直接 API 基线，不与单次完整集混算。
+
+## MRCR 五组原生 harness：200 题，已完成
+
+|Harness|已评分 / 200|主分|模型全部尝试 token|裁判 token|
+|---|---:|---:|---:|---:|
+|claude|200/200|69.12%|37,785,405|0|
+|codex|200/200|67.16%|38,446,069|0|
+|dsh|200/200|69.62%|37,608,873|0|
+|pi|200/200|67.65%|37,677,866|0|
+|zcode|200/200|72.41%|37,874,229|0|
+
+主分是平均相似度；严格全文匹配为补充二元标签。合并原 Coding Plan 与后续 Agent Plan 账本，包含失败和重试，继承题目不重复计量。五组使用套餐端点的题目覆盖不同，不能将差异全部归因于 harness。
+
+[详细报告](benchmarks/mrcr/dsv41flash-economy-t0-native-fullcontext-stratified200-s20261030-coding-agentplan3-v1/README.md) · [逐题得分与 token](benchmarks/mrcr/dsv41flash-economy-t0-native-fullcontext-stratified200-s20261030-coding-agentplan3-v1/samples.csv) · [逐请求](benchmarks/mrcr/dsv41flash-economy-t0-native-fullcontext-stratified200-s20261030-coding-agentplan3-v1/requests.csv) · [同题矩阵](benchmarks/mrcr/dsv41flash-economy-t0-native-fullcontext-stratified200-s20261030-coding-agentplan3-v1/task-matrix.csv) · [两两分歧](benchmarks/mrcr/dsv41flash-economy-t0-native-fullcontext-stratified200-s20261030-coding-agentplan3-v1/analysis.json)
+
+## HealthBench Professional：200 题，未完成快照
+
+|Harness|已评分 / 200|主分|模型全部尝试 token|裁判 token|
+|---|---:|---:|---:|---:|
+|claude|200/200|37.04%|2,510,710|1,172,508|
+|codex|200/200|33.90%|2,290,606|987,782|
+|dsh|157/200|40.75%|3,916,154|853,740|
+|pi|200/200|42.49%|1,346,287|1,206,520|
+|zcode|198/200|39.73%|3,069,340|1,163,392|
+
+主分是长度校正后的 rubric 得分，不是正确率。DSH 尚缺 43 条、ZCode 尚缺 2 条；未评分保留 null。Claude 2 条、Codex 24 条从首次完整上游响应恢复，保留原生失败标记。第三方 GPT-6.1-Sol 裁判不同于官方 GPT-5.4 配置。
+五组共同题集及可比均分见 analysis.json；不同分母的当前分数不可作为完整集排名。
+
+[详细报告](benchmarks/healthbench-professional/dsv41flash-economy-t0-thinkmax-native-stratified200-s42-gpt61sol-partial-20261102-v1/README.md) · [逐题得分与 token](benchmarks/healthbench-professional/dsv41flash-economy-t0-thinkmax-native-stratified200-s42-gpt61sol-partial-20261102-v1/samples.csv) · [逐请求](benchmarks/healthbench-professional/dsv41flash-economy-t0-thinkmax-native-stratified200-s42-gpt61sol-partial-20261102-v1/requests.csv) · [同题矩阵](benchmarks/healthbench-professional/dsv41flash-economy-t0-thinkmax-native-stratified200-s42-gpt61sol-partial-20261102-v1/task-matrix.csv) · [两两分歧](benchmarks/healthbench-professional/dsv41flash-economy-t0-thinkmax-native-stratified200-s42-gpt61sol-partial-20261102-v1/analysis.json)
 
 ## 费用与计量
 

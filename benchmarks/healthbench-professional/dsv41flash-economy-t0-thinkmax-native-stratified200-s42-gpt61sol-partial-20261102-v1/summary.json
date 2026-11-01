@@ -1,0 +1,132 @@
+[
+  {
+    "harness": "claude",
+    "selected": 200,
+    "scored": 200,
+    "unscored": 0,
+    "mean_score": 0.3704439439268982,
+    "prompt_tokens": 346646,
+    "completion_tokens": 2164064,
+    "total_tokens": 2510710,
+    "prompt_cache_hit_tokens": 12032,
+    "prompt_cache_miss_tokens": 334614,
+    "grader_total_tokens": 1172508,
+    "requests": 211,
+    "grader_requests": 444,
+    "usage_missing_requests": 0,
+    "accounting_gaps": 0,
+    "by_provider": {
+      "codingplan": {
+        "samples": 200,
+        "mean_score": 0.3704439439268982
+      }
+    },
+    "raw_score": 0.42047480592689823,
+    "recovered": 2,
+    "original_generation_failures": 2
+  },
+  {
+    "harness": "codex",
+    "selected": 200,
+    "scored": 200,
+    "unscored": 0,
+    "mean_score": 0.3390324027333214,
+    "prompt_tokens": 995279,
+    "completion_tokens": 1295327,
+    "total_tokens": 2290606,
+    "prompt_cache_hit_tokens": 667008,
+    "prompt_cache_miss_tokens": 328271,
+    "grader_total_tokens": 987782,
+    "requests": 200,
+    "grader_requests": 444,
+    "usage_missing_requests": 0,
+    "accounting_gaps": 0,
+    "by_provider": {
+      "codingplan": {
+        "samples": 200,
+        "mean_score": 0.3390324027333214
+      }
+    },
+    "raw_score": 0.34313767173332144,
+    "recovered": 24,
+    "original_generation_failures": 24
+  },
+  {
+    "harness": "dsh",
+    "selected": 200,
+    "scored": 157,
+    "unscored": 43,
+    "mean_score": 0.40752238786097533,
+    "prompt_tokens": 174098,
+    "completion_tokens": 3742056,
+    "total_tokens": 3916154,
+    "prompt_cache_hit_tokens": 37248,
+    "prompt_cache_miss_tokens": 136850,
+    "grader_total_tokens": 853740,
+    "requests": 454,
+    "grader_requests": 347,
+    "usage_missing_requests": 197,
+    "accounting_gaps": 0,
+    "by_provider": {
+      "codingplan": {
+        "samples": 157,
+        "mean_score": 0.40752238786097533
+      }
+    },
+    "raw_score": 0.4414711483705295,
+    "recovered": 0,
+    "original_generation_failures": 43
+  },
+  {
+    "harness": "pi",
+    "selected": 200,
+    "scored": 200,
+    "unscored": 0,
+    "mean_score": 0.4249493175408135,
+    "prompt_tokens": 226538,
+    "completion_tokens": 1119749,
+    "total_tokens": 1346287,
+    "prompt_cache_hit_tokens": 75648,
+    "prompt_cache_miss_tokens": 150890,
+    "grader_total_tokens": 1206520,
+    "requests": 200,
+    "grader_requests": 444,
+    "usage_missing_requests": 0,
+    "accounting_gaps": 0,
+    "by_provider": {
+      "codingplan": {
+        "samples": 200,
+        "mean_score": 0.4249493175408135
+      }
+    },
+    "raw_score": 0.4788252585408135,
+    "recovered": 0,
+    "original_generation_failures": 0
+  },
+  {
+    "harness": "zcode",
+    "selected": 200,
+    "scored": 198,
+    "unscored": 2,
+    "mean_score": 0.39731371136453086,
+    "prompt_tokens": 451616,
+    "completion_tokens": 2617724,
+    "total_tokens": 3069340,
+    "prompt_cache_hit_tokens": 30976,
+    "prompt_cache_miss_tokens": 420640,
+    "grader_total_tokens": 1163392,
+    "requests": 215,
+    "grader_requests": 439,
+    "usage_missing_requests": 1,
+    "accounting_gaps": 0,
+    "by_provider": {
+      "codingplan": {
+        "samples": 198,
+        "mean_score": 0.39731371136453086
+      }
+    },
+    "raw_score": 0.45219653257665204,
+    "recovered": 0,
+    "original_generation_failures": 2
+  }
+]

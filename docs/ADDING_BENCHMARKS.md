@@ -50,3 +50,14 @@ python tools/validate_release.py
 MRCR 的主要指标是连续相似度 `score`；`success` 只作为补充的严格全文匹配标签。
 直接 API 基线使用 `harness=direct_api`，不混入五种原生 harness 的比较。
 公开逐题正误和数值用量，不公开正确或错误案例的对话正文。
+
+HealthBench 未完成快照与 MRCR 五组续跑导出（只读，不启动模型）：
+
+```bash
+python tools/export_healthbench_mrcr_native.py --source-root /path/to/HarnessCompressionBench
+python tools/validate_release.py
+```
+
+新导出器使用明确字段白名单；原始题目、rubric、医生或模型回答均不导出。MRCR 合并原始及续跑请求，HealthBench 模型和裁判请求分表。当前 HealthBench release 为 2026-11-02 的部分完成快照，后续完整成绩应创建新 release，保留此快照。
+
+当前 `build_index_report.py` 是较早的 Terminal/tau2/直接 MRCR 生成器，尚未支持 GPQA 和这两个新 release；不要运行它覆盖包含这些发布说明的 README。更新根入口时保留已有实验。
