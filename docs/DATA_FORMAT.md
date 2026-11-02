@@ -129,3 +129,10 @@ MRCR release 独立于下述原生 harness 记录结构，详见该 release 的 
 答案有分数不代表 CLI 正常结束；分析端到端可靠性须使用原生状态，不能仅看 `success`。
 请求级全部使用原始上游 usage。Responses 兼容字段中的 reasoning_tokens 默认 0 不属于上游测量，不能据此推断真实 reasoning token 为 0。
 `task-matrix` 保存同题正误与 token；`pairwise` 区分都对、都错和各自独有答对。同题选项顺序已经在导出时逐条验证一致。
+
+
+## AIME25 / MATH-500 原生五组
+
+主契约仍为 `task_id, harness, token, success`，`success=score` 是二元数学评分。`token` 是该题该 harness 所有已记录尝试的已知 total tokens，输入已含缓存，输出已含 reasoning。`final_attempt_id` / `final_attempt_token` 对应最终评分实际采用的 attempt，可能引用较早恢复记录；`other_attempt_tokens` 为其余尝试之和。不要把 final_attempt 误读为时间最新的目录。
+
+`requests` 保留缺 usage 的请求，`usage_present=false` 时 token 字段为 null；样本及汇总 token 是已观测下界。`attempts` 包含全部尝试及 `selected_for_score`。各请求 `reasoning_tokens` 仅在原始 usage 明确报告时填写，否则为 null，不能再加到 completion。`selection` 中 MATH 的 `split` 是原始采样时80/20划分的历史元数据，后续 router 划分应另存 manifest。

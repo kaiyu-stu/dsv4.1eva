@@ -133,5 +133,43 @@
     "primary_metric": "mean_score",
     "track": "native_fullcontext_codingplan_agentplan3_continuation",
     "snapshot_date": "2026-11-02"
+  },
+  {
+    "benchmark": "aime-2025",
+    "release_id": "dsv41flash-economy-t0-thinkmax-native-agentplan2-r1-v1",
+    "relative_path": "aime-2025/dsv41flash-economy-t0-thinkmax-native-agentplan2-r1-v1",
+    "model": "deepseek-v4.1-flash-economy",
+    "tasks": 30,
+    "harnesses": [
+      "claude",
+      "codex",
+      "dsh",
+      "pi",
+      "zcode"
+    ],
+    "rows": 150,
+    "scored_rows": 150,
+    "status": "finished_with_accounting_markers",
+    "track": "native_math_no_tools",
+    "primary_metric": "accuracy"
+  },
+  {
+    "benchmark": "math-500",
+    "release_id": "dsv41flash-economy-t0-thinkmax-native-stratified100-s20261102-agentplan2-r1-v1",
+    "relative_path": "math-500/dsv41flash-economy-t0-thinkmax-native-stratified100-s20261102-agentplan2-r1-v1",
+    "model": "deepseek-v4.1-flash-economy",
+    "tasks": 100,
+    "harnesses": [
+      "claude",
+      "codex",
+      "dsh",
+      "pi",
+      "zcode"
+    ],
+    "rows": 500,
+    "scored_rows": 500,
+    "status": "finished_with_accounting_markers",
+    "track": "native_math_no_tools",
+    "primary_metric": "accuracy"
   }
 ]

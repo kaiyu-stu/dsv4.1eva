@@ -5,6 +5,8 @@
 
 |Benchmark|任务 × Harness|已评分（指标见说明）|说明与数据|
 |---|---:|---:|---|
+|AIME 2025|30 × 5 = 150|150|[Agent Plan 2，原生五组](benchmarks/aime-2025/dsv41flash-economy-t0-thinkmax-native-agentplan2-r1-v1/README.md)|
+|MATH-500 分层子集|100 × 5 = 500|500|[subject×level 分层100题](benchmarks/math-500/dsv41flash-economy-t0-thinkmax-native-stratified100-s20261102-agentplan2-r1-v1/README.md)|
 |Terminal-Bench 2.0|89 × 5 = 445|444|[dsv41flash-economy-t0-native-1200-v1](benchmarks/terminal-bench-2.0/dsv41flash-economy-t0-native-1200-v1/README.md)|
 |tau2-bench|278 × 5 = 1390|1390|[dsv41flash-economy-t0-native-notimelimit-v3-dialogue](benchmarks/tau2-bench/dsv41flash-economy-t0-native-notimelimit-v3-dialogue/README.md)|
 |mrcr|200 × 1 = 200|200|[deepseek-flash-t0-direct-stratified200-s20261030-v1](benchmarks/mrcr/deepseek-flash-t0-direct-stratified200-s20261030-v1/README.md)|
@@ -107,6 +109,23 @@ MRCR 直接 API 基线使用 DeepSeek 官方 API 的 `deepseek-flash`；新发�
 五组共同题集及可比均分见 analysis.json；不同分母的当前分数不可作为完整集排名。
 
 [详细报告](benchmarks/healthbench-professional/dsv41flash-economy-t0-thinkmax-native-stratified200-s42-gpt61sol-partial-20261102-v1/README.md) · [逐题得分与 token](benchmarks/healthbench-professional/dsv41flash-economy-t0-thinkmax-native-stratified200-s42-gpt61sol-partial-20261102-v1/samples.csv) · [逐请求](benchmarks/healthbench-professional/dsv41flash-economy-t0-thinkmax-native-stratified200-s42-gpt61sol-partial-20261102-v1/requests.csv) · [同题矩阵](benchmarks/healthbench-professional/dsv41flash-economy-t0-thinkmax-native-stratified200-s42-gpt61sol-partial-20261102-v1/task-matrix.csv) · [两两分歧](benchmarks/healthbench-professional/dsv41flash-economy-t0-thinkmax-native-stratified200-s42-gpt61sol-partial-20261102-v1/analysis.json)
+
+## AIME 2025 与 MATH-500 分层100题
+
+两组使用 Ark Agent Plan 2 的 `deepseek-v4.1-flash-economy`，temperature=0、thinking enabled、reasoning effort=max，无工具、原生默认上下文管理；每请求输出上限131072 tokens，CLI 超时1800秒。
+
+| Harness | AIME 正确 /30 | MATH 正确 /100 |
+|---|---:|---:|
+| Claude Code | 19 | 99 |
+| Codex | 20 | 99 |
+| DSH | 27 | 99 |
+| Pi | 30 | 100 |
+| ZCode | 21 | 99 |
+
+AIME 覆盖全部30题；MATH 是从500题按 subject×level 比例分层抽取的100题，seed=20261102，覆盖35层。每个 release 都发布逐题分数、全部请求与尝试、被采纳 attempt 成本、同题矩阵和来源哈希。
+AIME 保留 DSH 早期传输超时和重试账本，以及 ZCode 一次 HTTP429 缺 usage 的标记；不能只比较重试后的低成本而删除历史消耗。
+
+[AIME 配置与结果](benchmarks/aime-2025/dsv41flash-economy-t0-thinkmax-native-agentplan2-r1-v1/README.md) · [AIME 逐题 CSV](benchmarks/aime-2025/dsv41flash-economy-t0-thinkmax-native-agentplan2-r1-v1/samples.csv) · [MATH 配置与结果](benchmarks/math-500/dsv41flash-economy-t0-thinkmax-native-stratified100-s20261102-agentplan2-r1-v1/README.md) · [MATH 逐题 CSV](benchmarks/math-500/dsv41flash-economy-t0-thinkmax-native-stratified100-s20261102-agentplan2-r1-v1/samples.csv)
 
 ## 费用与计量
 

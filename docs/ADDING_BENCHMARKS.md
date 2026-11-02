@@ -61,3 +61,14 @@ python tools/validate_release.py
 新导出器使用明确字段白名单；原始题目、rubric、医生或模型回答均不导出。MRCR 合并原始及续跑请求，HealthBench 模型和裁判请求分表。当前 HealthBench release 为 2026-11-02 的部分完成快照，后续完整成绩应创建新 release，保留此快照。
 
 当前 `build_index_report.py` 是较早的 Terminal/tau2/直接 MRCR 生成器，尚未支持 GPQA 和这两个新 release；不要运行它覆盖包含这些发布说明的 README。更新根入口时保留已有实验。
+
+
+AIME25 与 MATH-500 分层100题导出（只读，无模型调用）：
+
+```bash
+python tools/export_math_aime.py --source-root /path/to/HarnessCompressionBench
+python tools/validate_math_aime.py
+python tools/validate_release.py
+```
+
+导出到新的独立 release，拒绝覆盖。只白名单发布分数、数值用量、选题元数据和文件哈希。`final_attempt_id` 通过结果实际引用的 attempt 定位，恢复结果不假定时间最新；`other_attempt_tokens` 包含所有未采纳尝试，可能发生在所采纳 attempt 之后。缺 usage 的请求保留 null、accounting_complete=false，不推算账单。

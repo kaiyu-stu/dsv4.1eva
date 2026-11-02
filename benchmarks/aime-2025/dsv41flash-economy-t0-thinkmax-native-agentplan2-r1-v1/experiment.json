@@ -1,0 +1,95 @@
+{
+  "benchmark": "aime-2025",
+  "release_id": "dsv41flash-economy-t0-thinkmax-native-agentplan2-r1-v1",
+  "harnesses": [
+    "claude",
+    "codex",
+    "dsh",
+    "pi",
+    "zcode"
+  ],
+  "experiments": {
+    "claude": {
+      "model": "deepseek-v4.1-flash-economy",
+      "temperature": 0,
+      "thinking": "enabled",
+      "reasoning_effort": "max",
+      "max_output_tokens": 131072,
+      "timeout": 1800,
+      "n_repeats": 1,
+      "tools": false,
+      "compression_policy": "native_defaults_no_acon",
+      "cli_version": "2.1.301 (Claude Code)",
+      "harness": "claude",
+      "dataset_sha256": "b4e273c02d3e7fe1b74b59eae768fc8230bfb0f79539890cb56f4361caac0331"
+    },
+    "codex": {
+      "model": "deepseek-v4.1-flash-economy",
+      "temperature": 0,
+      "thinking": "enabled",
+      "reasoning_effort": "max",
+      "max_output_tokens": 131072,
+      "timeout": 1800,
+      "n_repeats": 1,
+      "tools": false,
+      "compression_policy": "native_defaults_no_acon",
+      "cli_version": "codex-cli 0.161.0",
+      "harness": "codex",
+      "dataset_sha256": "b4e273c02d3e7fe1b74b59eae768fc8230bfb0f79539890cb56f4361caac0331"
+    },
+    "dsh": {
+      "model": "deepseek-v4.1-flash-economy",
+      "temperature": 0,
+      "thinking": "enabled",
+      "reasoning_effort": "max",
+      "max_output_tokens": 131072,
+      "timeout": 1800,
+      "n_repeats": 1,
+      "tools": false,
+      "compression_policy": "native_defaults_no_acon",
+      "cli_version": "0.2.1-rc.2",
+      "harness": "dsh",
+      "dataset_sha256": "b4e273c02d3e7fe1b74b59eae768fc8230bfb0f79539890cb56f4361caac0331"
+    },
+    "pi": {
+      "model": "deepseek-v4.1-flash-economy",
+      "temperature": 0,
+      "thinking": "enabled",
+      "reasoning_effort": "max",
+      "max_output_tokens": 131072,
+      "timeout": 1800,
+      "n_repeats": 1,
+      "tools": false,
+      "compression_policy": "native_defaults_no_acon",
+      "cli_version": "1.3.0",
+      "harness": "pi",
+      "dataset_sha256": "b4e273c02d3e7fe1b74b59eae768fc8230bfb0f79539890cb56f4361caac0331"
+    },
+    "zcode": {
+      "model": "deepseek-v4.1-flash-economy",
+      "temperature": 0,
+      "thinking": "enabled",
+      "reasoning_effort": "max",
+      "max_output_tokens": 131072,
+      "timeout": 1800,
+      "n_repeats": 1,
+      "tools": false,
+      "compression_policy": "native_defaults_no_acon",
+      "cli_version": "0.16.9",
+      "harness": "zcode",
+      "dataset_sha256": "b4e273c02d3e7fe1b74b59eae768fc8230bfb0f79539890cb56f4361caac0331"
+    }
+  },
+  "sampling": {
+    "method": "all_30_AIME2025_questions",
+    "size": 30
+  },
+  "track": "native_math_no_tools",
+  "provider": "Ark Agent Plan 2",
+  "tools": false,
+  "compression": "native_defaults_no_acon",
+  "scoring": "recorded AIME integer grading, no model judge",
+  "token_scope": "all recorded attempts; final_attempt follows chosen score source, including explicit recovery.source_attempt; prompt includes cache hits; reasoning is already included in completion; missing usage stays unknown",
+  "body_policy": "No task text, reference answer, model response, reasoning transcript, credentials or raw settings exported",
+  "new_model_requests": 0
+}
